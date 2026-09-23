@@ -35,6 +35,7 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
     <nav aria-label="Sections">
       <a href="#about">About</a>
       <a href="#work">Articles &amp; videos</a>
+      <a href="courses/">Courses</a>
       <a href="#apps">Apps</a>
       <a href="#elsewhere">Elsewhere</a>
       <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
@@ -78,6 +79,12 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
       <h3>MathAndCobb</h3>
       <p>My latest videos and posts from YouTube, TikTok, Instagram, Facebook, Bluesky and X, all on one page.</p>
       <span class="go">alozanoroble.github.io/mathandcobb →</span>
+    </a>
+    <a class="feature" href="courses/">
+      <span class="tag">Teaching</span>
+      <h3>Courses on YouTube</h3>
+      <p>Complete lecture courses and CTNT mini-courses from my channel, from first proofs to elliptic curves, playable lecture by lecture.</p>
+      <span class="go">alozanoroble.github.io/courses →</span>
     </a>
   </div>
 </section>
@@ -222,21 +229,6 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   <p>© 2026 Álvaro Lozano-Robledo · <a href="https://github.com/alozanoroble/alozanoroble.github.io">Source on GitHub</a></p>
 </footer>
 
-<script>
-(function () {
-  var root = document.documentElement, btn = document.querySelector(".theme-toggle");
-  var mq = window.matchMedia("(prefers-color-scheme: dark)");
-  function isDark() { return root.dataset.theme ? root.dataset.theme === "dark" : mq.matches; }
-  function sync() { btn.setAttribute("aria-label", isDark() ? "Switch to light mode" : "Switch to dark mode"); }
-  btn.addEventListener("click", function () {
-    var next = isDark() ? "light" : "dark";
-    root.dataset.theme = next;
-    try { localStorage.setItem("theme", next); } catch (e) {}
-    sync();
-  });
-  mq.addEventListener("change", sync);
-  sync();
-})();
-</script>
+<script src="theme.js"></script>
 </body>
 </html>
