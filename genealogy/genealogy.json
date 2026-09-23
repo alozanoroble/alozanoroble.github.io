@@ -1,0 +1,6637 @@
+{
+ "root": 87333,
+ "fetched": "2026-09-22",
+ "source": "Mathematics Genealogy Project, https://www.genealogy.math.ndsu.nodak.edu/",
+ "people": {
+  "87333": {
+   "id": 87333,
+   "name": "Alvaro Lozano-Robledo",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Boston University",
+     "year": "2004",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "On Elliptic Units and $p$-adic Galois Representations Attached to Elliptic Curves"
+    }
+   ],
+   "advisors": [
+    6177
+   ],
+   "students": [
+    273576,
+    233348,
+    173285,
+    347462,
+    252035
+   ],
+   "msc": "11—Number theory"
+  },
+  "6177": {
+   "id": 6177,
+   "name": "David Ephraim Rohrlich",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Yale University",
+     "year": "1976",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Modular Functions and the Fermat Curves"
+    }
+   ],
+   "advisors": [
+    13268
+   ],
+   "students": [
+    6270,
+    39677,
+    203039,
+    87333,
+    39676,
+    128409,
+    6206,
+    242277
+   ],
+   "msc": "11—Number theory"
+  },
+  "273576": {
+   "id": 273576,
+   "name": "Garen Chiloyan",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "University of Connecticut",
+     "year": "2021",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Isogeny-Torsion Graphs"
+    }
+   ],
+   "advisors": [
+    87333
+   ],
+   "students": [],
+   "msc": "11—Number theory"
+  },
+  "233348": {
+   "id": 233348,
+   "name": "Michael Chou",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "University of Connecticut",
+     "year": "2017",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Torsion of Rational Elliptic Curves over Abelian Extensions of $\\mathbb{Q}$"
+    }
+   ],
+   "advisors": [
+    87333
+   ],
+   "students": [],
+   "msc": "11—Number theory"
+  },
+  "173285": {
+   "id": 173285,
+   "name": "Harris B. Daniels",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "University of Connecticut",
+     "year": "2013",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Siegel Functions, Modular Curves, and Serre’s Uniformity Problem"
+    }
+   ],
+   "advisors": [
+    87333
+   ],
+   "students": [],
+   "msc": "11—Number theory"
+  },
+  "347462": {
+   "id": 347462,
+   "name": "Asimina Hamakiotes",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "University of Connecticut",
+     "year": "2025",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Abelian Extensions Arising from EllipticCurves with Complex Multiplication"
+    }
+   ],
+   "advisors": [
+    87333
+   ],
+   "students": [],
+   "msc": "11—Number theory"
+  },
+  "252035": {
+   "id": 252035,
+   "name": "Robert McDonald",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "University of Connecticut",
+     "year": "2019",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "Torsion Subgroups of Elliptic Curves over Function Fields"
+    }
+   ],
+   "advisors": [
+    87333
+   ],
+   "students": [],
+   "msc": "11—Number theory"
+  },
+  "13268": {
+   "id": 13268,
+   "name": "Serge Lang",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Princeton University",
+     "year": "1951",
+     "country": [
+      "UnitedStates"
+     ],
+     "thesis": "On Quasi Algebraic Closure"
+    }
+   ],
+   "advisors": [
+    7690
+   ],
+   "students": [
+    13271,
+    37416,
+    23956,
+    92737,
+    39079,
+    39078,
+    29523,
+    29502,
+    93387,
+    39081,
+    37803,
+    39080,
+    15881,
+    6177,
+    37415,
+    87555,
+    106044
+   ],
+   "msc": ""
+  },
+  "7690": {
+   "id": 7690,
+   "name": "Emil Artin",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Leipzig",
+     "year": "1921",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Quadratische Körper im Gebiete der höheren Kongruenzen"
+    }
+   ],
+   "advisors": [
+    13104,
+    18608
+   ],
+   "students": [
+    24342,
+    11765,
+    22880,
+    24340,
+    14684,
+    13357,
+    2128,
+    12418,
+    22879,
+    22878,
+    24338,
+    22883,
+    13268,
+    24339,
+    11975,
+    22886,
+    24343,
+    22887,
+    22881,
+    16435,
+    11739,
+    15258,
+    24341,
+    22882,
+    46038,
+    24344,
+    15187,
+    22884,
+    7652,
+    47943,
+    22888,
+    21652,
+    1320,
+    19401
+   ],
+   "msc": ""
+  },
+  "13104": {
+   "id": 13104,
+   "name": "Gustav Herglotz",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Ludwig-Maximilians-Universität München",
+     "year": "1900",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Über die scheinbaren Helligkeitsverhältnisse eines planetarischen Körpers mit drei ungleichen Hauptträgheitsachsen"
+    }
+   ],
+   "advisors": [
+    61848,
+    13105
+   ],
+   "students": [
+    7690,
+    65701,
+    47652,
+    47650,
+    65689,
+    54801,
+    179823,
+    65551,
+    65690,
+    54805,
+    65559,
+    46586,
+    54807,
+    47649,
+    47653,
+    65703,
+    24163,
+    54799,
+    53257,
+    46585,
+    47654,
+    65702,
+    54806,
+    47659,
+    47651,
+    65556,
+    47655,
+    47656,
+    65688,
+    59601,
+    34217,
+    54800,
+    54802,
+    67727,
+    47657,
+    124287,
+    65696,
+    47658,
+    54804,
+    54797,
+    22905
+   ],
+   "msc": ""
+  },
+  "18608": {
+   "id": 18608,
+   "name": "Otto Ludwig Hölder",
+   "degrees": [
+    {
+     "degree": "Dr. rer. nat.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1882",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Beiträge zur Potentialtheorie"
+    },
+    {
+     "degree": "Dr. phil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1884",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Dr. sc. nat. habil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1884",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    18332
+   ],
+   "students": [
+    54813,
+    7690,
+    18606,
+    65701,
+    47650,
+    54808,
+    65689,
+    54801,
+    54812,
+    234696,
+    54811,
+    65690,
+    65686,
+    54796,
+    157291,
+    54810,
+    54814,
+    46586,
+    7678,
+    54770,
+    54807,
+    47649,
+    65699,
+    65703,
+    24163,
+    54799,
+    53257,
+    46585,
+    47654,
+    46058,
+    65710,
+    47651,
+    44230,
+    47655,
+    54773,
+    20749,
+    47656,
+    65688,
+    54837,
+    55028,
+    54772,
+    65697,
+    46587,
+    62996,
+    54618,
+    54800,
+    54839,
+    54802,
+    65715,
+    47660,
+    54838,
+    65696,
+    217631,
+    16589,
+    47658,
+    54804,
+    54797,
+    229365,
+    54818,
+    217632
+   ],
+   "msc": "31—Potential theory"
+  },
+  "61848": {
+   "id": 61848,
+   "name": "Hugo Hans von Seeliger",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Leipzig",
+     "year": "1872",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Zur Theorie der Doppelsternbewegungen"
+    }
+   ],
+   "advisors": [
+    65029
+   ],
+   "students": [
+    62088,
+    47817,
+    62094,
+    62121,
+    62104,
+    62095,
+    13104,
+    62593,
+    70865,
+    73594,
+    62093,
+    62131,
+    62124,
+    62092,
+    52349,
+    62112,
+    62113
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "13105": {
+   "id": 13105,
+   "name": "Ludwig Boltzmann",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Wien",
+     "year": "1866",
+     "country": [
+      "Austria"
+     ],
+     "thesis": "Über die mechanische Bedeutung des zweiten Hauptsatzes der mechanischen Wärmetheorie (On the Mechanical Interpretation of the Second Law of Thermodynamics)"
+    }
+   ],
+   "advisors": [
+    19402
+   ],
+   "students": [
+    19433,
+    52993,
+    13104,
+    110960,
+    43417,
+    66578,
+    169773
+   ],
+   "msc": "82—Statistical mechanics, structure of matter"
+  },
+  "18332": {
+   "id": 18332,
+   "name": "Paul Du Bois-Reymond",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Berlin",
+     "year": "1859",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De aequilibrio fluidorum"
+    },
+    {
+     "degree": "Dr. phil. habil.",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1865",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Beiträge zur Interpretation der partiellen Differentialgleichungen"
+    }
+   ],
+   "advisors": [
+    18331,
+    23194,
+    46967
+   ],
+   "students": [
+    18338,
+    18333,
+    102034,
+    18608,
+    63810,
+    233848
+   ],
+   "msc": "76—Fluid mechanics"
+  },
+  "65029": {
+   "id": 65029,
+   "name": "Carl Christian Bruhns",
+   "degrees": [
+    {
+     "degree": "Dr. Phil.",
+     "school": "Universität Berlin",
+     "year": "1856",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De planetis minoribus inter Martem et Jovem circa Solem versantibus"
+    }
+   ],
+   "advisors": [
+    62547
+   ],
+   "students": [
+    167159,
+    60783,
+    51112,
+    231601,
+    234698,
+    61848,
+    7885,
+    51429
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "19402": {
+   "id": 19402,
+   "name": "Jožef Stefan",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Wien",
+     "year": "1858",
+     "country": [
+      "Austria"
+     ],
+     "thesis": "Bemerkungen über Absorption der Gase"
+    }
+   ],
+   "advisors": [
+    113010
+   ],
+   "students": [
+    13105,
+    124566,
+    124567
+   ],
+   "msc": "80—Classical thermodynamics, heat transfer"
+  },
+  "18331": {
+   "id": 18331,
+   "name": "Ernst Eduard Kummer",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1831",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De cosinuum et sinuum potestatibus secundum cosinus et sinus arcuum multiplicium evolvendis"
+    }
+   ],
+   "advisors": [
+    25484
+   ],
+   "students": [
+    58045,
+    58046,
+    18598,
+    40979,
+    40980,
+    40981,
+    9712,
+    58056,
+    24101,
+    29561,
+    45100,
+    45101,
+    18332,
+    17983,
+    4642,
+    45107,
+    11370,
+    45108,
+    45113,
+    45115,
+    45118,
+    76359,
+    9713,
+    9714,
+    9715,
+    30705,
+    18336,
+    52330,
+    250104,
+    156724,
+    49524,
+    250100,
+    9720,
+    9721,
+    51691,
+    51692,
+    51693,
+    62590,
+    76438,
+    42452,
+    18344,
+    46876,
+    47611,
+    7487,
+    49039,
+    49397,
+    49176,
+    9723,
+    9718,
+    9719,
+    63741,
+    63742,
+    63743,
+    18334,
+    63739,
+    63740,
+    63738,
+    63736
+   ],
+   "msc": ""
+  },
+  "23194": {
+   "id": 23194,
+   "name": "Johannes Peter Müller",
+   "degrees": [
+    {
+     "degree": "Dr. med.",
+     "school": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+     "year": "1822",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Commentarii de phoronomia animalium"
+    }
+   ],
+   "advisors": [
+    101865,
+    104394,
+    233065
+   ],
+   "students": [
+    18332,
+    159000,
+    232811,
+    310674,
+    309930,
+    200415,
+    49057
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "46967": {
+   "id": 46967,
+   "name": "Otto Hesse",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Königsberg",
+     "year": "1840",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De octo punctis intersectionis trium superficium secundi ordinis"
+    }
+   ],
+   "advisors": [
+    15635
+   ],
+   "students": [
+    18332,
+    90704,
+    90703,
+    18549,
+    90702,
+    90701,
+    90700,
+    46927,
+    46061,
+    90705,
+    32858,
+    46966,
+    46930,
+    16915,
+    16915
+   ],
+   "msc": ""
+  },
+  "62547": {
+   "id": 62547,
+   "name": "Johann Franz Friedrich Encke",
+   "degrees": [
+    {
+     "degree": "no degree",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": "We show a link to Gauß to show a connection in our intellectual heritage."
+    },
+    {
+     "degree": "Dr. phil. h.c.",
+     "school": "Universität Berlin",
+     "year": "1825",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    18231
+   ],
+   "students": [
+    65029,
+    168940,
+    156729,
+    17982,
+    62590,
+    324124,
+    63737
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "113010": {
+   "id": 113010,
+   "name": "Andreas von Ettingshausen",
+   "degrees": [
+    {
+     "degree": "Dr.phil.",
+     "school": "Universität Wien and Kaiserlich-königliche Technische Militärakademie",
+     "year": "1817",
+     "country": [
+      "Austria",
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128056
+   ],
+   "students": [
+    184828,
+    113011,
+    136716,
+    114765,
+    19402,
+    193252,
+    123972,
+    226145
+   ],
+   "msc": ""
+  },
+  "25484": {
+   "id": 25484,
+   "name": "Heinrich Ferdinand Scherk",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Universität Berlin",
+     "year": "1823",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De evolvenda functione .... disquisitiones nonnullae analyticae"
+    }
+   ],
+   "advisors": [
+    18603,
+    65162
+   ],
+   "students": [
+    18331,
+    34183
+   ],
+   "msc": ""
+  },
+  "101865": {
+   "id": 101865,
+   "name": "Philipp Franz von Walther",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Ludwig-Maximilians-Universität Landshut",
+     "year": "1803",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    101851,
+    101852
+   ],
+   "students": [
+    199385,
+    199385,
+    23194,
+    145264
+   ],
+   "msc": ""
+  },
+  "104394": {
+   "id": 104394,
+   "name": "Karl Asmund Rudolphi",
+   "degrees": [
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Universität Greifswald",
+     "year": "1795",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Observationes circa vermes intestinales"
+    }
+   ],
+   "advisors": [
+    106530
+   ],
+   "students": [
+    23194
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "233065": {
+   "id": 233065,
+   "name": "Karl August Franz Josef Mayer",
+   "degrees": [
+    {
+     "degree": "Dr. med.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1812",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio inauguralis medica sistens experimenta quaedam in animalibus aqua suffocatis instituta cum corollariis annexis"
+    }
+   ],
+   "advisors": [
+    332255
+   ],
+   "students": [
+    23194
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "15635": {
+   "id": 15635,
+   "name": "Carl Gustav Jacob Jacobi",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Humboldt-Universität zu Berlin",
+     "year": "1825",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disquisitiones Analyticae de Fractionibus Simplicibus"
+    }
+   ],
+   "advisors": [
+    41423
+   ],
+   "students": [
+    174251,
+    15654,
+    76359,
+    46967,
+    57706,
+    207338,
+    18589
+   ],
+   "msc": ""
+  },
+  "18231": {
+   "id": 18231,
+   "name": "Carl Friedrich Gauß",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Universität Helmstedt",
+     "year": "1799",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Demonstratio nova theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse"
+    }
+   ],
+   "advisors": [
+    18230
+   ],
+   "students": [
+    18603,
+    18233,
+    62547,
+    29642,
+    55175,
+    225908,
+    234267,
+    19953,
+    18232,
+    234374,
+    217618,
+    165758,
+    234500,
+    151876,
+    166471
+   ],
+   "msc": ""
+  },
+  "128056": {
+   "id": 128056,
+   "name": "Ignaz Lindner",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    140909
+   ],
+   "students": [
+    113010
+   ],
+   "msc": ""
+  },
+  "18603": {
+   "id": 18603,
+   "name": "Friedrich Wilhelm Bessel",
+   "degrees": [
+    {
+     "degree": "Dr. phil. honoris causa",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1810",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    18231
+   ],
+   "students": [
+    166282,
+    166469,
+    25484,
+    225884
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "65162": {
+   "id": 65162,
+   "name": "Heinrich Wilhelm Brandes",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1800",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Versuche, die Entfernung, die Geschwindigkeit und die Bahnen der Sternschnuppen zu bestimmen"
+    }
+   ],
+   "advisors": [
+    66476,
+    65161
+   ],
+   "students": [
+    25484
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "101851": {
+   "id": 101851,
+   "name": "Georg Joseph Beer",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Wien",
+     "year": "1786",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    101850
+   ],
+   "students": [
+    104900,
+    101865
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "101852": {
+   "id": 101852,
+   "name": "Johan Peter Frank",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1766",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio medica curas infantum physico-medicas exhibens"
+    }
+   ],
+   "advisors": [
+    101855
+   ],
+   "students": [
+    101865
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "106530": {
+   "id": 106530,
+   "name": "Christian Ehrenfried von Weigel",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1771",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    92586
+   ],
+   "students": [
+    104394
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "332255": {
+   "id": 332255,
+   "name": "Wilhelm Gottfried Ploucqet",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1766",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De vi corporum organisatorum assimilatrici"
+    }
+   ],
+   "advisors": [
+    123957
+   ],
+   "students": [
+    233065
+   ],
+   "msc": ""
+  },
+  "41423": {
+   "id": 41423,
+   "name": "Enno Heeren Dirksen",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1820",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Historiae progressuum instrumentorum mensurae angulorum accuratiori interserventium inde a Tob. Meyeri temporibus ad umbratione non de artificio multiplicationis"
+    }
+   ],
+   "advisors": [
+    57659,
+    57667
+   ],
+   "students": [
+    40976,
+    40982,
+    40985,
+    45102,
+    45106,
+    45111,
+    45112,
+    45117,
+    15635,
+    156722,
+    250101,
+    62586
+   ],
+   "msc": ""
+  },
+  "18230": {
+   "id": 18230,
+   "name": "Johann Friedrich Pfaff",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1786",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Commentatio de ortibus et occasibus siderum apud auctores classicos commemoratis"
+    }
+   ],
+   "advisors": [
+    66476,
+    127710
+   ],
+   "students": [
+    151180,
+    18231,
+    51876,
+    35953,
+    140135,
+    234374
+   ],
+   "msc": ""
+  },
+  "140909": {
+   "id": 140909,
+   "name": "Georg Jurij Bartolomej Veha von Vega",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Lyceum of Ljubljana",
+     "year": "1775",
+     "country": [
+      "Slovenia"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    140923,
+    140924
+   ],
+   "students": [
+    128056
+   ],
+   "msc": ""
+  },
+  "66476": {
+   "id": 66476,
+   "name": "Abraham Gotthelf Kästner",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Universität Leipzig",
+     "year": "1739",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Theoria radicum in aequationibus"
+    }
+   ],
+   "advisors": [
+    57670
+   ],
+   "students": [
+    151180,
+    101403,
+    65162,
+    92586,
+    60131,
+    245538,
+    65161,
+    57659,
+    199402,
+    18230,
+    57667,
+    47025
+   ],
+   "msc": "00—General"
+  },
+  "65161": {
+   "id": 65161,
+   "name": "Georg Christoph Lichtenberg",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1765",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    66476
+   ],
+   "students": [
+    151180,
+    65162,
+    57659,
+    199402,
+    123979,
+    57667,
+    234382
+   ],
+   "msc": ""
+  },
+  "101850": {
+   "id": 101850,
+   "name": "Joseph Barth",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Wien",
+     "year": "1772",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    101853
+   ],
+   "students": [
+    101851
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "101855": {
+   "id": 101855,
+   "name": "Georg Matthäus Gattenhof",
+   "degrees": [
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Bayerische Julius-Maximilians-Universität Würzburg",
+     "year": "1748",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De calculo renum et vesicae"
+    }
+   ],
+   "advisors": [
+    121249
+   ],
+   "students": [
+    101852
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "92586": {
+   "id": 92586,
+   "name": "Johann Christian Polykarp Erxleben",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1767",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    66476
+   ],
+   "students": [
+    106530
+   ],
+   "msc": ""
+  },
+  "123957": {
+   "id": 123957,
+   "name": "Ferdinand Christoph Oetinger",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1739",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio inauguralis medica, de belladonna, tanquam specifico in cancro, imprimis occulto"
+    }
+   ],
+   "advisors": [
+    123968
+   ],
+   "students": [
+    76485,
+    332255
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "57659": {
+   "id": 57659,
+   "name": "Johann Tobias Mayer",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1773",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Tetragonometriae specimen"
+    }
+   ],
+   "advisors": [
+    66476,
+    65161
+   ],
+   "students": [
+    41423,
+    225908,
+    225895,
+    101893
+   ],
+   "msc": "51—Geometry"
+  },
+  "57667": {
+   "id": 57667,
+   "name": "Bernhard Friedrich Thibaut",
+   "degrees": [
+    {
+     "degree": "Magister Philosophiae",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1796",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio historiam controversiae circa numerorum negativorum et impossibilium logarithmos sistens"
+    }
+   ],
+   "advisors": [
+    66476,
+    65161
+   ],
+   "students": [
+    41423,
+    225908,
+    29458,
+    225895,
+    165758
+   ],
+   "msc": "01—History and biography"
+  },
+  "127710": {
+   "id": 127710,
+   "name": "Johann Elert Bode",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Handelsakademie Hamburg",
+     "year": "",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127668
+   ],
+   "students": [
+    18230,
+    206303
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "140923": {
+   "id": 140923,
+   "name": "Gabriel Gruber",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Universität Graz",
+     "year": "1767",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    141273
+   ],
+   "students": [
+    140909
+   ],
+   "msc": ""
+  },
+  "140924": {
+   "id": 140924,
+   "name": "Joseph Giuseppe Jakob von Maffei",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Universität Graz",
+     "year": "1762",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    141273
+   ],
+   "students": [
+    140909
+   ],
+   "msc": ""
+  },
+  "57670": {
+   "id": 57670,
+   "name": "Christian August Hausen",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1713",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De corpore scissuris figurisque non cruetando ductu"
+    }
+   ],
+   "advisors": [
+    72669,
+    128986
+   ],
+   "students": [
+    60213,
+    103387,
+    66476,
+    235337
+   ],
+   "msc": ""
+  },
+  "101853": {
+   "id": 101853,
+   "name": "Anton von Störck",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Wien",
+     "year": "1757",
+     "country": [
+      "Austria"
+     ],
+     "thesis": "Dissertatio inauguralis medica De conceptu, partu naturali, difficili, et praeternaturali"
+    }
+   ],
+   "advisors": [
+    101854
+   ],
+   "students": [
+    101850
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "121249": {
+   "id": 121249,
+   "name": "Georg Ludwig Hueber",
+   "degrees": [
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Bayerische Julius-Maximilians-Universität Würzburg",
+     "year": "1726",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Lithographiae Wirceburgensis, ducentis lapidum figuratorum, a potiori insectiformium, prodigiosis imaginibus exornatae specimen primum"
+    }
+   ],
+   "advisors": [
+    121242
+   ],
+   "students": [
+    101855
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "123968": {
+   "id": 123968,
+   "name": "Michael Alberti",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1703, 1704",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio medica, de hypochondriaco-hysterico malo ; Disputatio inauguralis medica de erroribus medicinae practicae"
+    }
+   ],
+   "advisors": [
+    123977
+   ],
+   "students": [
+    123957
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "127668": {
+   "id": 127668,
+   "name": "Johann Georg Büsch",
+   "degrees": [
+    {
+     "degree": "Magister",
+     "school": "Georg-August-Universität Göttingen",
+     "year": "1752",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theolog. Doct.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1753",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio Theologica De Periculosa Sacramentorum In Caerimonias, Et Harum In Sacramenta Permutatione"
+    }
+   ],
+   "advisors": [
+    60782,
+    208259
+   ],
+   "students": [
+    127710
+   ],
+   "msc": "08—General algebraic systems"
+  },
+  "141273": {
+   "id": 141273,
+   "name": "Nikolaus Boda Poda von Neuhaus",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    140923,
+    140924
+   ],
+   "msc": ""
+  },
+  "72669": {
+   "id": 72669,
+   "name": "Johann Christoph Wichmannshausen",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "Universität Leipzig",
+     "year": "1685",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputationem Moralem De Divortiis Secundum Jus Naturae"
+    }
+   ],
+   "advisors": [
+    21235
+   ],
+   "students": [
+    57670
+   ],
+   "msc": ""
+  },
+  "128986": {
+   "id": 128986,
+   "name": "Johann Andreas Planer",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1686",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Gynaeceum Doctum, sive Dissertatio Historico-literaria"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1709",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputatio medica inauguralis, sistens aegrum dysentericum"
+    }
+   ],
+   "advisors": [
+    128046,
+    128938
+   ],
+   "students": [
+    57670,
+    129079
+   ],
+   "msc": ""
+  },
+  "101854": {
+   "id": 101854,
+   "name": "Gerard van Swieten",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1725",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Dissertatio medica inauguralis, de arteriae fabrica et efficacia in corpore humano"
+    }
+   ],
+   "advisors": [
+    101856
+   ],
+   "students": [
+    124486,
+    101853
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "121242": {
+   "id": 121242,
+   "name": "Adam Beringer",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    121249
+   ],
+   "msc": ""
+  },
+  "123977": {
+   "id": 123977,
+   "name": "Georg Ernst Stahl",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1684",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio medica inauguralis de intestinis : eorumque morbis ac symptomatis, cognoscendis et curandis"
+    }
+   ],
+   "advisors": [
+    124000
+   ],
+   "students": [
+    123968
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "60782": {
+   "id": 60782,
+   "name": "Johann Andreas Segner",
+   "degrees": [
+    {
+     "degree": "D.Phil.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1725",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio epistolica qua regulam Harrioti de modo ex aequationum signis numerum radicum tam verarum quam spuriarum eas componentium, cognoscendi, demonstrare, simulque rationem structurae instrumenti novi, sectionibus conicis secundi generis plerisque, ac omnibus primi, describendis apti"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1726",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertationem chimicam penetrationem salis alcali in interstitia salis acidi per experimenta demonstrantem"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1730",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De natura ac principiis medicinae"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1734",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio inauguralis medica de principum militiam sequentium tuenda valetudine"
+    }
+   ],
+   "advisors": [
+    125886,
+    125971
+   ],
+   "students": [
+    127668,
+    60816,
+    60815,
+    60817
+   ],
+   "msc": "26—Real functions"
+  },
+  "208259": {
+   "id": 208259,
+   "name": "Siegmund Jakob Baumgarten",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1726",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertationem philologicam, qua celeberrimi cuiusdam viri hypothesis etymologica de Hebraea et adfinibus Orientis linguis a Graeca derivandis, modeste expenditur"
+    }
+   ],
+   "advisors": [
+    146035
+   ],
+   "students": [
+    127668,
+    194308
+   ],
+   "msc": "00—General"
+  },
+  "21235": {
+   "id": 21235,
+   "name": "Otto Mencke",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Universität Leipzig",
+     "year": "1665",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Ex Theologia naturali -- De Absoluta Dei Simplicitate, Micropolitiam, id est Rempublicam In Microcosmo Conspicuam"
+    }
+   ],
+   "advisors": [
+    137705
+   ],
+   "students": [
+    77909,
+    72669
+   ],
+   "msc": ""
+  },
+  "128046": {
+   "id": 128046,
+   "name": "Johann Pasch",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1683",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Conjunctiones in genere dissertatione astronomico-theorica"
+    }
+   ],
+   "advisors": [
+    127962
+   ],
+   "students": [
+    128986
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "128938": {
+   "id": 128938,
+   "name": "Rudolf Jakob Camerarius",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1684, 1686",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Helleborus niger medice delineatus; Tensio cordis, lipothymiae causa, occasione experimenti pneumatici exposita"
+    }
+   ],
+   "advisors": [
+    123974,
+    76481
+   ],
+   "students": [
+    128986
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "101856": {
+   "id": 101856,
+   "name": "Herman Boerhaave",
+   "degrees": [
+    {
+     "degree": "Philosophiae Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1690",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Disputatio philosophica inauguralis de distinctione mentis a corpore"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universiteit Harderwijk",
+     "year": "1693",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Disputatio medica inauguralis, de utilitate explorandorum in aegris excrementorum ut signorum [The Utility of Examining Signs of Disease in the Excrement of the Sick]"
+    }
+   ],
+   "advisors": [
+    115155,
+    101858
+   ],
+   "students": [
+    124061,
+    115324,
+    123757,
+    123758,
+    129422,
+    115325,
+    115326,
+    115327,
+    121344,
+    118684,
+    124060,
+    112823,
+    124062,
+    124063,
+    123427,
+    122557,
+    123760,
+    115094,
+    115328,
+    123429,
+    124064,
+    123428,
+    112693,
+    115093,
+    101854,
+    101857,
+    122438
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "124000": {
+   "id": 124000,
+   "name": "Rudolf Wilhelm Krause",
+   "degrees": [
+    {
+     "degree": "Med. D.",
+     "school": "Athenaeum Illustre Amsterdam",
+     "year": "1667",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "De Angina"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1671",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    208258,
+    101860
+   ],
+   "students": [
+    125971,
+    123977
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125886": {
+   "id": 125886,
+   "name": "Georg Erhard Hamberger",
+   "degrees": [
+    {
+     "degree": "Mag. phil.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1684",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Dr. phil.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1716",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De metamorphosibus proportionum continuarum"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1721",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertationem inauguralem medicam de malignitate in morbis"
+    }
+   ],
+   "advisors": [
+    191279,
+    125846
+   ],
+   "students": [
+    215353,
+    139734,
+    232371,
+    60782,
+    60782,
+    228986,
+    129079
+   ],
+   "msc": "54—General topology"
+  },
+  "125971": {
+   "id": 125971,
+   "name": "Simon Paul Hilscher",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1704",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio medica inauguralis de philtris"
+    }
+   ],
+   "advisors": [
+    124000
+   ],
+   "students": [
+    60782,
+    60782
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "146035": {
+   "id": 146035,
+   "name": "Christian Benedict Michaelis",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1706",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertationem philologicam de historia linguae arabicae"
+    }
+   ],
+   "advisors": [
+    145770
+   ],
+   "students": [
+    208259,
+    145775
+   ],
+   "msc": ""
+  },
+  "137705": {
+   "id": 137705,
+   "name": "Jakob Thomasius",
+   "degrees": [
+    {
+     "degree": "Magister der Philosophie",
+     "school": "Universität Leipzig",
+     "year": "1643",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    143630
+   ],
+   "students": [
+    60985,
+    21235,
+    127946
+   ],
+   "msc": ""
+  },
+  "127962": {
+   "id": 127962,
+   "name": "Michael d. J. Walther",
+   "degrees": [
+    {
+     "degree": "Magister",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1656",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Manichaeismi recensionem historicam ad placidam \"symphilologian\" exponit"
+    },
+    {
+     "degree": "Dr. phil.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1660",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Ex physica theses miscellas"
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1687",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputatio theologica inauguralis de Paulina Petri increpatione"
+    }
+   ],
+   "advisors": [
+    127801,
+    230796
+   ],
+   "students": [
+    232588,
+    127646,
+    232585,
+    232584,
+    232587,
+    128046,
+    236257,
+    236257,
+    232583,
+    230844,
+    232586,
+    232582
+   ],
+   "msc": "03—Mathematical logic and foundations"
+  },
+  "123974": {
+   "id": 123974,
+   "name": "Georg Balthasar Metzger",
+   "degrees": [
+    {
+     "degree": "Magister Artium",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1646",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Suppressionem mensium"
+    },
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Universität Basel",
+     "year": "1650",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "Disputatio medica inauguralis de catarrho suffocativo"
+    }
+   ],
+   "advisors": [
+    182089,
+    182088
+   ],
+   "students": [
+    128938,
+    76481
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "76481": {
+   "id": 76481,
+   "name": "Elias Rudolph Camerarius, Sr.",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1663",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Dissertatio medica inauguralis de acidulis"
+    }
+   ],
+   "advisors": [
+    123974
+   ],
+   "students": [
+    128938,
+    76482
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "115155": {
+   "id": 115155,
+   "name": "Wolferd Senguerdius",
+   "degrees": [
+    {
+     "degree": "Philosophiae Doctor",
+     "school": "Athenaeum Illustre Amsterdam",
+     "year": "1666",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Compendium physicae"
+    },
+    {
+     "degree": "",
+     "school": "Universiteit Leiden",
+     "year": "1667",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Disputatio philosophica inauguralis de tarantula"
+    }
+   ],
+   "advisors": [
+    115471
+   ],
+   "students": [
+    101856,
+    301664,
+    301663,
+    112693
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "101858": {
+   "id": 101858,
+   "name": "Burchard de Volder",
+   "degrees": [
+    {
+     "degree": "Philosophiae Dr.",
+     "school": "Universiteit Utrecht",
+     "year": "1660",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "De Simplicitate Dei, Echo et Republica"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1664",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Disputatio medica inauguralis de natura"
+    }
+   ],
+   "advisors": [
+    114945,
+    101860
+   ],
+   "students": [
+    302157,
+    101856,
+    302155,
+    112694,
+    302153,
+    302147,
+    115361,
+    302156,
+    302154,
+    112497,
+    124101,
+    302148,
+    112692,
+    302150,
+    302152,
+    302151,
+    302149,
+    115360
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "208258": {
+   "id": 208258,
+   "name": "Gerardus Leonardus Blasius",
+   "degrees": [
+    {
+     "degree": "Dr. med.",
+     "school": "Universiteit Leiden",
+     "year": "1648",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    124000
+   ],
+   "msc": ""
+  },
+  "101860": {
+   "id": 101860,
+   "name": "Franciscus de le Boë Sylvius",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universiteit Leiden and Universität Basel",
+     "year": "1634, 1637",
+     "country": [
+      "Netherlands",
+      "Switzerland"
+     ],
+     "thesis": "Positiones Variae Medicae ; De animali motu, ejusque laesionibus [English: On Animal Movement and its Disorders]"
+    }
+   ],
+   "advisors": [
+    125023,
+    125125
+   ],
+   "students": [
+    115470,
+    112822,
+    101858,
+    124000,
+    134896,
+    115616,
+    125184,
+    115617,
+    115359,
+    113719,
+    125488
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "191279": {
+   "id": 191279,
+   "name": "Anton Bernhard Lauterbach",
+   "degrees": [
+    {
+     "degree": "Ph.D.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1716",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De metamorphosibus proportionum continuarum"
+    }
+   ],
+   "advisors": [],
+   "students": [
+    225742,
+    125886,
+    225743,
+    225744,
+    225740
+   ],
+   "msc": ""
+  },
+  "125846": {
+   "id": 125846,
+   "name": "Johann Adolph Wedel",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1694",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De morbis convulsivis, pectoris, mulierum, lacte, tumoribus etc."
+    }
+   ],
+   "advisors": [
+    125488
+   ],
+   "students": [
+    125886
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "145770": {
+   "id": 145770,
+   "name": "Johann Heinrich Michaelis",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1694",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Brevioris methodi et manuductionis ad solidam de accentibus seu distinctionibus Hebraeorum prosaicis doctrinam conamina"
+    },
+    {
+     "degree": "",
+     "school": "Europa-Universität Viadrina Frankfurt an der Oder",
+     "year": "1699",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    146034,
+    145708
+   ],
+   "students": [
+    146035,
+    145771
+   ],
+   "msc": ""
+  },
+  "143630": {
+   "id": 143630,
+   "name": "Friedrich Leibniz",
+   "degrees": [
+    {
+     "degree": "Magister der Philosophie",
+     "school": "Universität Leipzig",
+     "year": "1622",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    137705
+   ],
+   "msc": ""
+  },
+  "127801": {
+   "id": 127801,
+   "name": "Aegidius Strauch",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1633",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputatio Physica De Elementis In Genere Et In Specie"
+    }
+   ],
+   "advisors": [
+    127734
+   ],
+   "students": [
+    127962
+   ],
+   "msc": ""
+  },
+  "230796": {
+   "id": 230796,
+   "name": "Constantin Ziegra",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1640",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127962
+   ],
+   "msc": ""
+  },
+  "182089": {
+   "id": 182089,
+   "name": "Gottfried Möbius",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1640",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputatio Medica, De Affectu Hypochondriaco"
+    }
+   ],
+   "advisors": [
+    125154
+   ],
+   "students": [
+    123974
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "182088": {
+   "id": 182088,
+   "name": "Johann Jakob von Brunn",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Basel",
+     "year": "1615",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "Disputatio medica"
+    }
+   ],
+   "advisors": [
+    125048
+   ],
+   "students": [
+    123974
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "115471": {
+   "id": 115471,
+   "name": "Arnold Senguerdius",
+   "degrees": [
+    {
+     "degree": "Theologiae Doctor",
+     "school": "Universiteit Leiden",
+     "year": "1630",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Dispvtationvm theologicarvm, quæ ex ordine repeti consueverunt, vigesima tertia, de Vetero & Novo Testamento"
+    }
+   ],
+   "advisors": [
+    115395,
+    115008
+   ],
+   "students": [
+    144436,
+    115616,
+    115155
+   ],
+   "msc": ""
+  },
+  "114945": {
+   "id": 114945,
+   "name": "Johannes de Bruyn",
+   "degrees": [
+    {
+     "degree": "Philosophiae Dr. et Liberalium Artium Magister",
+     "school": "Universiteit Utrecht",
+     "year": "1644",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    114927
+   ],
+   "students": [
+    117503,
+    117504,
+    101858,
+    117502,
+    117505,
+    117506,
+    117507
+   ],
+   "msc": ""
+  },
+  "125023": {
+   "id": 125023,
+   "name": "Adolph Vorstius",
+   "degrees": [
+    {
+     "degree": "Philosophiae Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1619",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "De motu"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1622",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    114992,
+    125006
+   ],
+   "students": [
+    101860,
+    299041
+   ],
+   "msc": ""
+  },
+  "125125": {
+   "id": 125125,
+   "name": "Emmanuel Stupanus",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Basel",
+     "year": "1613",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "De omnis pleuritidis theoria et generali therapia themata medica"
+    }
+   ],
+   "advisors": [
+    130248
+   ],
+   "students": [
+    129708,
+    129628,
+    101860
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125488": {
+   "id": 125488,
+   "name": "Georg Wolffgang Wedel",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Friedrich-Schiller-Universität Jena and Universiteit Leiden",
+     "year": "1667",
+     "country": [
+      "Germany",
+      "Netherlands"
+     ],
+     "thesis": "Dissertatio inauguralis medica de pollutione nocturna"
+    }
+   ],
+   "advisors": [
+    125154,
+    101860
+   ],
+   "students": [
+    128377,
+    125846
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "146034": {
+   "id": 146034,
+   "name": "August Hermann Francke",
+   "degrees": [
+    {
+     "degree": "M.Phil.",
+     "school": "Universität Leipzig",
+     "year": "1685",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    145770
+   ],
+   "msc": ""
+  },
+  "145708": {
+   "id": 145708,
+   "name": "Hiob Ludolf",
+   "degrees": [
+    {
+     "degree": "Juris Dr.",
+     "school": "Universität Erfurt",
+     "year": "1645",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Exercitium juridicum de fictione juris"
+    },
+    {
+     "degree": "M.A.",
+     "school": "Universiteit Leiden",
+     "year": "1646",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    146374,
+    125408,
+    145707
+   ],
+   "students": [
+    145770
+   ],
+   "msc": ""
+  },
+  "127734": {
+   "id": 127734,
+   "name": "Nicolaus Zapf",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Friedrich-Schiller-Universität Jena",
+     "year": "1622",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De Justificatione Hominis Coram Deo"
+    },
+    {
+     "degree": "Dr. phil.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1625",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Theoremata Philosophica, quorum veritatem Ope Divina"
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1629",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127424,
+    189659,
+    127848
+   ],
+   "students": [
+    127801
+   ],
+   "msc": "03—Mathematical logic and foundations"
+  },
+  "125154": {
+   "id": 125154,
+   "name": "Werner Rolfinck",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1618",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1625",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126111,
+    125006
+   ],
+   "students": [
+    125143,
+    182089,
+    125488,
+    128411
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125048": {
+   "id": 125048,
+   "name": "Johannes Nicolaus Stupanus",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Basel",
+     "year": "1569",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125148
+   ],
+   "students": [
+    182088
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "115395": {
+   "id": 115395,
+   "name": "Antonius Thysius",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universiteit Leiden",
+     "year": "1582",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Ruprecht-Karls-Universität Heidelberg and Université de Genève",
+     "year": "1585, 1589",
+     "country": [
+      "Germany",
+      "Switzerland"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    152238,
+    131821
+   ],
+   "students": [
+    115471
+   ],
+   "msc": ""
+  },
+  "115008": {
+   "id": 115008,
+   "name": "Franck Pieterszoon Burgersdijk",
+   "degrees": [
+    {
+     "degree": "Philosophiae Doctor",
+     "school": "Universiteit Leiden",
+     "year": "1614",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    114992
+   ],
+   "students": [
+    115095,
+    144264,
+    115471
+   ],
+   "msc": "03—Mathematical logic and foundations"
+  },
+  "114927": {
+   "id": 114927,
+   "name": "Daniel Berckringer",
+   "degrees": [
+    {
+     "degree": "Philosophiae Doctor",
+     "school": "Rijksuniversiteit Groningen",
+     "year": "1640",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    144265
+   ],
+   "students": [
+    114945,
+    115323,
+    117499
+   ],
+   "msc": ""
+  },
+  "114992": {
+   "id": 114992,
+   "name": "Gilbert Jacchaeus",
+   "degrees": [
+    {
+     "degree": "Phil. Dr",
+     "school": "University of St. Andrews",
+     "year": "1601",
+     "country": [
+      "UnitedKingdom"
+     ],
+     "thesis": "De libero arbitrio;"
+    },
+    {
+     "degree": "Theol. Dr",
+     "school": "Universität Helmstedt",
+     "year": "1603",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De peccato originali"
+    },
+    {
+     "degree": "Med. D.",
+     "school": "Universiteit Leiden",
+     "year": "1611",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128122,
+    126489
+   ],
+   "students": [
+    115008,
+    299040,
+    115368,
+    125023
+   ],
+   "msc": ""
+  },
+  "125006": {
+   "id": 125006,
+   "name": "Adriaan van den Spieghel",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova and Université Catholique de Louvain",
+     "year": "1603",
+     "country": [
+      "Italy",
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125109
+   ],
+   "students": [
+    115030,
+    125154,
+    125023
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "130248": {
+   "id": 130248,
+   "name": "Petrus Ryff",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Basel",
+     "year": "1584",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "De Affectibus cordis"
+    }
+   ],
+   "advisors": [
+    182090
+   ],
+   "students": [
+    125125
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "146374": {
+   "id": 146374,
+   "name": "Johann Möller",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    145708
+   ],
+   "msc": ""
+  },
+  "125408": {
+   "id": 125408,
+   "name": "Jacobus Golius",
+   "degrees": [
+    {
+     "degree": "Artium Liberalium Magister, Philosophiae Doctor",
+     "school": "Universiteit Leiden",
+     "year": "1612, 1621",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125302,
+    125378
+   ],
+   "students": [
+    125358,
+    145708,
+    125450
+   ],
+   "msc": ""
+  },
+  "145707": {
+   "id": 145707,
+   "name": "Constantijn l’Empereur van Oppyck",
+   "degrees": [
+    {
+     "degree": "Theologiae Doctor",
+     "school": "Universiteit Franeker",
+     "year": "1617",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Dissertatio de originis peccato"
+    }
+   ],
+   "advisors": [
+    130913
+   ],
+   "students": [
+    145708
+   ],
+   "msc": ""
+  },
+  "127424": {
+   "id": 127424,
+   "name": "Erasmus Schmidt",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1592",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127898,
+    127942
+   ],
+   "students": [
+    127665,
+    127734
+   ],
+   "msc": ""
+  },
+  "189659": {
+   "id": 189659,
+   "name": "Abraham Heinecke",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    225912,
+    225911,
+    225913,
+    127734
+   ],
+   "msc": ""
+  },
+  "127848": {
+   "id": 127848,
+   "name": "Jacobus Martini",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Helmstedt",
+     "year": "1596",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128105
+   ],
+   "students": [
+    128991,
+    225911,
+    128240,
+    126111,
+    127734
+   ],
+   "msc": ""
+  },
+  "126111": {
+   "id": 126111,
+   "name": "Daniel Sennert",
+   "degrees": [
+    {
+     "degree": "Magister artium, Medicinae Dr.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1594, 1599",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De visu exteriorum sensuum; De sympathiae et antipathiæ rerum naturalium caussis disquisitio singularis"
+    }
+   ],
+   "advisors": [
+    127848,
+    127278
+   ],
+   "students": [
+    125154
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125148": {
+   "id": 125148,
+   "name": "Theodor Zwinger",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège de France",
+     "year": "1553",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1559",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125047,
+    152906,
+    152905
+   ],
+   "students": [
+    128305,
+    125048
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "152238": {
+   "id": 152238,
+   "name": "Lambert Daneau",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège de France",
+     "year": "1553",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Dr. jur.",
+     "school": "Université d'Orléans",
+     "year": "1559",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Université de Genève",
+     "year": "1561",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131606,
+    152237,
+    132044
+   ],
+   "students": [
+    115395
+   ],
+   "msc": ""
+  },
+  "131821": {
+   "id": 131821,
+   "name": "Theodorus (Théodore de Bèze) Beza",
+   "degrees": [
+    {
+     "degree": "Juris Doctor",
+     "school": "Université d'Orléans",
+     "year": "1534, 1539",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131905
+   ],
+   "students": [
+    115395,
+    144263
+   ],
+   "msc": ""
+  },
+  "144265": {
+   "id": 144265,
+   "name": "Martinus Schoock",
+   "degrees": [
+    {
+     "degree": "Philosophiae Dr. et Liberalium",
+     "school": "Universiteit Utrecht",
+     "year": "1636",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    144264,
+    132468
+   ],
+   "students": [
+    114927
+   ],
+   "msc": ""
+  },
+  "128122": {
+   "id": 128122,
+   "name": "Duncan Liddel",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Europa-Universität Viadrina Frankfurt an der Oder and Universität Breslau",
+     "year": "1582",
+     "country": [
+      "Germany",
+      "Germany"
+     ],
+     "thesis": "Themata De Melancholia"
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Helmstedt",
+     "year": "1596",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128305,
+    128348
+   ],
+   "students": [
+    114992,
+    128105,
+    234970
+   ],
+   "msc": ""
+  },
+  "126489": {
+   "id": 126489,
+   "name": "Jacobus (Jacob Harmensz.) Arminius",
+   "degrees": [
+    {
+     "degree": "Theol. Dr.",
+     "school": "Philipps-Universität Marburg and Universiteit Leiden",
+     "year": "1582",
+     "country": [
+      "Germany",
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125181
+   ],
+   "students": [
+    114992
+   ],
+   "msc": ""
+  },
+  "125109": {
+   "id": 125109,
+   "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1559",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125142
+   ],
+   "students": [
+    127252,
+    125274,
+    125124,
+    127278,
+    125006
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "182090": {
+   "id": 182090,
+   "name": "Felix Plater",
+   "degrees": [
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Université de Montpellier",
+     "year": "1557",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    158329
+   ],
+   "students": [
+    130248
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125302": {
+   "id": 125302,
+   "name": "Willebrord (Snel van Royen) Snellius",
+   "degrees": [
+    {
+     "degree": "Artium Liberalium Magister",
+     "school": "Universiteit Leiden",
+     "year": "1607",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125232,
+    125181
+   ],
+   "students": [
+    125408
+   ],
+   "msc": ""
+  },
+  "125378": {
+   "id": 125378,
+   "name": "Thomas Erpenius",
+   "degrees": [
+    {
+     "degree": "Artium Liberalium Magister",
+     "school": "Universiteit Leiden",
+     "year": "1608",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131577
+   ],
+   "students": [
+    125408
+   ],
+   "msc": ""
+  },
+  "130913": {
+   "id": 130913,
+   "name": "Johannes (van den Driesche) Drusius",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "University of Cambridge",
+     "year": "1572",
+     "country": [
+      "UnitedKingdom"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    130995
+   ],
+   "students": [
+    130840,
+    145707
+   ],
+   "msc": ""
+  },
+  "127898": {
+   "id": 127898,
+   "name": "Sethus Calvisius",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Leipzig",
+     "year": "1582",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127864,
+    127790
+   ],
+   "students": [
+    127424
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "127942": {
+   "id": 127942,
+   "name": "Petrus Otto",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127424
+   ],
+   "msc": ""
+  },
+  "128105": {
+   "id": 128105,
+   "name": "Cornelius Martini",
+   "degrees": [
+    {
+     "degree": "Dr. phil.",
+     "school": "Universität Helmstedt",
+     "year": "1591",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "THESES DE NATVRA LOGICAE AD VNIVERSVM ARISTOTELIS Organon"
+    },
+    {
+     "degree": "Magister artium",
+     "school": "Universität Helmstedt",
+     "year": "1592",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Disputatio de philosophia eiusque instrumentis"
+    }
+   ],
+   "advisors": [
+    200006,
+    128122
+   ],
+   "students": [
+    128097,
+    235321,
+    127848
+   ],
+   "msc": "03—Mathematical logic and foundations"
+  },
+  "127278": {
+   "id": 127278,
+   "name": "Jan Jessenius",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Leipzig",
+     "year": "1588",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1591",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125109
+   ],
+   "students": [
+    126111
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125047": {
+   "id": 125047,
+   "name": "Petrus (Pierre de La Ramée) Ramus",
+   "degrees": [
+    {
+     "degree": "Artium Liberalium Magister",
+     "school": "Collège de Navarre",
+     "year": "1536",
+     "country": [
+      "France"
+     ],
+     "thesis": "Quaecumque ab Aristotele dicta essent, commentitia esse"
+    }
+   ],
+   "advisors": [
+    125665,
+    131546
+   ],
+   "students": [
+    125373,
+    125124,
+    125148
+   ],
+   "msc": "03—Mathematical logic and foundations"
+  },
+  "152906": {
+   "id": 152906,
+   "name": "Bassiano Landi",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1542",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    152904,
+    152905
+   ],
+   "students": [
+    125148
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "152905": {
+   "id": 152905,
+   "name": "Vittore Trincavelli",
+   "degrees": [
+    {
+     "degree": "Magister artium, Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    152903
+   ],
+   "students": [
+    152906,
+    125148
+   ],
+   "msc": ""
+  },
+  "131606": {
+   "id": 131606,
+   "name": "Adrien Turnèbe",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège de France",
+     "year": "1532",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131546
+   ],
+   "students": [
+    152238,
+    131577
+   ],
+   "msc": ""
+  },
+  "152237": {
+   "id": 152237,
+   "name": "Anne du Bourg",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    152238
+   ],
+   "msc": ""
+  },
+  "132044": {
+   "id": 132044,
+   "name": "Jean (Johannes Calvinus) Calvin",
+   "degrees": [
+    {
+     "degree": "Juris Doctor",
+     "school": "Université d'Orléans",
+     "year": "1529, 1531",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131905,
+    132045
+   ],
+   "students": [
+    152238,
+    144262
+   ],
+   "msc": ""
+  },
+  "131905": {
+   "id": 131905,
+   "name": "Melchior Wolmar",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1528",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131398,
+    131517
+   ],
+   "students": [
+    131821,
+    132044
+   ],
+   "msc": ""
+  },
+  "144264": {
+   "id": 144264,
+   "name": "Henricus Renerius",
+   "degrees": [
+    {
+     "degree": "Philosophiae Doctor",
+     "school": "Universiteit Leiden",
+     "year": "1617",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": "Disputatio theologica de precatione"
+    }
+   ],
+   "advisors": [
+    144263,
+    115008
+   ],
+   "students": [
+    144265
+   ],
+   "msc": ""
+  },
+  "132468": {
+   "id": 132468,
+   "name": "Gisbertus Voetius",
+   "degrees": [
+    {
+     "degree": "Theol. Dr.",
+     "school": "Universiteit Leiden",
+     "year": "1611",
+     "country": [
+      "Netherlands"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    132488
+   ],
+   "students": [
+    132422,
+    144354,
+    144265
+   ],
+   "msc": ""
+  },
+  "128305": {
+   "id": 128305,
+   "name": "John Craig",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Universität Basel",
+     "year": "1580",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "Diexodus medica de hepatis dispositionibus"
+    }
+   ],
+   "advisors": [
+    125148
+   ],
+   "students": [
+    128122
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "128348": {
+   "id": 128348,
+   "name": "Paul Wittich",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg and Universität Leipzig",
+     "year": "1566",
+     "country": [
+      "Germany",
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127092
+   ],
+   "students": [
+    128122
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "125181": {
+   "id": 125181,
+   "name": "Rudolph (Snel van Royen) Snellius",
+   "degrees": [
+    {
+     "degree": "Artium Liberalium Magister",
+     "school": "Ruprecht-Karls-Universität Heidelberg and Universität zu Köln",
+     "year": "1572",
+     "country": [
+      "Germany",
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125160,
+    125159
+   ],
+   "students": [
+    126489,
+    125299,
+    125407,
+    125302
+   ],
+   "msc": ""
+  },
+  "125142": {
+   "id": 125142,
+   "name": "Gabriele Falloppio",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova and Università degli Studi di Ferrara",
+     "year": "1547",
+     "country": [
+      "Italy",
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127245,
+    125303
+   ],
+   "students": [
+    125109
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "158329": {
+   "id": 158329,
+   "name": "Guillaume Rondelet",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Université de Paris",
+     "year": "1529",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Université de Montpellier",
+     "year": "1537",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    119159
+   ],
+   "students": [
+    182090
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125232": {
+   "id": 125232,
+   "name": "Ludolph van Ceulen",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125302,
+    125350
+   ],
+   "msc": ""
+  },
+  "131577": {
+   "id": 131577,
+   "name": "Joseph Justus Scaliger",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège de France",
+     "year": "1563",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131606
+   ],
+   "students": [
+    125378
+   ],
+   "msc": ""
+  },
+  "130995": {
+   "id": 130995,
+   "name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "Collège de France and University of Oxford",
+     "year": "",
+     "country": [
+      "France",
+      "UnitedKingdom"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131235,
+    131236
+   ],
+   "students": [
+    130913
+   ],
+   "msc": ""
+  },
+  "127864": {
+   "id": 127864,
+   "name": "Nikolaus Selnecker",
+   "degrees": [
+    {
+     "degree": "Dr. theol.",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1570",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127898
+   ],
+   "msc": ""
+  },
+  "127790": {
+   "id": 127790,
+   "name": "Moritz Valentin Steinmetz",
+   "degrees": [
+    {
+     "degree": "Magister artium, Medicinae Dr.",
+     "school": "Universität Leipzig",
+     "year": "1550, 1567",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De Peste Capita Disputationis Ordinariae"
+    }
+   ],
+   "advisors": [
+    126827,
+    184935
+   ],
+   "students": [
+    127898,
+    144220
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "200006": {
+   "id": 200006,
+   "name": "Albert Clampius",
+   "degrees": [
+    {
+     "degree": "Dr. jur.",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "De iure ususfructus"
+    }
+   ],
+   "advisors": [
+    224249
+   ],
+   "students": [
+    235324,
+    128105
+   ],
+   "msc": "00—General"
+  },
+  "125665": {
+   "id": 125665,
+   "name": "Johannes (Johann Sturm) Sturmius",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université Catholique de Louvain",
+     "year": "1527",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125658,
+    119159
+   ],
+   "students": [
+    127039,
+    132488,
+    127020,
+    125047
+   ],
+   "msc": ""
+  },
+  "131546": {
+   "id": 131546,
+   "name": "Jacques Toussain",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1521",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131517
+   ],
+   "students": [
+    125047,
+    131606
+   ],
+   "msc": ""
+  },
+  "152904": {
+   "id": 152904,
+   "name": "Giovanni Battista della Monte",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Ferrara",
+     "year": "",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Padova",
+     "year": "1520",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127166,
+    152901,
+    152903
+   ],
+   "students": [
+    152906,
+    119178
+   ],
+   "msc": ""
+  },
+  "152903": {
+   "id": 152903,
+   "name": "Pietro Pomponazzi",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Padova",
+     "year": "1487",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    152902,
+    136726
+   ],
+   "students": [
+    152904,
+    152905
+   ],
+   "msc": ""
+  },
+  "132045": {
+   "id": 132045,
+   "name": "Andrea Alciati",
+   "degrees": [
+    {
+     "degree": "Juris Doctor",
+     "school": "Università degli Studi di Pavia and Università di Bologna",
+     "year": "1518",
+     "country": [
+      "Italy",
+      "Italy"
+     ],
+     "thesis": "Paradoxa juris civilis"
+    }
+   ],
+   "advisors": [],
+   "students": [
+    132044
+   ],
+   "msc": ""
+  },
+  "131398": {
+   "id": 131398,
+   "name": "Jacques (Jacobus Faber) Lefèvre d'Étaples",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris and Accademia Romana",
+     "year": "1480",
+     "country": [
+      "France",
+      "Greece"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131443,
+    131444
+   ],
+   "students": [
+    131235,
+    131905
+   ],
+   "msc": ""
+  },
+  "131517": {
+   "id": 131517,
+   "name": "Guillaume Budé",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université d'Orléans and Université de Paris",
+     "year": "1486, 1491",
+     "country": [
+      "France",
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131443,
+    131541
+   ],
+   "students": [
+    131546,
+    131905
+   ],
+   "msc": ""
+  },
+  "144263": {
+   "id": 144263,
+   "name": "Johannes Polyander van Kerckhoven",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1589",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Thesium theol. de autoritate scripturae S. : locus primus et alter"
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Université de Genève",
+     "year": "1590",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": "Theses theologicae de praedestinatione & vtraque illius specie, electione ac reprobatione"
+    }
+   ],
+   "advisors": [
+    144262,
+    131821
+   ],
+   "students": [
+    144264
+   ],
+   "msc": ""
+  },
+  "132488": {
+   "id": 132488,
+   "name": "Franciscus (François Gomaer) Gomarus",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège Saint-Guillaume à Strasbourg",
+     "year": "1580",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theologiae Doctor",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1585",
+     "country": [
+      "Germany"
+     ],
+     "thesis": "Theses de verbo vel sermone Dei"
+    }
+   ],
+   "advisors": [
+    125665,
+    144262
+   ],
+   "students": [
+    132468
+   ],
+   "msc": ""
+  },
+  "127092": {
+   "id": 127092,
+   "name": "Valentin Thau",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Leipzig",
+     "year": "1555",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127011
+   ],
+   "students": [
+    125379,
+    128348
+   ],
+   "msc": ""
+  },
+  "125160": {
+   "id": 125160,
+   "name": "Valentine Naibod",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg and Universität Erfurt",
+     "year": "",
+     "country": [
+      "Germany",
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126736
+   ],
+   "students": [
+    125181
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "125159": {
+   "id": 125159,
+   "name": "Immanuel Tremellius",
+   "degrees": [
+    {
+     "degree": "Dr. theol.",
+     "school": "University of Cambridge",
+     "year": "1549",
+     "country": [
+      "UnitedKingdom"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "D. theol.",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1561",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    141571
+   ],
+   "students": [
+    125181
+   ],
+   "msc": ""
+  },
+  "127245": {
+   "id": 127245,
+   "name": "Antonio Musa Brasavola",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Ferrara",
+     "year": "1520",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127166
+   ],
+   "students": [
+    125142
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "125303": {
+   "id": 125303,
+   "name": "Matteo Realdo (Renaldus Columbus) Colombo",
+   "degrees": [
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1544",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    119178
+   ],
+   "students": [
+    125142
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "119159": {
+   "id": 119159,
+   "name": "Johannes Winter von Andernach",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université Catholique de Louvain",
+     "year": "1527",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Med. Dr.",
+     "school": "Collège de Tréguier",
+     "year": "1532",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126571,
+    125422
+   ],
+   "students": [
+    158329,
+    126064,
+    125665,
+    119178
+   ],
+   "msc": ""
+  },
+  "131235": {
+   "id": 131235,
+   "name": "François Vatable",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1511, 1513",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127181,
+    131398
+   ],
+   "students": [
+    130995
+   ],
+   "msc": ""
+  },
+  "131236": {
+   "id": 131236,
+   "name": "Paul (Paul Büchlein) Fagius",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1527",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theologiae Doctor",
+     "school": "Collège Saint-Guillaume à Strasbourg",
+     "year": "1537",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131399,
+    131400
+   ],
+   "students": [
+    130995
+   ],
+   "msc": ""
+  },
+  "126827": {
+   "id": 126827,
+   "name": "Georg Joachim von Leuchen Rheticus",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1535",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126730,
+    126177
+   ],
+   "students": [
+    126957,
+    127061,
+    126875,
+    127790
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "184935": {
+   "id": 184935,
+   "name": "Johann Hoffmann",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127790
+   ],
+   "msc": ""
+  },
+  "224249": {
+   "id": 224249,
+   "name": "Reinhard Bachoff von Echt",
+   "degrees": [
+    {
+     "degree": "Dr. jur.",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1598",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    200006
+   ],
+   "msc": "00—General"
+  },
+  "125658": {
+   "id": 125658,
+   "name": "Nicolas (Nicolaes Cleynaerts) Clénard",
+   "degrees": [
+    {
+     "degree": "Magister artium, Theol. Dr.",
+     "school": "Université Catholique de Louvain",
+     "year": "1515, 1521",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125681,
+    125682
+   ],
+   "students": [
+    125665
+   ],
+   "msc": ""
+  },
+  "127166": {
+   "id": 127166,
+   "name": "Niccolò Leoniceno",
+   "degrees": [
+    {
+     "degree": "B.A.",
+     "school": "Scuola Pubblica di Vicenza",
+     "year": "1446",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1453",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    149192,
+    127144,
+    136726
+   ],
+   "students": [
+    127245,
+    152904
+   ],
+   "msc": "00—General"
+  },
+  "152901": {
+   "id": 152901,
+   "name": "Marco Musuro",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Firenze",
+     "year": "1486",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131541
+   ],
+   "students": [
+    152904
+   ],
+   "msc": ""
+  },
+  "152902": {
+   "id": 152902,
+   "name": "Nicoletto Vernia",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Padova",
+     "year": "1458",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    148882,
+    232228
+   ],
+   "students": [
+    152903
+   ],
+   "msc": ""
+  },
+  "136726": {
+   "id": 136726,
+   "name": "Pietro Roccabonella",
+   "degrees": [
+    {
+     "degree": "M.D.",
+     "school": "Università degli Studi di Padova",
+     "year": "1459",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    148882,
+    164338
+   ],
+   "students": [
+    127166,
+    152903
+   ],
+   "msc": ""
+  },
+  "131443": {
+   "id": 131443,
+   "name": "Georgius Hermonymus",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    131517,
+    131398
+   ],
+   "msc": ""
+  },
+  "131444": {
+   "id": 131444,
+   "name": "Johannes Argyropoulos",
+   "degrees": [
+    {
+     "degree": "Theol. Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1444",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131561
+   ],
+   "students": [
+    131700,
+    131539,
+    131398,
+    125760
+   ],
+   "msc": ""
+  },
+  "131541": {
+   "id": 131541,
+   "name": "Janus Lascaris",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Padova",
+     "year": "1472",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131561,
+    131576
+   ],
+   "students": [
+    131517,
+    152901
+   ],
+   "msc": ""
+  },
+  "144262": {
+   "id": 144262,
+   "name": "François Du Jon, Sr.",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    132044
+   ],
+   "students": [
+    132488,
+    144263
+   ],
+   "msc": ""
+  },
+  "127011": {
+   "id": 127011,
+   "name": "Johannes Hommel",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1543",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126736,
+    126956
+   ],
+   "students": [
+    127050,
+    127092
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "126736": {
+   "id": 126736,
+   "name": "Erasmus Reinhold",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1535",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126667
+   ],
+   "students": [
+    127110,
+    126957,
+    127011,
+    125160,
+    126875,
+    126946,
+    126947
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "141571": {
+   "id": 141571,
+   "name": "Thomas Cranmer",
+   "degrees": [
+    {
+     "degree": "Master of Arts",
+     "school": "University of Cambridge",
+     "year": "1515",
+     "country": [
+      "UnitedKingdom"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Doctorate of Divinity",
+     "school": "University of Cambridge",
+     "year": "1526",
+     "country": [
+      "UnitedKingdom"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125159
+   ],
+   "msc": ""
+  },
+  "119178": {
+   "id": 119178,
+   "name": "Andreas (Andries van Wesel) Vesalius",
+   "degrees": [
+    {
+     "degree": "Medicinae Doctor",
+     "school": "Università degli Studi di Padova and Université Catholique de Louvain",
+     "year": "1537",
+     "country": [
+      "Italy",
+      "Belgium"
+     ],
+     "thesis": "Paraphrasis in nonum librum Rhazae medici arabis clariss ad regem Almansorum de affectum singularum corporis partium curatione"
+    }
+   ],
+   "advisors": [
+    119159,
+    119097,
+    152904
+   ],
+   "students": [
+    125303
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "126571": {
+   "id": 126571,
+   "name": "Rutger Rescius",
+   "degrees": [
+    {
+     "degree": "Artium Baccalaureus",
+     "school": "Université de Paris",
+     "year": "1513",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127181
+   ],
+   "students": [
+    119159
+   ],
+   "msc": ""
+  },
+  "125422": {
+   "id": 125422,
+   "name": "Jacobus (Jacques Dubois) Sylvius",
+   "degrees": [
+    {
+     "degree": "M.B.",
+     "school": "Université de Paris",
+     "year": "1529",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Medicinae Dr.",
+     "school": "Université de Montpellier",
+     "year": "1530",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128987,
+    128921
+   ],
+   "students": [
+    126064,
+    125423,
+    119159
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "127181": {
+   "id": 127181,
+   "name": "Girolamo (Hieronymus Aleander) Aleandro",
+   "degrees": [
+    {
+     "degree": "Magister artium, Theol. Dr.",
+     "school": "Università degli Studi di Padova",
+     "year": "1499, 1508",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131446,
+    131447
+   ],
+   "students": [
+    126571,
+    131235
+   ],
+   "msc": ""
+  },
+  "131399": {
+   "id": 131399,
+   "name": "Wolfgang Fabricius Capito",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Ingolstadt",
+     "year": "1506",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+     "year": "1515",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126659,
+    125938
+   ],
+   "students": [
+    131236,
+    182092
+   ],
+   "msc": ""
+  },
+  "131400": {
+   "id": 131400,
+   "name": "Elijah ben Asher Levita",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    131236
+   ],
+   "msc": ""
+  },
+  "126730": {
+   "id": 126730,
+   "name": "Johannes Volmar",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1515",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126724
+   ],
+   "students": [
+    126827
+   ],
+   "msc": ""
+  },
+  "126177": {
+   "id": 126177,
+   "name": "Nicolaus (Mikołaj Kopernik) Copernicus",
+   "degrees": [
+    {
+     "degree": "Juris utriusque Doctor",
+     "school": "Università di Bologna and Università degli Studi di Padova and Uniwersytet Jagielloński and Università degli Studi di Ferrara",
+     "year": "1499",
+     "country": [
+      "Italy",
+      "Italy",
+      "Poland",
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126113,
+    126112
+   ],
+   "students": [
+    126827
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "125681": {
+   "id": 125681,
+   "name": "Jacobus (Jacques Masson) Latomus",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège de Montaigu",
+     "year": "1502",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Dr. theol.",
+     "school": "Katholieke Universiteit Leuven",
+     "year": "1519",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125888
+   ],
+   "students": [
+    125658
+   ],
+   "msc": ""
+  },
+  "125682": {
+   "id": 125682,
+   "name": "Jan (Johannes Campensis) van Campen",
+   "degrees": [
+    {
+     "degree": "Theol. Dr.",
+     "school": "Universität Ingolstadt",
+     "year": "",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Magister artium",
+     "school": "Université Catholique de Louvain",
+     "year": "1519",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125760,
+    125794
+   ],
+   "students": [
+    125658
+   ],
+   "msc": ""
+  },
+  "149192": {
+   "id": 149192,
+   "name": "Ognibene (Omnibonus Leonicenus) Bonisoli da Lonigo",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università di Mantova",
+     "year": "1433",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    134873
+   ],
+   "students": [
+    127166
+   ],
+   "msc": ""
+  },
+  "127144": {
+   "id": 127144,
+   "name": "Pelope",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127166
+   ],
+   "msc": "92—Biology and other natural sciences"
+  },
+  "148882": {
+   "id": 148882,
+   "name": "Gaetano da Thiene",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università degli Studi di Padova",
+     "year": "",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    232227
+   ],
+   "students": [
+    136726,
+    152902
+   ],
+   "msc": ""
+  },
+  "232228": {
+   "id": 232228,
+   "name": "Paolo da Pergola",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    232227
+   ],
+   "students": [
+    152902
+   ],
+   "msc": ""
+  },
+  "164338": {
+   "id": 164338,
+   "name": "Sigismondo Polcastro",
+   "degrees": [
+    {
+     "degree": "B.A.",
+     "school": "Università degli Studi di Padova",
+     "year": "1412",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "M.D.",
+     "school": "Università degli Studi di Padova",
+     "year": "1424",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    136726
+   ],
+   "msc": ""
+  },
+  "131561": {
+   "id": 131561,
+   "name": "Basilios Bessarion",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Mystras",
+     "year": "1436",
+     "country": [
+      "Greece"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131575
+   ],
+   "students": [
+    131444,
+    131541,
+    126109
+   ],
+   "msc": ""
+  },
+  "131576": {
+   "id": 131576,
+   "name": "Demetrios Chalcocondyles",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Mystras and Accademia Romana",
+     "year": "1452",
+     "country": [
+      "Greece",
+      "Greece"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131584
+   ],
+   "students": [
+    131541
+   ],
+   "msc": ""
+  },
+  "126956": {
+   "id": 126956,
+   "name": "Philipp Melanchthon",
+   "degrees": [
+    {
+     "degree": "Baccalaureus artium",
+     "school": "Ruprecht-Karls-Universität Heidelberg",
+     "year": "1511",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Magister artium",
+     "school": "Eberhard-Karls-Universität Tübingen",
+     "year": "1514",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127107,
+    125760
+   ],
+   "students": [
+    127110,
+    128104,
+    182045,
+    127011
+   ],
+   "msc": ""
+  },
+  "126667": {
+   "id": 126667,
+   "name": "Jakob Milich",
+   "degrees": [
+    {
+     "degree": "Liberalium Artium Magister",
+     "school": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+     "year": "1520",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Med. Dr.",
+     "school": "Universität Wien",
+     "year": "1524",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125938,
+    126659
+   ],
+   "students": [
+    126736
+   ],
+   "msc": ""
+  },
+  "119097": {
+   "id": 119097,
+   "name": "Gemma (Jemme Reinerszoon) Frisius",
+   "degrees": [
+    {
+     "degree": "Magister Philosophiae, Medicinae Doctor",
+     "school": "Université Catholique de Louvain",
+     "year": "1529, 1536",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125892
+   ],
+   "students": [
+    119224,
+    119164,
+    119165,
+    119178
+   ],
+   "msc": ""
+  },
+  "128987": {
+   "id": 128987,
+   "name": "François Dubois",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1516",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125422
+   ],
+   "msc": ""
+  },
+  "128921": {
+   "id": 128921,
+   "name": "Jean Tagault",
+   "degrees": [
+    {
+     "degree": "dr. med.",
+     "school": "Sorbonne Université",
+     "year": "1524",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125422
+   ],
+   "msc": ""
+  },
+  "131446": {
+   "id": 131446,
+   "name": "Moses Perez",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127181
+   ],
+   "msc": ""
+  },
+  "131447": {
+   "id": 131447,
+   "name": "Scipione Fortiguerra",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Firenze",
+     "year": "1493",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131535
+   ],
+   "students": [
+    127181
+   ],
+   "msc": ""
+  },
+  "126659": {
+   "id": 126659,
+   "name": "Ulrich Zasius",
+   "degrees": [
+    {
+     "degree": "Doctor legum",
+     "school": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+     "year": "1501",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    131399,
+    126667
+   ],
+   "msc": ""
+  },
+  "125938": {
+   "id": 125938,
+   "name": "Desiderius Erasmus",
+   "degrees": [
+    {
+     "degree": "Theologiae Baccalaureus",
+     "school": "Collège de Montaigu",
+     "year": "1497 /1506",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Divinitatis Doctor",
+     "school": "University of Turin",
+     "year": "1506",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125888,
+    125898
+   ],
+   "students": [
+    131399,
+    126667
+   ],
+   "msc": ""
+  },
+  "126724": {
+   "id": 126724,
+   "name": "Bonifazius Erasmi",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Martin-Luther-Universität Halle-Wittenberg",
+     "year": "1509",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    126730
+   ],
+   "msc": ""
+  },
+  "126113": {
+   "id": 126113,
+   "name": "Leonhard (Leonard Vitreatoris z Dobczyc) von Dobschütz",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Uniwersytet Jagielloński",
+     "year": "1489",
+     "country": [
+      "Poland"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    126177
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "126112": {
+   "id": 126112,
+   "name": "Domenico Maria Novara da Ferrara",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università degli Studi di Firenze",
+     "year": "1483",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126109,
+    126888
+   ],
+   "students": [
+    126177
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "125888": {
+   "id": 125888,
+   "name": "Jan Standonck",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Collège Sainte-Barbe",
+     "year": "1474",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Collège de Montaigu",
+     "year": "1490",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    129893,
+    125938,
+    125681,
+    125939
+   ],
+   "msc": ""
+  },
+  "125760": {
+   "id": 125760,
+   "name": "Johann (Johannes Kapnion) Reuchlin",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Basel",
+     "year": "1477",
+     "country": [
+      "Switzerland"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Juris utriusque Doctor",
+     "school": "Université de Poitiers",
+     "year": "1481",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131444,
+    125755
+   ],
+   "students": [
+    182045,
+    126956,
+    125682
+   ],
+   "msc": ""
+  },
+  "125794": {
+   "id": 125794,
+   "name": "Matthaeus Adrianus",
+   "degrees": [
+    {
+     "degree": "dr. med.",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125682
+   ],
+   "msc": ""
+  },
+  "134873": {
+   "id": 134873,
+   "name": "Vittorino da Feltre",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università degli Studi di Padova",
+     "year": "1416",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    298290,
+    298304,
+    134931
+   ],
+   "students": [
+    149192,
+    131584,
+    298288
+   ],
+   "msc": ""
+  },
+  "232227": {
+   "id": 232227,
+   "name": "Paolo (Nicoletti) da Venezia",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università degli Studi di Padova",
+     "year": "1405",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    232228,
+    148882
+   ],
+   "msc": ""
+  },
+  "131575": {
+   "id": 131575,
+   "name": "Georgios Plethon Gemistos",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "1380, 1393",
+     "country": [],
+     "thesis": "Nómoi (Book of Laws)"
+    }
+   ],
+   "advisors": [
+    134780,
+    134781
+   ],
+   "students": [
+    131561,
+    157015,
+    133754
+   ],
+   "msc": ""
+  },
+  "131584": {
+   "id": 131584,
+   "name": "Theodoros Gazes",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università di Mantova and Imperial University of Constantinople",
+     "year": "1433",
+     "country": [
+      "Italy",
+      "Turkey"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    134873
+   ],
+   "students": [
+    128012,
+    131576
+   ],
+   "msc": ""
+  },
+  "127107": {
+   "id": 127107,
+   "name": "Johannes Stöffler",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Ingolstadt",
+     "year": "1476",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    126956,
+    127365
+   ],
+   "msc": ""
+  },
+  "125892": {
+   "id": 125892,
+   "name": "Petrus (Pieter de Corte) Curtius",
+   "degrees": [
+    {
+     "degree": "Magister artium, Theol. Dr.",
+     "school": "Université Catholique de Louvain",
+     "year": "1513, 1530",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125894
+   ],
+   "students": [
+    119097
+   ],
+   "msc": ""
+  },
+  "131535": {
+   "id": 131535,
+   "name": "Angelo Poliziano",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Firenze",
+     "year": "1477",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131539,
+    131540
+   ],
+   "students": [
+    131589,
+    131447
+   ],
+   "msc": ""
+  },
+  "125898": {
+   "id": 125898,
+   "name": "Alexander Hegius",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "Universität Rostock",
+     "year": "1463",
+     "country": [
+      "Germany"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    128012,
+    140181
+   ],
+   "students": [
+    125938
+   ],
+   "msc": ""
+  },
+  "126109": {
+   "id": 126109,
+   "name": "Johannes Müller Regiomontanus",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Leipzig and Universität Wien",
+     "year": "1457",
+     "country": [
+      "Germany",
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126087,
+    131561
+   ],
+   "students": [
+    126112
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "126888": {
+   "id": 126888,
+   "name": "Luca Pacioli",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    126112
+   ],
+   "msc": ""
+  },
+  "125755": {
+   "id": 125755,
+   "name": "Jacob ben Jehiel Loans",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125760
+   ],
+   "msc": ""
+  },
+  "298290": {
+   "id": 298290,
+   "name": "Gasparino da Barzizza",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università degli Studi di Padova",
+     "year": "1413",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    134873
+   ],
+   "msc": ""
+  },
+  "298304": {
+   "id": 298304,
+   "name": "Giovanni Conversini",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Università di Bologna",
+     "year": "1363",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    134873,
+    134931
+   ],
+   "msc": ""
+  },
+  "134931": {
+   "id": 134931,
+   "name": "Guarino da Verona",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Imperial University of Constantinople",
+     "year": "1408",
+     "country": [
+      "Turkey"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    135185,
+    298304
+   ],
+   "students": [
+    134873
+   ],
+   "msc": ""
+  },
+  "134780": {
+   "id": 134780,
+   "name": "Demetrios Kydones",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    146365
+   ],
+   "students": [
+    135185,
+    131575
+   ],
+   "msc": ""
+  },
+  "134781": {
+   "id": 134781,
+   "name": "Elissaeus Judaeus",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    131575
+   ],
+   "msc": ""
+  },
+  "125894": {
+   "id": 125894,
+   "name": "Maarten (Martinus Dorpius) van Dorp",
+   "degrees": [
+    {
+     "degree": "Magister artium, Theol. Dr.",
+     "school": "Université Catholique de Louvain",
+     "year": "1504, 1515",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    125897
+   ],
+   "students": [
+    125892
+   ],
+   "msc": ""
+  },
+  "131539": {
+   "id": 131539,
+   "name": "Marsilio Ficino",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Firenze",
+     "year": "1462",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131444
+   ],
+   "students": [
+    131535
+   ],
+   "msc": ""
+  },
+  "131540": {
+   "id": 131540,
+   "name": "Cristoforo Landino",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    298288
+   ],
+   "students": [
+    131535
+   ],
+   "msc": ""
+  },
+  "128012": {
+   "id": 128012,
+   "name": "Rudolf Agricola",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Università degli Studi di Ferrara",
+     "year": "1478",
+     "country": [
+      "Italy"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    131584
+   ],
+   "students": [
+    128013,
+    125898
+   ],
+   "msc": ""
+  },
+  "140181": {
+   "id": 140181,
+   "name": "Thomas von Kempen à Kempis",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    179836,
+    179837
+   ],
+   "students": [
+    125898
+   ],
+   "msc": ""
+  },
+  "126087": {
+   "id": 126087,
+   "name": "Georg von Peuerbach",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Wien",
+     "year": "1440",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    126887
+   ],
+   "students": [
+    126109
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "135185": {
+   "id": 135185,
+   "name": "Manuel Chrysoloras",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    134780
+   ],
+   "students": [
+    134931
+   ],
+   "msc": ""
+  },
+  "146365": {
+   "id": 146365,
+   "name": "Nilos Kabasilas",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "1363",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    176844
+   ],
+   "students": [
+    134780
+   ],
+   "msc": ""
+  },
+  "125897": {
+   "id": 125897,
+   "name": "Leo Outers",
+   "degrees": [
+    {
+     "degree": "Magister artium, Theol. Dr.",
+     "school": "Université Catholique de Louvain",
+     "year": "1485",
+     "country": [
+      "Belgium"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    125894
+   ],
+   "msc": ""
+  },
+  "298288": {
+   "id": 298288,
+   "name": "George of Trebizond",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    134873
+   ],
+   "students": [
+    131540
+   ],
+   "msc": ""
+  },
+  "179836": {
+   "id": 179836,
+   "name": "Geert (Gerardus Magnus) Groote",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1358",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    140181
+   ],
+   "msc": ""
+  },
+  "179837": {
+   "id": 179837,
+   "name": "Florens (Florentius Radwyn) Radewyns",
+   "degrees": [
+    {
+     "degree": "M.A.",
+     "school": "Charles University",
+     "year": "1378",
+     "country": [
+      "CzechRepublic"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    140181
+   ],
+   "msc": ""
+  },
+  "126887": {
+   "id": 126887,
+   "name": "Johannes von Gmunden",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Universität Wien",
+     "year": "1406",
+     "country": [
+      "Austria"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    127264
+   ],
+   "students": [
+    126087
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "176844": {
+   "id": 176844,
+   "name": "Gregory Palamas",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Imperial University of Constantinople",
+     "year": "1316",
+     "country": [
+      "Turkey"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    184631
+   ],
+   "students": [
+    146365
+   ],
+   "msc": ""
+  },
+  "127264": {
+   "id": 127264,
+   "name": "Heinrich von Langenstein",
+   "degrees": [
+    {
+     "degree": "Magister artium",
+     "school": "Université de Paris",
+     "year": "1363",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    },
+    {
+     "degree": "Theol. Dr.",
+     "school": "Université de Paris",
+     "year": "1375",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    199357
+   ],
+   "students": [
+    126887
+   ],
+   "msc": ""
+  },
+  "184631": {
+   "id": 184631,
+   "name": "Theodore Metochites",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Imperial University of Constantinople",
+     "year": "1315",
+     "country": [
+      "Turkey"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    184632
+   ],
+   "students": [
+    187070,
+    176844
+   ],
+   "msc": "00—General"
+  },
+  "199357": {
+   "id": 199357,
+   "name": "Nicole Oresme",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Université de Paris",
+     "year": "1356",
+     "country": [
+      "France"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    127264
+   ],
+   "msc": ""
+  },
+  "184632": {
+   "id": 184632,
+   "name": "Manuel Bryennios",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Imperial University of Constantinople",
+     "year": "1300",
+     "country": [
+      "Turkey"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    201288
+   ],
+   "students": [
+    184631
+   ],
+   "msc": ""
+  },
+  "201288": {
+   "id": 201288,
+   "name": "Gregory Chioniadis",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Ilkhans Court at Tabriz",
+     "year": "1296",
+     "country": [
+      "Iran"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    204293
+   ],
+   "students": [
+    184632
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "204293": {
+   "id": 204293,
+   "name": "Shams al‐Dīn al‐Bukhārī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "Maragheh Observatory",
+     "year": "",
+     "country": [
+      "Iran"
+     ],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    217509
+   ],
+   "students": [
+    201288
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "217509": {
+   "id": 217509,
+   "name": "Nasir al-Dīn al-Ṭūsī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    223724,
+    287480
+   ],
+   "students": [
+    204293,
+    287495
+   ],
+   "msc": ""
+  },
+  "223724": {
+   "id": 223724,
+   "name": "Kamāl al-Dīn Ibn Yūnus",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    230926,
+    287466
+   ],
+   "students": [
+    287480,
+    217509
+   ],
+   "msc": ""
+  },
+  "287480": {
+   "id": 287480,
+   "name": "Athīr al-Dīn al-Mufaḍḍal al-Abharī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "1264",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    223724,
+    287479
+   ],
+   "students": [
+    217509
+   ],
+   "msc": ""
+  },
+  "230926": {
+   "id": 230926,
+   "name": "Sharaf al-Dīn al-Ṭūsī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    223724
+   ],
+   "msc": ""
+  },
+  "287466": {
+   "id": 287466,
+   "name": "Saraf al-Dīn Muhammad al-Masʿūdī al-Marwazī",
+   "degrees": [
+    {
+     "degree": "Polymath",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    295739
+   ],
+   "students": [
+    287478,
+    223724
+   ],
+   "msc": "85—Astronomy and astrophysics"
+  },
+  "287479": {
+   "id": 287479,
+   "name": "Qutb al-Dīn Ibrāhīm al-Mīṣrī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "1222",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    287478
+   ],
+   "students": [
+    287480
+   ],
+   "msc": ""
+  },
+  "295739": {
+   "id": 295739,
+   "name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "1068",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    287468
+   ],
+   "students": [
+    287466
+   ],
+   "msc": ""
+  },
+  "287478": {
+   "id": 287478,
+   "name": "Fakhr al-Dīn Muhammad al-Rēzī",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    287466
+   ],
+   "students": [
+    287479
+   ],
+   "msc": ""
+  },
+  "287468": {
+   "id": 287468,
+   "name": "Bahmanyār ibn al-Marzubān",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    298616
+   ],
+   "students": [
+    295739
+   ],
+   "msc": ""
+  },
+  "298616": {
+   "id": 298616,
+   "name": "Abu ʿAli al-Husayn (Avicenna) ibn Sina",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [
+    316872,
+    310782,
+    316873
+   ],
+   "students": [
+    287468
+   ],
+   "msc": ""
+  },
+  "316872": {
+   "id": 316872,
+   "name": "Abu Abdallah Al-Husayn ibn Ibrahim al-Natili",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    298616
+   ],
+   "msc": ""
+  },
+  "310782": {
+   "id": 310782,
+   "name": "Abu Sahl 'Isa ibn Yahya al-Masihi",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    298616
+   ],
+   "msc": ""
+  },
+  "316873": {
+   "id": 316873,
+   "name": "Abu Mansur al-Hasan ibn Nuh al-Qumri",
+   "degrees": [
+    {
+     "degree": "",
+     "school": "",
+     "year": "",
+     "country": [],
+     "thesis": ""
+    }
+   ],
+   "advisors": [],
+   "students": [
+    298616
+   ],
+   "msc": ""
+  }
+ }
+}

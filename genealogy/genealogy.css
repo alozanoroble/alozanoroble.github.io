@@ -1,0 +1,57 @@
+/* Genealogy page, on top of ../styles.css */
+.g-hero { padding: 3.5rem 0 0.5rem; max-width: 46rem; }
+@media (min-width: 880px) { .g-hero { padding-top: 4.5rem; } }
+.g-stats { font: 500 0.85rem var(--mono); color: var(--muted); }
+.g-block { padding-top: 2.25rem; border-top: 1px solid var(--rule); margin-top: 1.75rem; }
+.g-block h2 { margin-bottom: 0.6rem; }
+.g-block .section-note { margin: 0 0 1.25rem; max-width: 46rem; }
+
+/* students */
+.g-students { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.st { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.15rem; border: 1px solid var(--rule);
+  border-radius: 10px; background: var(--paper); }
+.st-name { font: 500 1.15rem var(--serif); color: var(--ink); }
+.st-name:hover { color: var(--accent); }
+.st-deg { font: 400 0.8rem var(--mono); color: var(--muted); }
+.st-grand { font: 500 0.78rem var(--mono); color: var(--pre); }
+.thesis { font: italic 400 0.98rem/1.45 var(--serif); color: var(--ink); }
+
+/* lineage */
+.line { list-style: none; margin: 0; padding: 0 0 0 1.5rem; position: relative; max-width: 46rem; }
+.line::before { content: ""; position: absolute; left: 0.45rem; top: 0.6rem; bottom: 0.6rem; width: 2px; background: var(--rule); }
+.node { position: relative; padding: 0 0 1.1rem; }
+.node::before { content: ""; position: absolute; left: -1.5rem; top: 0.45rem; width: 0.9rem; height: 0.9rem; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--accent); box-sizing: border-box; }
+.node.me::before { background: var(--accent); }
+.gen { display: block; font: 500 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.2rem; }
+.card { display: flex; flex-direction: column; gap: 0.25rem; }
+.card .name { font: 500 1.2rem var(--serif); color: var(--ink); }
+.card .name:hover { color: var(--accent); }
+.node.me .name { color: var(--accent); }
+.card .deg { font: 400 0.82rem var(--mono); color: var(--muted); }
+.branch { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-top: 0.4rem; }
+.branch-label { font-size: 0.88rem; color: var(--muted); margin-right: 0.2rem; }
+.chip { font: 500 0.85rem var(--sans); color: var(--muted); background: var(--paper); border: 1px solid var(--rule);
+  border-radius: 999px; padding: 0.2rem 0.75rem; cursor: pointer; }
+.chip:hover { color: var(--accent); border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+
+/* outline */
+.g-tools { display: flex; gap: 0.6rem; margin-bottom: 1rem; }
+.g-tools .btn { font: 600 0.9rem var(--sans); cursor: pointer; padding: 0.35rem 0.9rem; }
+.outline { font-size: 0.98rem; overflow-x: auto; padding-bottom: 0.5rem; }
+.outline > * { min-width: max-content; }
+.o-kids { margin-left: 0.55rem; padding-left: 1.1rem; border-left: 1px solid var(--rule); }
+@media (max-width: 640px) { .o-kids { margin-left: 0.3rem; padding-left: 0.6rem; } .o-meta { display: none; } }
+.o-node > summary { cursor: pointer; padding: 0.22rem 0; list-style: none; }
+.o-node > summary::-webkit-details-marker { display: none; }
+.o-node > summary::before { content: "▸"; display: inline-block; width: 1rem; color: var(--accent); transition: transform .12s; }
+.o-node[open] > summary::before { transform: rotate(90deg); }
+.o-leaf { padding: 0.22rem 0 0.22rem 1rem; }
+.o-head { display: inline-flex; flex-wrap: wrap; gap: 0.2rem 0.6rem; align-items: baseline; }
+.o-name { color: var(--ink); font-weight: 500; }
+.o-name:hover { color: var(--accent); }
+.o-meta { font: 400 0.8rem var(--mono); color: var(--muted); }
+.o-seen { font: 400 0.78rem var(--mono); color: var(--pre); margin-left: 0.6rem; }
+.g-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }
+.katex { font-size: 1em; }
