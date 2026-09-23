@@ -62,6 +62,17 @@ h1 { font: 500 clamp(2.2rem, 5.5vw, 3.4rem)/1.08 var(--serif); margin: 0 0 1.25r
 .btn:hover { filter: brightness(1.08); }
 
 .hero-side { display: grid; gap: 1.25rem; }
+/* Side by side: the text's children join the hero grid directly, so the
+   photo can start on the same row as the lede ("I am a Professor..."),
+   below the kicker and the name however many lines the name takes. */
+@media (min-width: 880px) {
+  .hero { row-gap: 0; column-gap: 2.5rem; grid-template-rows: auto auto auto auto auto 1fr; }
+  .hero-text { display: contents; }
+  .hero-text > * { grid-column: 1; }
+  .hero-text > p:not(.kicker) { margin-top: 0; margin-bottom: 1.0625rem; }  /* grid items do not collapse margins */
+  .hero-text > .hero-links { margin-top: 0.7rem; }
+  .hero-side { grid-column: 2; grid-row: 3 / 7; }
+}
 .portrait { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); }
 @media (max-width: 879px) {
   .hero-side { order: -1; }
