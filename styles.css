@@ -61,11 +61,10 @@ h1 { font: 500 clamp(2.2rem, 5.5vw, 3.4rem)/1.08 var(--serif); margin: 0 0 1.25r
 .btn:hover { filter: brightness(1.08); }
 
 .hero-side { display: grid; gap: 1.25rem; }
-.portrait { width: 100%; max-width: 20rem; height: auto; aspect-ratio: 1; object-fit: cover;
-  border-radius: 12px; border: 1px solid var(--rule); justify-self: center; }
+.portrait { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); }
 @media (max-width: 879px) {
   .hero-side { order: -1; }
-  .portrait { max-width: 11rem; justify-self: start; border-radius: 50%; }
+  .portrait { max-width: 22rem; }
   .hero-art { display: none; }
 }
 .hero-art { margin: 0; background: var(--raised); border: 1px solid var(--rule); border-radius: 10px; padding: 1rem 1rem 0.75rem; }
@@ -101,6 +100,23 @@ h3 { font: 500 1.25rem/1.3 var(--serif); margin: 0 0 0.5rem; }
 .app-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
 @media (min-width: 720px) { .app-grid { grid-template-columns: 1fr 1fr; } }
 .app { border: 1px solid var(--rule); border-radius: 10px; padding: 1.25rem 1.4rem; display: flex; flex-direction: column; }
+.thumb { display: block; margin: -1.25rem -1.4rem 1.1rem; background: var(--raised);
+  border-bottom: 1px solid var(--rule); border-radius: 10px 10px 0 0; }
+.fig { display: block; width: 100%; height: auto; }
+.fig .ax { stroke: var(--rule); stroke-width: 1; }
+.fig .ln { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+.fig .dash { stroke: var(--pre); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.fig .dot { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 3; }
+.fig .pt { fill: var(--ink); }
+.fig .hl { fill: var(--pre); }
+.fig .grid { fill: var(--muted); opacity: 0.45; }
+.fig .edge { stroke: var(--muted); stroke-width: 1.3; }
+.fig .arrowhead { fill: var(--muted); }
+.fig .node { fill: var(--paper); stroke: var(--accent); stroke-width: 1.6; }
+.fig .hlnode { fill: var(--accent-soft); }
+.fig text { font: 500 11px var(--mono); fill: var(--ink); }
+.fig .hlt { fill: var(--pre); }
+.app:hover .thumb { background: var(--accent-soft); }
 .app h3 a { color: var(--ink); text-decoration: none; }
 .app h3 a:hover { color: var(--accent); }
 .app p { margin: 0 0 0.9rem; color: var(--muted); }
