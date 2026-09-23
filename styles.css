@@ -88,7 +88,7 @@ h3 { font: 500 1.25rem/1.3 var(--serif); margin: 0 0 0.5rem; }
 
 .app-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
 @media (min-width: 720px) { .app-grid { grid-template-columns: 1fr 1fr; } }
-.app { border: 1px solid var(--rule); border-radius: 10px; padding: 1.25rem 1.4rem; display: flex; flex-direction: column; }
+.app { background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 1.25rem 1.4rem; display: flex; flex-direction: column; }
 .thumb { display: block; margin: -1.25rem -1.4rem 1.1rem; background: var(--raised);
   border-bottom: 1px solid var(--rule); border-radius: 10px 10px 0 0; }
 .fig { display: block; width: 100%; height: auto; }
@@ -117,12 +117,12 @@ h3 { font: 500 1.25rem/1.3 var(--serif); margin: 0 0 0.5rem; }
 .foot { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; padding-bottom: 2.5rem;
   color: var(--muted); font-size: 0.9rem; }
 
-/* Group-law figure in the empty right-hand margin of wide screens only.
-   Content is 68rem wide; the figure fills the gutter beside it and never
-   sits behind text. */
+/* Group-law figure in the right-hand margin of wide screens only. Content is
+   68rem wide; the figure fills the gutter and reaches 13rem into the page,
+   i.e. partly behind the photo (right column), never behind the hero text. */
 .bg-art { display: none; position: fixed; top: 0; bottom: 0; right: 0; z-index: -1; pointer-events: none;
-  width: calc((100vw - 68rem) / 2); padding: 0 1.5rem; opacity: 0.16; }
-@media (min-width: 1560px) { .bg-art { display: block; } }
+  width: calc((100vw - 68rem) / 2 + 13rem); padding: 0 1.5rem 0 0; opacity: 0.16; }
+@media (min-width: 1600px) { .bg-art { display: block; } }
 .bg-art svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .bg-art * { vector-effect: non-scaling-stroke; }
 .bg-art .axis { stroke: var(--muted); stroke-width: 1; }
