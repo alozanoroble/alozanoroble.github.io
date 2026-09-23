@@ -28,8 +28,9 @@ body {
   font: 400 1.0625rem/1.6 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
-a { color: var(--accent); text-underline-offset: 0.18em; }
-a:hover { text-decoration-thickness: 2px; }
+a { color: var(--accent); text-decoration: none; text-underline-offset: 0.18em; }
+a:hover { text-decoration: underline; }
+.btn:hover, .feature:hover, .thumb:hover, .brand:hover, nav a:hover, .app h3 a:hover { text-decoration: none; }
 em { font-style: italic; }
 
 .wrap { max-width: 68rem; margin: 0 auto; padding: 0 16px; }
