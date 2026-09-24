@@ -3,7 +3,7 @@
 (function () {
   var MGP = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=";
   var $ = function (id) { return document.getElementById(id); };
-  var P, ROOT, EXTRA = [], choice = {};
+  var P, ROOT, EXTRA = [], HOME = {}, choice = {};
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -48,10 +48,19 @@
     kids.sort(function (a, b) { return (yearOf(a) || 0) - (yearOf(b) || 0); });
     kids.forEach(function (s) {
       var c = el("div", "st");
-      c.appendChild(link(s, "st-name"));
+      var home = s.url || HOME[s.id];
+      var nm = link(s, "st-name");
+      if (home) nm.href = home;
+      c.appendChild(nm);
       c.appendChild(el("span", "st-deg", degLine(s)));
       var t = thesisEl(s);
       if (t) c.appendChild(t);
+      if (home && s.id) {
+        var g = el("a", "st-mgp", "Math Genealogy");
+        g.href = MGP + s.id;
+        g.rel = "noopener";
+        c.appendChild(g);
+      }
       var grand = s.students.length;
       if (grand) c.appendChild(el("span", "st-grand", grand + (grand === 1 ? " student" : " students") + " of their own"));
       box.appendChild(c);
@@ -170,6 +179,7 @@
       .catch(function () { return { students: [] }; })
       .then(function (x) {
         var norm = function (n) { return (n || "").toLowerCase().normalize("NFD").replace(/[^a-z]/g, ""); };
+        HOME = x.homepages || {};
         var have = {};
         P[ROOT].students.forEach(function (id) { if (P[id]) have[norm(P[id].name)] = 1; });
         EXTRA = (x.students || []).filter(function (s) { return !have[norm(s.name)]; }).map(function (s) {

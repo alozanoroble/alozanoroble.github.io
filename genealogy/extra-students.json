@@ -1,5 +1,12 @@
 {
- "_comment": "Students not (yet) in the Mathematics Genealogy Project. Merged into the page by genealogy.js, so a recrawl never loses them. If one appears in MGP later, remove them here.",
+ "_comment": "Students not (yet) in the Mathematics Genealogy Project, plus personal-site links for students who are. Merged into the page by genealogy.js, so a recrawl never loses them. If a student here appears in MGP later, remove them from 'students'.",
+ "homepages": {
+  "_comment": "MGP id -> personal site, checked 2026-09-24. Robert McDonald (252035) has none that loads: mathrjsm.com no longer resolves, his UConn grad and Yale pages are gone.",
+  "173285": "https://hdaniels.people.amherst.edu/",
+  "233348": "https://mathematics-computer-science.providence.edu/faculty-profiles/michael-chou/",
+  "273576": "https://sites.google.com/view/garenmath/home",
+  "347462": "https://asiminah.github.io/"
+ },
  "students": [
   {
    "name": "Benjamin York",

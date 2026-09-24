@@ -13,6 +13,8 @@
 .st-name { font: 500 1.15rem var(--serif); color: var(--ink); }
 .st-name:hover { color: var(--accent); }
 .st-deg { font: 400 0.8rem var(--mono); color: var(--muted); }
+.st-mgp { font: 400 0.78rem var(--mono); color: var(--muted); align-self: flex-start; }
+.st-mgp:hover { color: var(--accent); }
 .st-grand { font: 500 0.78rem var(--mono); color: var(--pre); }
 .thesis { font: italic 400 0.98rem/1.45 var(--serif); color: var(--ink); }
 
