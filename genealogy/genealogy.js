@@ -3,7 +3,7 @@
 (function () {
   var MGP = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=";
   var $ = function (id) { return document.getElementById(id); };
-  var P, ROOT, choice = {};
+  var P, ROOT, EXTRA = [], choice = {};
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -13,7 +13,7 @@
   }
   function link(p, cls) {
     var a = el("a", cls, p.name);
-    a.href = MGP + p.id;
+    a.href = p.url || MGP + p.id;
     a.rel = "noopener";
     return a;
   }
@@ -44,7 +44,7 @@
   // ----- students -----
   function renderStudents() {
     var box = $("student-list"), me = P[ROOT];
-    var kids = me.students.map(function (id) { return P[id]; }).filter(Boolean);
+    var kids = me.students.map(function (id) { return P[id]; }).filter(Boolean).concat(EXTRA);
     kids.sort(function (a, b) { return (yearOf(a) || 0) - (yearOf(b) || 0); });
     kids.forEach(function (s) {
       var c = el("div", "st");
@@ -147,7 +147,7 @@
     }
     var ids = Object.keys(up), years = ids.map(function (i) { return yearOf(P[i]); }).filter(Boolean);
     var earliest = years.length ? Math.min.apply(null, years) : null;
-    var nStud = P[ROOT].students.length;
+    var nStud = P[ROOT].students.length + EXTRA.length;
     $("stats").textContent = ids.length + " recorded ancestors over " + maxd + " generations" +
       (earliest ? ", back to " + earliest : "") + " · " + nStud + (nStud === 1 ? " student" : " students");
   }
@@ -166,6 +166,19 @@
       P[k].advisors = (P[k].advisors || []).map(String);
       P[k].students = (P[k].students || []).map(String);
     });
+    return fetch("extra-students.json").then(function (r) { return r.ok ? r.json() : { students: [] }; })
+      .catch(function () { return { students: [] }; })
+      .then(function (x) {
+        var norm = function (n) { return (n || "").toLowerCase().normalize("NFD").replace(/[^a-z]/g, ""); };
+        var have = {};
+        P[ROOT].students.forEach(function (id) { if (P[id]) have[norm(P[id].name)] = 1; });
+        EXTRA = (x.students || []).filter(function (s) { return !have[norm(s.name)]; }).map(function (s) {
+          return { name: s.name, url: s.url, students: [],
+                   degrees: [{ degree: s.degree, school: s.school, year: s.year, thesis: s.thesis }] };
+        });
+        return data;
+      });
+  }).then(function (data) {
     stats();
     renderStudents();
     renderLine();

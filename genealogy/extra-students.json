@@ -1,0 +1,13 @@
+{
+ "_comment": "Students not (yet) in the Mathematics Genealogy Project. Merged into the page by genealogy.js, so a recrawl never loses them. If one appears in MGP later, remove them here.",
+ "students": [
+  {
+   "name": "Benjamin York",
+   "url": "https://benjamin-york.github.io/",
+   "degree": "Ph.D.",
+   "school": "University of Connecticut",
+   "year": "2025",
+   "thesis": "On the classification of ell-adic and adelic images of Galois representations attached to elliptic curves with CM."
+  }
+ ]
+}
