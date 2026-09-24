@@ -1,0 +1,51 @@
+/* Books and Articles pages, on top of ../styles.css */
+.bk { max-width: 52rem; padding-top: 3.5rem; padding-bottom: 1rem; }
+@media (min-width: 880px) { .bk { padding-top: 4.5rem; } }
+.bk-head { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; margin-bottom: 0.5rem; }
+.bk-head .kicker { margin-bottom: 1.1rem; }
+.bk-head h1 { margin-bottom: 0.6rem; }
+.bk-head .lede { margin: 0; max-width: 42rem; }
+.bk-sec { padding-top: 2rem; }
+.bk-sec > h2 { margin-bottom: 1rem; }
+
+.book { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.5rem; padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+.book:first-of-type { border-top: 0; padding-top: 0.25rem; }
+@media (max-width: 560px) { .book { grid-template-columns: 6.5rem 1fr; gap: 1rem; } }
+.book-cover img { display: block; width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--rule);
+  box-shadow: 0 6px 18px -8px rgba(0, 0, 0, 0.35); }
+.book-body { display: flex; flex-direction: column; gap: 0.35rem; }
+.book-title { font: 500 1.35rem/1.25 var(--serif); margin: 0; }
+.book-title a { color: var(--ink); }
+.book-title a:hover { color: var(--accent); text-decoration: none; }
+.book-sub { font: italic 400 1.05rem var(--serif); color: var(--muted); margin: 0; }
+.book-meta { font: 400 0.8rem/1.6 var(--mono); color: var(--muted); margin: 0.2rem 0 0.3rem; }
+.book-body p { margin: 0 0 0.4rem; }
+.book-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.4rem; }
+.book-links .btn { font: 600 0.9rem var(--sans); padding: 0.4rem 0.9rem; }
+.book-note { font-size: 0.92rem; color: var(--muted); }
+
+.art-card { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
+  padding: 1.25rem 1.4rem; border: 1px solid var(--rule); border-radius: 10px; background: var(--raised); color: var(--ink);
+  transition: border-color .15s, transform .15s; }
+.art-card:hover { border-color: var(--accent); transform: translateY(-2px); text-decoration: none; }
+.art-card h3 { margin: 0 0 0.3rem; }
+.art-card p { margin: 0; color: var(--muted); }
+.art-go { font: 500 0.85rem var(--mono); color: var(--accent); white-space: nowrap; }
+
+/* Number Theory and Geometry subpage */
+.crumb { font: 400 0.85rem var(--mono); color: var(--muted); margin: 0 0 1rem; }
+.ntg-top { display: grid; grid-template-columns: 1fr 12rem; gap: 2rem; align-items: start; }
+@media (max-width: 720px) { .ntg-top { grid-template-columns: 1fr; } .ntg-top .book-cover { max-width: 10rem; order: -1; } }
+.ntg-top p { max-width: 38rem; }
+.free { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.25rem 0 0.5rem; }
+.free .btn { font: 600 0.98rem var(--sans); }
+.ntg-notes { margin: 0; padding-left: 1.2rem; }
+.ntg-notes li { margin: 0.35rem 0; }
+.toc { margin: 0; padding: 0; list-style: none; columns: 2 20rem; column-gap: 2.5rem; }
+.toc .part { break-after: avoid; font: 600 0.78rem var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent);
+  margin: 0.9rem 0 0.3rem; }
+.toc .part:first-child { margin-top: 0; }
+.toc li { padding: 0.18rem 0 0.18rem 1.9rem; text-indent: -1.9rem; break-inside: avoid; }
+.toc li.part { padding-left: 0; text-indent: 0; }
+.toc .n { display: inline-block; width: 1.9rem; font: 400 0.82rem var(--mono); color: var(--muted); }
+.bk-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }

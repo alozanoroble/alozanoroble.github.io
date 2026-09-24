@@ -11,7 +11,7 @@
 
   var HOME = "https://alozanoroble.github.io/";
   var LINKS = [
-    { href: HOME + "articles/", label: "Articles", match: "/articles/" },
+    { href: HOME + "books/", label: "Books & Articles", match: ["/books/", "/articles/"] },
     { href: HOME + "mathandcobb/", label: "MathAndCobb", match: "/mathandcobb/" },
     { href: HOME + "courses/", label: "Courses", match: "/courses/" },
     { href: HOME + "#apps", label: "Apps", match: null }
@@ -42,8 +42,9 @@
     "@media (max-width:480px){nav{gap:12px}nav a{font-size:13.5px}}";
 
   var nav = LINKS.map(function (l) {
-    var cur = l.match ? path.indexOf(l.match) === 0 : APPS.some(function (p) { return path.indexOf(p) === 0; });
-    return '<a href="' + l.href + '"' + (cur ? ' aria-current="page"' : "") + ">" + l.label + "</a>";
+    var m = l.match == null ? APPS : [].concat(l.match);
+    var cur = m.some(function (p) { return path.indexOf(p) === 0; });
+    return '<a href="' + l.href + '"' + (cur ? ' aria-current="page"' : "") + ">" + l.label.replace("&", "&amp;") + "</a>";
   }).join("");
   root.innerHTML = "<style>" + css + '</style><div class="bar" part="bar"><div class="in">' +
     '<a class="brand" href="' + HOME + '">Á. Lozano-Robledo</a>' +
