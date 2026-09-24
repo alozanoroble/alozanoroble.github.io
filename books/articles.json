@@ -1,0 +1,994 @@
+{
+ "items": [
+  {
+   "key": "1",
+   "title": "Buscando puntos racionales en curvas elípticas: Métodos explícitos",
+   "where": "La Gaceta de la RSME 8 (2005), no. 2, 471–488",
+   "date": "2005-01",
+   "year": "2005",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "rational points",
+    "explicit methods",
+    "Spanish"
+   ],
+   "abstract": "¿Qué números naturales son área de un triángulo recto con lados racionales? Decimos que estos son números congruentes. Por ejemplo, el triángulo asociado a la terna pitagórica $(3,4,5)$ tiene área $6$. Sorprendentemente, un número natural $n$ es congruente si y sólo si la ecuación $y^2 = x^3 - n^2 x$ tiene infinitas soluciones racionales. Esta ecuación es un ejemplo de curva elíptica. Del mismo modo, muchos otros problemas aritméticos y geométricos están relacionados con curvas de este tipo. Lamentablemente, hasta la fecha no se ha encontrado un algoritmo capaz de encontrar todas los puntos racionales en curvas elípticas. En este artículo presentamos algunos de los métodos parciales y resultados más eficientes en este campo.",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Buscando_Puntos_Racionales_Curvas_Elipticas.pdf",
+   "n": 1
+  },
+  {
+   "key": "2",
+   "title": "On certain closed subgroups of SL(2, Z_p[[X]])",
+   "where": "Revista Colombiana de Matemáticas 39 (2005), 13–19",
+   "date": "2005-01",
+   "year": "2005",
+   "preprint": false,
+   "category": "Galois Representations",
+   "tags": [
+    "p-adic groups",
+    "Iwasawa algebras"
+   ],
+   "abstract": "Let p > 2 be a prime number and let Λ = Zp[[X]] be the ring of power series with p-adic integer coefficients. The special linear group of matrices SL(2 , Λ) is equipped with several natural projections. In particular, let πX : SL(2 , Λ) − →SL(2,Zp) be the natural projection which sends X ↦→ 0. Suppose that G is a subgroup of SL(2 , Λ) such that the projection H = πX (G) is known. In this note, different criteria are found which guarantee that the subgroup G of SL(2 , Λ) is \"as large as possible\", i.e. G is the full inverse image of H. Criteria of this sort have interesting applications in the theory of Galois representations",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Closed_Subgroups_of_SL2_Zp_X.pdf",
+   "n": 2
+  },
+  {
+   "key": "3",
+   "title": "On the surjectivity of Galois representations attached to elliptic curves over number fields",
+   "where": "Acta Arithmetica 117 (2005), no. 3, 283–291",
+   "date": "2005-01",
+   "year": "2005",
+   "preprint": false,
+   "category": "Galois Representations",
+   "tags": [
+    "surjectivity",
+    "number fields"
+   ],
+   "abstract": "Let A be an elliptic curve over a number field K, let p ≥ 7 be a prime and let ℘ be a prime ideal of K lying above p, such that the j-invariant of A is non-integral at ℘. We extend a result of Rohrlich to show that a certain deformation of the Galois representation attached to the Tate module of A is surjective, under some restrictions involving the ramification index of ℘, p and j(A)",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": "10.4064/aa117-3-6",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Surjectivity_of_Galois_Representations.pdf",
+   "n": 3
+  },
+  {
+   "key": "4",
+   "title": "On elliptic units and p-adic Galois representations attached to elliptic curves",
+   "where": "Journal of Number Theory 117 (2006), no. 2, 439–470",
+   "date": "2006-04",
+   "year": "2006",
+   "preprint": false,
+   "category": "Iwasawa Theory & p-adic L-functions",
+   "tags": [
+    "elliptic units",
+    "p-adic representations"
+   ],
+   "abstract": "Let K be a quadratic imaginary number field with discriminant DK ⁄= −3, −4 and class number one. Fix a prime p ≥ 7 which is not ramified in K and write hp for the class number of the ray class field of K of conductor p. Given an elliptic curve A/K with complex multiplication by K, let ρA : Gal( K/K (µp∞)) → SL(2, Zp) be the representation which arises from the action of Galois on the Tate module. Herein it is shown that if p ∤ hp then the image of a certain deformation ρA : Gal( K/K (µp∞)) → SL(2, Zp[[X]]) of ρA is \"as big as possible\", that is, it is the full inverse image of a Cartan subgroup of SL(2 , Zp). The proof rests on the theory of Siegel functions and elliptic units as developed by Kubert, Lang and Robert",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2005.07.001",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11F80",
+    "11G05",
+    "11G16"
+   ],
+   "file": "Lozano-Robledo__Elliptic_Units_and_p-adic_Galois_Representations.pdf",
+   "n": 4
+  },
+  {
+   "key": "6",
+   "title": "Bernoulli numbers, Hurwitz numbers, p-adic L-functions and Kummer's criterion",
+   "where": "RACSAM 101 (2007), no. 1, 1–32",
+   "date": "2007-01",
+   "year": "2007",
+   "preprint": false,
+   "category": "Iwasawa Theory & p-adic L-functions",
+   "tags": [
+    "Bernoulli numbers",
+    "Hurwitz numbers",
+    "Kummer's criterion"
+   ],
+   "abstract": "Let $K = \\mathbb{Q}(\\zeta_p)$ and let $h_p$ be its class number. Kummer showed that $p$ divides $h_p$ if and only if $p$ divides the numerator of some Bernoulli number. In this expository note we discuss the generalizations of this type of criterion to totally real fields and quadratic imaginary fields.",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Bernoulli_Hurwitz_Numbers_p-adic_L-functions_Kummer.pdf",
+   "n": 5
+  },
+  {
+   "key": "5",
+   "title": "Constructing elliptic curves over Q(t) with moderate rank",
+   "where": "Journal of Number Theory 123 (2007), no. 2, 388–402",
+   "date": "2007-04",
+   "year": "2007",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "explicit constructions",
+    "elliptic surfaces"
+   ],
+   "abstract": "We give several new constructions for moderate rank elliptic curves over $\\mathbb{Q}(T)$. In particular we construct infinitely many rational elliptic surfaces (not in Weierstrass form) of rank 6 over $\\mathbb{Q}$ using polynomials of degree two in $T$. While our method generates linearly independent points, we are able to show the rank is exactly 6 \\emph{without} having to verify the points are independent. The method generalizes; however, the higher rank surfaces are not rational, and we need to check that the constructed points are linearly independent.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": "math/0406579",
+   "html": "https://arxiv.org/html/math/0406579",
+   "msc": [],
+   "file": "Lozano-Robledo__Constructing_Elliptic_Curves_over_Qt_with_Moderate_Rank.pdf",
+   "n": 6
+  },
+  {
+   "key": "7",
+   "title": "Ranks of abelian varieties over infinite extensions of the rationals",
+   "where": "Manuscripta Mathematica 126 (2008), no. 3, 393–407",
+   "date": "2008-07",
+   "year": "2008",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "abelian varieties",
+    "infinite extensions"
+   ],
+   "abstract": "Let S be an infinite set of rational primes and, for some p ∈ S, let \\({\\mathbb{Q}_S^{(p)}}\\) be the compositum of all extensions unramified outside S of the form \\({\\mathbb{Q}(\\mu_p,\\sqrt[p]{d})}\\) , for \\({d \\in \\mathbb{Q}^\\times}\\) . If \\({(\\sigma) = (\\sigma_{1},\\ldots,\\sigma_{n}) \\in {\\rm Gal} {(\\overline{\\mathbb{Q}}/\\mathbb{Q})}^n}\\) , let \\({(\\mathbb{Q}_S^{(p)})^{(\\sigma)}}\\) be the intersection of the fixed fields by \\({{\\langle\\sigma_{i}\\rangle}}\\) , for i&nbsp;= 1, . . , n. We provide a wide family of elliptic curves \\({E/\\mathbb{Q}}\\) such that the rank of \\({E((\\mathbb{Q}_S^{(p)})^{(\\sigma)})}\\) is infinite for all n&nbsp;≥ 0 and all \\({(\\sigma) \\in {\\rm Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})^n}\\) , subject to the parity conjecture. Similarly, let \\({(A/\\mathbb{Q},\\phi)}\\) be a polarized abelian variety, let K be a quadratic number field fixed by \\({(\\sigma) \\in {\\rm Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})^n}\\) , let S be an infinite set of primes of \\({\\mathbb{Q}}\\) and let \\(K^{p-{\\rm dihe}}_S\\) be the maximal abelian p-elementary extension of K unramified outside primes of K lying over S and dihedral over \\({\\mathbb{Q}}\\) . We show that, under certain hypotheses, the \\({\\mathbb{Z}_p}\\) -corank of sel p ∞(A/F) is unbounded over finite extensions F/K contained in \\({(K^{p-{\\rm dihe}}_S)^{(\\sigma)}/K}\\) . As a consequence, we prove a strengthened version of a conjecture of M. Larsen in a large number of cases.",
+   "abstract_source": "publisher",
+   "summary": false,
+   "doi": "10.1007/s00229-008-0189-4",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Ranks_of_Abelian_Varieties_over_Infinite_Extensions.pdf",
+   "n": 7
+  },
+  {
+   "key": "8",
+   "title": "On products of quadratic twists and ranks of elliptic curves over large fields",
+   "where": "Journal of the London Mathematical Society 79 (2009), no. 1, 1–14",
+   "date": "2009-02",
+   "year": "2009",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "quadratic twists",
+    "large fields"
+   ],
+   "abstract": "In this paper, we give examples of elliptic curves E/K over a number field K satisfying the property that there exist P1, P2 ∈ K[t] such that the twists E P 1 , E P 2 and E P 1 P 2 are of positive rank over K(t). As a consequence of this result on twists, we show that for those elliptic curves E/K, and for each σ ∈ G a l ( K ¯ / K ) , the rank of E over the fixed field (Kab)σ under σ is infinite, where Kab is the maximal abelian extension of K.",
+   "abstract_source": "openalex",
+   "summary": false,
+   "doi": "10.1112/jlms/jdn048",
+   "authors": [
+    "Bo-Hae Im",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11G05"
+   ],
+   "file": "Lozano-Robledo__Products_of_Quadratic_Twists_and_Ranks_over_Large_Fields.pdf",
+   "n": 8
+  },
+  {
+   "key": "9",
+   "title": "On the product of twists of rank two and a conjecture of Larsen",
+   "where": "Ramanujan Journal 19 (2009), no. 1, 53–61",
+   "date": "2009-05",
+   "year": "2009",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "Larsen's conjecture",
+    "twists"
+   ],
+   "abstract": "In this note we present examples of elliptic curves and infinite parametric families of pairs of integers (d,d′) such that, if we assume the parity conjecture, we can show that E d ,E d′ and E dd′ are all of positive even rank over ℚ. As an application, we show examples where a conjecture of M.&nbsp;Larsen holds.",
+   "abstract_source": "publisher",
+   "summary": false,
+   "doi": "10.1007/s11139-007-9062-4",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Product_of_Twists_of_Rank_Two_and_Larsens_Conjecture.pdf",
+   "n": 9
+  },
+  {
+   "key": "10",
+   "title": "Elliptic curves of maximal rank",
+   "where": "Revista Matemática Iberoamericana (2010), 1–28",
+   "date": "2010-01",
+   "year": "2010",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "maximal rank",
+    "explicit curves"
+   ],
+   "abstract": "In this paper, we study the Mordell-Weil ranks of elliptic curves defined over the maximal abelian extension of the rational number field, assuming several conjectures on the Hasse-Weil $L$-functions. We prove that an elliptic curve defined over an abelian field with odd degree has infinite rank over the maximal abelian extension of the rational number field. This result gives affirmative evidence for 'the largeness' (in the sense of Pop) of the maximal abelian extension of the rational number field.",
+   "abstract_source": "openalex",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11G05",
+    "11Y50",
+    "14G25",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Elliptic_Curves_of_Maximal_Rank.pdf",
+   "n": 10
+  },
+  {
+   "key": "12",
+   "title": "Bernoulli-Hurwitz numbers, Wieferich primes and Galois representations",
+   "where": "Journal of Number Theory 130 (2010), no. 3, 539–558",
+   "date": "2010-03",
+   "year": "2010",
+   "preprint": false,
+   "category": "Iwasawa Theory & p-adic L-functions",
+   "tags": [
+    "Wieferich primes",
+    "Bernoulli-Hurwitz numbers"
+   ],
+   "abstract": "Let K be a quadratic imaginary number field with discriminant DK⁄=−3,−4 and class number one. Fix a prime p≥ 7 which is unramified in K. Given an elliptic curveA/Q with complex multiplication byK, letρA : Gal(K/K (µp∞))→ SL(2, Zp) be the representation which arises from the action of Galois on the Tate module. Herein it is shown that, for all but finitely many inert primes p, the image of a certain deformation ρA : Gal(K/K (µp∞))→ SL(2, Zp[[X]]) of ρA is \"as large as possible\", that is, it is the full inverse image of a Cartan subgroup of SL(2 , Zp). If p splits inK, then the same result holds as long as certain Bernoulli-Hurwitz number is a p-adic unit which, in turn, is equivalent to a prime ideal not being a Wieferich place. The proof rests on the theory of elliptic units of Robert and Kubert-Lang, and on the two-variable main conjecture of Iwasawa theory for quadratic imaginary fields",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2009.10.013",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Bernoulli-Hurwitz_Numbers_Wieferich_Primes_Galois_Representations.pdf",
+   "n": 11
+  },
+  {
+   "key": "11",
+   "title": "Bounds for the torsion of elliptic curves over extensions with bounded ramification",
+   "where": "International Journal of Number Theory 6 (2010), no. 6, 1293–1309",
+   "date": "2010-09",
+   "year": "2010",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "torsion bounds",
+    "ramification"
+   ],
+   "abstract": "Let E be a semi-stable elliptic curve defined over ℚ, and fix N ≥ 2. Let K N /ℚ be a maximal algebraic Galois extension of ℚ whose ramification indices are all at most N. We show that there exists a computable bound B(N), which depends only on N and not on the choice of E/ℚ, such that the size of E(K N ) Tors is always at most B(N).",
+   "abstract_source": "crossref",
+   "summary": false,
+   "doi": "10.1142/s1793042110003514",
+   "authors": [
+    "ÁLVARO LOZANO-ROBLEDO",
+    "BENJAMIN LUNDELL"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Torsion_Bounds_over_Extensions_with_Bounded_Ramification.pdf",
+   "n": 12
+  },
+  {
+   "key": "13",
+   "title": "Desde Fermat, Lamé y Kummer hasta Iwasawa: Una introducción a la teoría de Iwasawa",
+   "where": "La Gaceta de la RSME 15 (2012), no. 2, 251–276",
+   "date": "2012-01",
+   "year": "2012",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "Iwasawa theory",
+    "history",
+    "Spanish"
+   ],
+   "abstract": "En una conferencia de 1956, Kenkichi Iwasawa presentó la demostración de un teorema que inauguraba lo que hoy llamamos la teoría de Iwasawa. Desde entonces, las ideas de Iwasawa han ido abriendo numerosas nuevas vías de investigación en teoría de números, y sus ideas y sus generalizaciones se han usado en cientos de artículos. Este artículo es una introducción a la teoría de Iwasawa desde un punto de vista histórico. Los orígenes de esta teoría se remontan al famoso último teorema de Fermat y, en particular, a un célebre intento fallido de demostrarlo por parte de Gabriel Lamé. En la primera parte del artículo hablaremos sobre el intento de Lamé y de cómo Ernst Kummer, que independientemente estaba estudiando ideas similares, logró encontrar una demostración válida del teorema de Fermat para primos regulares. La estrategia de Kummer motivará el estudio del número de clases y grupo de clases de ideales de un cuerpo de números, que son precisamente el centro de atención de la teoría de Iwasawa",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Introduccion_a_la_Teoria_de_Iwasawa.pdf",
+   "n": 13
+  },
+  {
+   "key": "14",
+   "title": "Formal groups of elliptic curves with potential good supersingular reduction",
+   "where": "Pacific Journal of Mathematics 261 (2013), no. 1, 145–164",
+   "date": "2013-01",
+   "year": "2013",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "formal groups",
+    "supersingular reduction"
+   ],
+   "abstract": "Let L be a number field and let E/L be an elliptic curve with potentially supersingular reduction at a prime ideal ℘ of L above a rational prime p.In this article we describe a formula for the slopes of the Newton polygon associated to the multiplication-byp map in the formal group of E, depending only on the congruence class of p mod 12, the ℘-adic valuation of the discriminant of a model for E over L, and the valuation of the j -invariant of E. The formula is applied to prove a divisibility formula for the ramification indices in the field of definition of a p-torsion point.[ p](Z ) = ∞ i=1 s i Z i MSC2010: primary 11G05",
+   "abstract_source": "openalex",
+   "summary": false,
+   "doi": "10.2140/pjm.2013.261.145",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Formal_Groups_with_Potential_Good_Supersingular_Reduction.pdf",
+   "n": 14
+  },
+  {
+   "key": "15",
+   "title": "On the field of definition of p-torsion points on elliptic curves over the rationals",
+   "where": "Mathematische Annalen 357 (2013), no. 1, 279–305",
+   "date": "2013-09",
+   "year": "2013",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "p-torsion",
+    "field of definition"
+   ],
+   "abstract": "Let \\(S_\\mathbb Q (d)\\) be the set of primes \\(p\\) for which there exists a number field \\(K\\) of degree \\(\\le d\\) and an elliptic curve \\(E/\\mathbb Q\\) , such that the order of the torsion subgroup of \\(E(K)\\) is divisible by \\(p\\) . In this article we give bounds for the primes in the set \\(S_\\mathbb Q (d)\\) . In particular, we show that, if \\(p\\ge 11\\) , \\(p\\ne 13,37\\) , and \\(p\\in S_\\mathbb Q (d)\\) , then \\(p\\le 2d+1\\) . Moreover, we determine \\(S_\\mathbb Q (d)\\) for all \\(d\\le 42\\) , and give a conjectural formula for all \\(d\\ge 1\\) . If Serre’s uniformity problem is answered positively, then our conjectural formula is valid for all sufficiently large \\(d\\) . Under further assumptions on the non-cuspidal points on modular curves that parametrize those \\(j\\) -invariants associated to Cartan subgroups, the formula is valid for all \\(d\\ge 1\\) .",
+   "abstract_source": "publisher",
+   "summary": false,
+   "doi": "10.1007/s00208-013-0906-5",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Field_of_Definition_of_p-torsion_Points.pdf",
+   "n": 15
+  },
+  {
+   "key": "16",
+   "title": "Division fields of elliptic curves with minimal ramification",
+   "where": "Revista Matemática Iberoamericana 31 (2015), no. 4, 1311–1332",
+   "date": "2015-01",
+   "year": "2015",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "minimal ramification"
+   ],
+   "abstract": "Let E be an elliptic curve defined over \\mathbb Q , let p be a prime number, and let n\\geq 1 . It is well-known that the p^n -th division field \\mathbb Q(E[p^n]) of the elliptic curve E contains all the p^n -th roots of unity. It follows that the Galois extension \\mathbb Q(E[p^n])/\\mathbb Q is ramified above p , and the ramification index e(p,\\mathbb Q(E[p^n])/\\mathbb Q) of any prime \\mathfrak P of \\mathbb Q(E[p^n]) lying above p is divisible by \\varphi(p^n) . The goal of this article is to construct elliptic curves E/\\mathbb Q such that e(p,\\mathbb Q(E[p^n])/\\mathbb Q) is precisely \\varphi(p^n) , and such that the Galois group of \\mathbb Q(E[p^n])/\\mathbb Q is as large as possible, i.e., isomorphic to \\mathrm {GL}(2,\\mathbb Z/p^n\\mathbb Z) .",
+   "abstract_source": "crossref",
+   "summary": false,
+   "doi": "10.4171/rmi/870",
+   "authors": [
+    "Alvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11G05",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Division_Fields_with_Minimal_Ramification.pdf",
+   "n": 16
+  },
+  {
+   "key": "17",
+   "title": "On the number of isomorphism classes of CM elliptic curves defined over a number field",
+   "where": "Journal of Number Theory 157 (2015), 367–396",
+   "date": "2015-12",
+   "year": "2015",
+   "preprint": false,
+   "category": "Complex Multiplication",
+   "tags": [
+    "isomorphism classes",
+    "number fields"
+   ],
+   "abstract": "The theory of complex multiplication has proven to be an essential tool in number theory, mainly due to the connections with class field theory developed by Kronecker, Weber, Fricke, Hasse, Deuring, and Shimura, among others. Certain important results have been shown first in the case of complex multiplication. Thus, it is a natural question to find all the isomorphism classes of elliptic curves with complex multiplication defined over a fixed number field, for which these important results hold. In this article, we prove an upper bound on the number of isomorphism classes of CM elliptic curves defined over a number field of a fixed odd degree N, in terms of the prime factorization of N",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2015.05.009",
+   "authors": [
+    "Harris B. Daniels",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Isomorphism_Classes_of_CM_Elliptic_Curves.pdf",
+   "n": 17
+  },
+  {
+   "key": "18",
+   "title": "Ramification in the division fields of elliptic curves with potential supersingular reduction",
+   "where": "Research in Number Theory 2 (2016), no. 8, 1–25",
+   "date": "2016-01",
+   "year": "2016",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "supersingular reduction",
+    "ramification"
+   ],
+   "abstract": "Let d≥1 be fixed. Let F be a number field of degree d, and let E/F be an elliptic curve. Let E(F)tors be the torsion subgroup of E(F). In 1996, Merel proved the uniform boundedness conjecture, i.e., there is a constant B(d), which depends on d but not on the chosen field F or on the curve E/F, such that the size of E(F)tors is bounded by B(d). Moreover, Merel gave a bound (exponential in d) for the largest prime that may be a divisor of the order of E(F)tors. In 1996, Parent proved a bound (also exponential in d) for the largest p-power order of a torsion point that may appear in E(F)tors. It has been conjectured, however, that there is a bound for the size of E(F)tors that is polynomial in d. In this article we show that if E/F has potential supersingular reduction at a prime ideal above p, then there is a linear bound for the largest p-power order of a torsion point defined over F, which in fact is linear in the ramification index of the prime of supersingular reduction. Mathematics Subject Classification: Primary: 11G05, Secondary: 14H52",
+   "abstract_source": "publisher",
+   "summary": false,
+   "doi": "10.1007/s40993-016-0040-z",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11G05",
+    "14G25",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Ramification_in_Division_Fields_Potential_Supersingular.pdf",
+   "n": 18
+  },
+  {
+   "key": "19",
+   "title": "Elliptic curves with abelian division fields",
+   "where": "Mathematische Zeitschrift 283 (2016), no. 3, 835–859",
+   "date": "2016-08",
+   "year": "2016",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "abelian division fields"
+   ],
+   "abstract": "Let E be an elliptic curve over Q, and let n=>1. The central object of study of this article is the division field Q(E[n]) that results by adjoining to Q the coordinates of all n-torsion points on E(Q). In particular, we classify all curves E/Q such that Q(E[n]) is as small as possible, that is, when Q(E[n])=Q(zeta_n), and we prove that this is only possible for n=2,3,4, or 5. More generally, we classify all curves such that Q(E[n]) is contained in a cyclotomic extension of Q or, equivalently (by the Kronecker-Weber theorem), when Q(E[n])/Q is an abelian extension. In particular, we prove that this only happens for n=2,3,4,5,6, or 8, and we classify the possible Galois groups that occur for each value of n.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1007/s00209-016-1623-z",
+   "authors": [
+    "Enrique González–Jiménez",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1511.08578",
+   "html": "https://arxiv.org/html/1511.08578",
+   "msc": [
+    "11G05",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Elliptic_Curves_with_Abelian_Division_Fields.pdf",
+   "n": 19
+  },
+  {
+   "key": "20",
+   "title": "Premio Abel 2016: Andrew J. Wiles",
+   "where": "La Gaceta de la RSME 20 (2017), no. 1, 57–82",
+   "date": "2017-01",
+   "year": "2017",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "Abel Prize",
+    "Wiles",
+    "Spanish"
+   ],
+   "abstract": "La Academia de Ciencias y Letras de Noruega ha otorgado el Premio Abel de 2016 a Andrew Wiles «por su impresionante demostración del Último Teorema de Fermat mediante la conjetura de modularidad para las curvas elípticas semiestables, iniciando una nueva era en la teoría de números». En este artículo repasamos la trayectoria de Andrew Wiles quien, aparte de demostrar el último teorema de Fermat, ha atacado muchas de las grandes conjeturas de la teoría algebraica de números, tales como la conjetura de Birch y Swinnerton-Dyer, la Conjetura Central de la teoría de Iwasawa, la conjetura de Shimura-Taniyama-Weil y la conjetura de Fontaine-Mazur",
+   "abstract_source": "pdf",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__Premio_Abel_2016_Andrew_Wiles.pdf",
+   "n": 20
+  },
+  {
+   "key": "21",
+   "title": "What is… an elliptic curve?",
+   "where": "Notices of the AMS 64 (2017), no. 3, 241–243",
+   "date": "2017-03",
+   "year": "2017",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "Notices of the AMS"
+   ],
+   "abstract": "A short introduction to elliptic curves for a general mathematical audience, in the Notices' \"What is…\" series. The article frames the subject through the problem of determining the $K$-rational points on a curve: in genus $0$ classical methods settle the question completely, while in genus $1$ one cannot in general even decide whether a rational point exists. It then defines an elliptic curve as a smooth projective curve of genus $1$ with at least one $K$-rational point, gives the short Weierstrass model $y^2 = x^3 + Ax + B$, describes the geometric group law on $E(K)$, and states the Mordell–Weil theorem that this group is finitely generated.",
+   "abstract_source": "summary",
+   "summary": true,
+   "doi": "10.1090/noti1490",
+   "authors": [
+    "Álvaro Lozano-Robledo",
+    "Harris Daniels"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__What_Is_an_Elliptic_Curve.pdf",
+   "n": 21
+  },
+  {
+   "key": "22",
+   "title": "On the minimal degree of definition of p-primary torsion subgroups of elliptic curves",
+   "where": "Mathematical Research Letters 24 (2017), no. 4, 1067–1096",
+   "date": "2017-10",
+   "year": "2017",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "p-primary torsion",
+    "minimal degree"
+   ],
+   "abstract": "In this article, we study the minimal degree [K(T):K] of a p-subgroup T GL(2,Z_p). However, we are able to show that there are certain uniform bounds for the minimal degree of definition of T. When the results are applied to K=Q and p=2, we obtain a divisibility condition on the minimal degree of definition of any subgroup of E[2^n] that is best possible.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.4310/mrl.2017.v24.n4.a7",
+   "authors": [
+    "Enrique González-Jiménez",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1511.08057",
+   "html": "https://arxiv.org/html/1511.08057",
+   "msc": [],
+   "file": "Lozano-Robledo__Minimal_Degree_of_Definition_of_p-primary_Torsion.pdf",
+   "n": 22
+  },
+  {
+   "key": "23",
+   "title": "Torsion subgroups of rational elliptic curves over the compositum of all cubic fields",
+   "where": "Mathematics of Computation 87 (2018), 425–458",
+   "date": "2018-01",
+   "year": "2018",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "cubic fields",
+    "compositum"
+   ],
+   "abstract": "Let $E/\\mathbb{Q}$ be an elliptic curve and let $\\mathbb{Q}(3^\\infty)$ be the compositum of all cubic extensions of $\\mathbb{Q}$. In this article we show that the torsion subgroup of $E(\\mathbb{Q}(3^\\infty))$ is finite and determine 20 possibilities for its structure, along with a complete description of the $\\overline{\\mathbb{Q}}$-isomorphism classes of elliptic curves that fall into each case. We provide rational parameterizations for each of the 16 torsion structures that occur for infinitely many $\\overline{\\mathbb{Q}}$-isomorphism classes of elliptic curves, and a complete list of $j$-invariants for each of the 4 that do not.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1090/mcom/3213",
+   "authors": [
+    "Harris Daniels",
+    "Álvaro Lozano-Robledo",
+    "Filip Najman",
+    "Andrew Sutherland"
+   ],
+   "arxiv": "1509.00528",
+   "html": "https://arxiv.org/html/1509.00528",
+   "msc": [],
+   "file": "Lozano-Robledo__Torsion_over_the_Compositum_of_All_Cubic_Fields.pdf",
+   "n": 23
+  },
+  {
+   "key": "24",
+   "title": "Uniform boundedness in terms of ramification",
+   "where": "Research in Number Theory 4 (2018), no. 6",
+   "date": "2018-02",
+   "year": "2018",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "uniform boundedness",
+    "ramification"
+   ],
+   "abstract": "Let \\(d\\ge 1\\) be fixed. Let F be a number field of degree d, and let E&nbsp;/&nbsp;F be an elliptic curve. Let \\(E(F)_{\\text {tors}}\\) be the torsion subgroup of E(F). In 1996, Merel proved the uniform boundedness conjecture, i.e., there is a constant B(d), which depends on d but not on the chosen field F or on the curve E&nbsp;/&nbsp;F, such that the size of \\(E(F)_{\\text {tors}}\\) is bounded by B(d). Moreover, Merel gave a bound (exponential in d) for the largest prime that may be a divisor of the order of \\(E(F)_{\\text {tors}}\\) . In 1996, Parent proved a bound (also exponential in d) for the largest p-power order of a torsion point that may appear in \\(E(F)_{\\text {tors}}\\) . It has been conjectured, however, that there is a bound for the size of \\(E(F)_{\\text {tors}}\\) that is polynomial in d. In this article we show that under certain hypotheses there is a linear bound for the largest p-power order of a torsion point defined over F, which in fact is linear in the maximum ramification index of a prime ideal of the ring of integers F over (p).",
+   "abstract_source": "publisher",
+   "summary": false,
+   "doi": "10.1007/s40993-018-0095-0",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [
+    "11G05",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Uniform_Boundedness_in_Terms_of_Ramification.pdf",
+   "n": 24
+  },
+  {
+   "key": "25",
+   "title": "On the torsion of rational elliptic curves over quartic fields",
+   "where": "Mathematics of Computation 87 (2018), 1457–1478",
+   "date": "2018-05",
+   "year": "2018",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "quartic fields"
+   ],
+   "abstract": "Let E be an elliptic curve defined over Q and let G = E(Q)_tors be the associated torsion subgroup. We study, for a given G, which possible groups G <= H could appear such that H=E(K)_tors, for [K:Q]=4 and H is one of the possible torsion structures that occur infinitely often as torsion structures of elliptic curves defined over quartic number fields.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1090/mcom/3235",
+   "authors": [
+    "Enrique González-Jiménez",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1606.00645",
+   "html": "https://arxiv.org/html/1606.00645",
+   "msc": [],
+   "file": "Lozano-Robledo__Torsion_of_Rational_Elliptic_Curves_over_Quartic_Fields.pdf",
+   "n": 25
+  },
+  {
+   "key": "27",
+   "title": "Bounds of the rank of the Mordell–Weil group of jacobians of hyperelliptic curves",
+   "where": "Journal de Théorie des Nombres de Bordeaux 32 (2020), no. 1, 231–258",
+   "date": "2020-01",
+   "year": "2020",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "hyperelliptic curves",
+    "Mordell-Weil bounds"
+   ],
+   "abstract": "In this article we extend work of Shanks and Washington on cyclic extensions, and elliptic curves associated to the simplest cubic fields. In particular, we give families of examples of hyperelliptic curves $C: y^2=f(x)$ defined over $\\mathbb{Q}$, with $f(x)$ of degree $p$, where $p$ is a Sophie Germain prime, such that the rank of the Mordell--Weil group of the jacobian $J/\\mathbb{Q}$ of $C$ is bounded by the genus of $C$ and the $2$-rank of the class group of the (cyclic) field defined by $f(x)$, and exhibit examples where this bound is sharp.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.5802/jtnb.1120",
+   "authors": [
+    "Harris B. Daniels",
+    "Álvaro Lozano-Robledo",
+    "Erik Wallace"
+   ],
+   "arxiv": "1708.07896",
+   "html": "https://arxiv.org/html/1708.07896",
+   "msc": [
+    "11G10",
+    "14K15"
+   ],
+   "file": "Lozano-Robledo__Rank_Bounds_for_Jacobians_of_Hyperelliptic_Curves.pdf",
+   "n": 26
+  },
+  {
+   "key": "28",
+   "title": "Rank and bias in families of hyperelliptic curves via Nagao's conjecture",
+   "where": "Journal of Number Theory 215 (2020), 339–361",
+   "date": "2020-10",
+   "year": "2020",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "hyperelliptic curves",
+    "Nagao's conjecture"
+   ],
+   "abstract": "Let $\\mathcal{X} : y^2 = f(x)$ be a hyperelliptic curve over $\\mathbb{Q}(T)$ of genus $g\\geq 1$. Assume that the jacobian of $\\mathcal{X}$ over $\\mathbb{Q}(T)$ has no subvariety defined over $\\mathbb{Q}$. Denote by $\\mathcal{X}_t$ the specialization of $\\mathcal{X}$ to an integer $T=t$, let $a_{\\mathcal{X}_t}(p)$ be its trace of Frobenius, and $A_{\\mathcal{X},r}(p) = \\frac{1}{p}\\sum_{t=1}^p a_{\\mathcal{X}_t}(p)^r$ its $r$-th moment. The first moment is related to the rank of the jacobian $J_\\mathcal{X}\\left(\\mathbb{Q}(T)\\right)$ by a generalization of a conjecture of Nagao: \\(\\lim_{X \\to \\infty} \\frac{1}{X} \\sum_{p \\leq X} - A_{\\mathcal{X},1}(p) \\log p = \\operatorname{rank} J_\\mathcal{X}(\\mathbb{Q}(T)).\\) Generalizing a result of S. Arms, Á. Lozano-Robledo, and S.J. Miller, we compute first moments for various families resulting in infinitely many hyperelliptic curves over $\\mathbb{Q}(T)$ having jacobian of moderately large rank $4g+2$, where $g$ is the genus; by Silverman's specialization theorem, this yields hyperelliptic curves over $\\mathbb{Q}$ with large rank jacobian. Note that Shioda has the best record in this directon: he constructed hyperelliptic curves of genus $g$ with jacobian of rank $4g+7$. In the case when $\\mathcal{X}$ is an elliptic curve, Michel proved $p\\cdot A_{\\mathcal{X},2} = p^2 + O\\left(p^{3/2}\\right)$. For the families studied, we observe the same second moment expansion. Furthermore, we observe the largest lower order term that does not average to zero is on average negative, a bias first noted by S.J. Miller in the elliptic curve case. We prove this bias for a number of families of hyperelliptic curves.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2020.04.017",
+   "authors": [
+    "Trajan Hammonds",
+    "Seoyoung Kim",
+    "Benjamin Logsdon",
+    "Álvaro Lozano-Robledo",
+    "Steven J. Miller"
+   ],
+   "arxiv": "1906.09407",
+   "html": "https://arxiv.org/html/1906.09407",
+   "msc": [
+    "11G05",
+    "11G20",
+    "11G25"
+   ],
+   "file": "Lozano-Robledo__Rank_and_Bias_in_Hyperelliptic_Families_via_Nagao.pdf",
+   "n": 27
+  },
+  {
+   "key": "26",
+   "title": "A probabilistic model for the distribution of ranks of elliptic curves over Q",
+   "where": "Journal of Number Theory 221 (2021), 270–338",
+   "date": "2021-04",
+   "year": "2021",
+   "preprint": false,
+   "category": "Ranks",
+   "tags": [
+    "probabilistic model",
+    "distribution of ranks"
+   ],
+   "abstract": "In this article, we propose a new probabilistic model for the distribution of ranks of elliptic curves in families of fixed Selmer rank, and compare the predictions with previous results, and with the databases of curves over the rationals that we have at our disposal. In addition, we document a phenomenon we refer to as Selmer bias that seems to play an important role in the data and in our models.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2020.05.022",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1611.01999",
+   "html": "https://arxiv.org/html/1611.01999",
+   "msc": [],
+   "file": "Lozano-Robledo__Probabilistic_Model_for_the_Distribution_of_Ranks.pdf",
+   "n": 28
+  },
+  {
+   "key": "29",
+   "title": "A classification of isogeny-torsion graphs of elliptic curves over Q",
+   "where": "Transactions of the LMS 8 (2021), no. 1, 1–34",
+   "date": "2021-12",
+   "year": "2021",
+   "preprint": false,
+   "category": "Torsion Subgroups",
+   "tags": [
+    "isogeny-torsion graphs",
+    "classification"
+   ],
+   "abstract": "Let $\\mathcal{E}$ be a $\\mathbb{Q}$-isogeny class of elliptic curves defined over $\\mathbb{Q}$. The isogeny graph associated to $\\mathcal{E}$ is a graph which has a vertex for each elliptic curve in the $\\mathbb{Q}$-isogeny class $\\mathcal{E}$, and an edge for each cyclic $\\mathbb{Q}$-isogeny of prime degree between elliptic curves in the isogeny class, with the degree recorded as a label of the edge. In this paper, we define an isogeny-torsion graph to be an isogeny graph where, in addition, we label each vertex with the abstract group structure of the torsion subgroup over $\\mathbb{Q}$ of the corresponding elliptic curve. Then, the main result of the article is a classification of all the possible isogeny-torsion graphs that occur for $\\mathbb{Q}$-isogeny classes of elliptic curves defined over the rationals.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1112/tlm3.12024",
+   "authors": [
+    "Garen Chiloyan",
+    "Álvaro Lozano‐Robledo"
+   ],
+   "arxiv": "2001.05616",
+   "html": "https://arxiv.org/html/2001.05616",
+   "msc": [],
+   "file": "Lozano-Robledo__Classification_of_Isogeny-Torsion_Graphs.pdf",
+   "n": 29
+  },
+  {
+   "key": "30",
+   "title": "Galois representations attached to elliptic curves with complex multiplication",
+   "where": "Algebra and Number Theory 16 (2022), no. 4",
+   "date": "2022-06",
+   "year": "2022",
+   "preprint": false,
+   "category": "Complex Multiplication",
+   "tags": [
+    "Galois representations"
+   ],
+   "abstract": "The goal of this article is to give an explicit classification of the possible $p$-adic Galois representations that are attached to elliptic curves $E$ with CM defined over $\\mathbb{Q}(j(E))$. More precisely, let $K$ be an imaginary quadratic field, and let $\\mathcal{O}_{K,f}$ be an order in $K$ of conductor $f\\geq 1$. Let $E$ be an elliptic curve with CM by $\\mathcal{O}_{K,f}$, such that $E$ is defined by a model over $\\mathbb{Q}(j(E))$. Let $p\\geq 2$ be a prime, let $G_{\\mathbb{Q}(j(E))}$ be the absolute Galois group of $\\mathbb{Q}(j(E))$, and let $ρ_{E,p^\\infty}\\colon G_{\\mathbb{Q}(j(E))}\\to \\operatorname{GL}(2,\\mathbb{Z}_p)$ be the Galois representation associated to the Galois action on the Tate module $T_p(E)$. The goal is then to describe, explicitly, the groups of $\\operatorname{GL}(2,\\mathbb{Z}_p)$ that can occur as images of $ρ_{E,p^\\infty}$, up to conjugation, for an arbitrary order $\\mathcal{O}_{K,f}$.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.2140/ant.2022.16.777",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1809.02584",
+   "html": "https://arxiv.org/html/1809.02584",
+   "msc": [],
+   "file": "Lozano-Robledo__Galois_Representations_of_Elliptic_Curves_with_CM.pdf",
+   "n": 30
+  },
+  {
+   "key": "33",
+   "title": "The Day She Proved It",
+   "where": "The Mathematical Intelligencer 44 (2022), 273–276",
+   "date": "2022-09",
+   "year": "2022",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "history of mathematics"
+   ],
+   "abstract": "A short story. Claudia Suárez, a postdoc, wakes certain that she has at last proved the conjecture she has pursued for years — one of the longest-standing in her field. What follows turns on memory rather than mathematics: the day of the proof is a day she cannot keep, and the story follows her partner Rick, her notes and her laptop as they carry what she cannot. A piece about discovery, and about what it means to have proved something you cannot remember proving.",
+   "abstract_source": "summary",
+   "summary": true,
+   "doi": "10.1007/s00283-022-10191-0",
+   "authors": [
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__The_Day_She_Proved_It.pdf",
+   "n": 31
+  },
+  {
+   "key": "34",
+   "title": "How to referee a (math) paper",
+   "where": "Notices of the AMS (January 2023), 71–74",
+   "date": "2023-01",
+   "year": "2023",
+   "preprint": false,
+   "category": "Expository & Historical",
+   "tags": [
+    "refereeing",
+    "mathematical practice"
+   ],
+   "abstract": "Practical guidance for mathematicians asked to referee a paper, written for those doing it for the first time. The article covers why refereeing matters as a service to the community, who is qualified to referee and at what career stage it usually begins, how to decide whether to accept a particular request — including when to decline for lack of expertise or impartiality — and how to read a paper and write a report that is useful to both the editor and the author. Companion reading by Arend Bayer, Brian Katz and Bjorn Poonen is recommended.",
+   "abstract_source": "summary",
+   "summary": true,
+   "doi": null,
+   "authors": [],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "file": "Lozano-Robledo__How_to_Referee_a_Math_Paper.pdf",
+   "n": 32
+  },
+  {
+   "key": "31",
+   "title": "Coincidences of division fields",
+   "where": "Annales de l'Institut Fourier 73 (2023), no. 1, 163–202",
+   "date": "2023-02",
+   "year": "2023",
+   "preprint": false,
+   "category": "Division Fields & Ramification",
+   "tags": [
+    "coincidences",
+    "division fields"
+   ],
+   "abstract": "Let $E$ be an elliptic curve defined over $\\mathbb{Q}$, and let $ρ_E\\colon {\\rm Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\to {\\rm GL}(2,\\widehat{ \\mathbb{Z} })$ be the adelic representation associated to the natural action of Galois on the torsion points of $E(\\overline{\\mathbb{Q}})$. By a theorem of Serre, the image of $ρ_{E}$ is open, but the image is always of index at least $2$ in ${\\rm GL}(2,\\widehat{\\mathbb{Z}})$ due to a certain quadratic entanglement amongst division fields. In this paper, we study other types of abelian entanglements. More concretely, we classify the elliptic curves $E/\\mathbb{Q}$, and primes $p$ and $q$ such that $\\mathbb{Q}(E[p])\\cap \\mathbb{Q}(ζ_{q^k})$ is non-trivial, and determine the degree of the coincidence. As a consequence, we classify all elliptic curves $E/\\mathbb{Q}$ and integers $m,n$ such that the $m$-th and $n$-th division fields coincide, i.e., when $\\mathbb{Q}(E[n])=\\mathbb{Q}(E[m])$, when the division field is abelian.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.5802/aif.3520",
+   "authors": [
+    "Harris B. Daniels",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "1912.05618",
+   "html": "https://arxiv.org/html/1912.05618",
+   "msc": [
+    "11G05",
+    "14H52"
+   ],
+   "file": "Lozano-Robledo__Coincidences_of_Division_Fields.pdf",
+   "n": 33
+  },
+  {
+   "key": "32",
+   "title": "Towards a classification of entanglements of Galois representations attached to elliptic curves",
+   "where": "Revista Matemática Iberoamericana 39 (2023), no. 3, 803–844",
+   "date": "2023-07",
+   "year": "2023",
+   "preprint": false,
+   "category": "Galois Representations",
+   "tags": [
+    "entanglements",
+    "classification"
+   ],
+   "abstract": "Let $E/\\mathbb{Q}$ be an elliptic curve, let $\\overline{\\mathbb{Q}}$ be a fixed algebraic closure of $\\mathbb{Q}$, and let $G_{\\mathbb{Q}}=\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})$ be the absolute Galois group of $\\mathbb{Q}$. The action of $G_{\\mathbb{Q}}$ on the adelic Tate module of $E$ induces the adelic Galois representation $ρ_E\\colon G_{\\mathbb{Q}} \\to \\text{GL}(2,\\widehat{\\mathbb{Z}}).$ The goal of this paper is to explain how the image of $ρ_E$ can be smaller than expected. To this end, we offer a group theoretic categorization of different ways in which an entanglement between division fields can be explained and prove several results on elliptic curves (and more generally, principally polarized abelian varieties) over $\\mathbb{Q}$ where the entanglement occurs over an abelian extension.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.4171/rmi/1424",
+   "authors": [
+    "Harris B. Daniels",
+    "Alvaro Lozano-Robledo",
+    "Jackson S. Morrow"
+   ],
+   "arxiv": "2105.02060",
+   "html": "https://arxiv.org/html/2105.02060",
+   "msc": [],
+   "file": "Lozano-Robledo__Classification_of_Entanglements_of_Galois_Representations.pdf",
+   "n": 34
+  },
+  {
+   "key": "35",
+   "title": "Elliptic curves with complex multiplication and abelian division fields",
+   "where": "Journal of the London Mathematical Society 110 (2024), no. 6",
+   "date": "2024-11",
+   "year": "2024",
+   "preprint": false,
+   "category": "Complex Multiplication",
+   "tags": [
+    "abelian division fields"
+   ],
+   "abstract": "Let $K$ be an imaginary quadratic field, and let $\\mathcal{O}_{K,f}$ be an order in $K$ of conductor $f\\geq 1$. Let $E$ be an elliptic curve with CM by $\\mathcal{O}_{K,f}$, such that $E$ is defined by a model over $\\mathbb{Q}(j_{K,f})$, where $j_{K,f}=j(E)$. In this article, we classify the values of $N\\geq 2$ and the elliptic curves $E$ such that (i) the division field $\\mathbb{Q}(j_{K,f},E[N])$ is an abelian extension of $\\mathbb{Q}(j_{K,f})$, and (ii) the $N$-division field coincides with the $N$-th cyclotomic extension of the base field.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1112/jlms.70031",
+   "authors": [
+    "Asimina S. Hamakiotes",
+    "Álvaro Lozano‐Robledo"
+   ],
+   "arxiv": "2308.00668",
+   "html": "https://arxiv.org/html/2308.00668",
+   "msc": [],
+   "file": "Lozano-Robledo__CM_Elliptic_Curves_and_Abelian_Division_Fields.pdf",
+   "n": 35
+  },
+  {
+   "key": "36",
+   "title": "Models of CM elliptic curves with a prescribed ℓ-adic Galois image",
+   "where": "Journal of Number Theory 277 (2025), 19–62",
+   "date": "2025-12",
+   "year": "2025",
+   "preprint": false,
+   "category": "Complex Multiplication",
+   "tags": [
+    "ell-adic images",
+    "models"
+   ],
+   "abstract": "For each prime number $\\ell$ and for each imaginary quadratic order of class number one or two, we determine all the possible $\\ell$-adic Galois representations that occur for any elliptic curve with complex multiplication by such an order over its minimal field of definition, and then we determine all the isomorphism classes of elliptic curves that have a prescribed $\\ell$-adic Galois representation.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": "10.1016/j.jnt.2025.03.001",
+   "authors": [
+    "Enrique González–Jiménez",
+    "Álvaro Lozano-Robledo",
+    "Benjamin York"
+   ],
+   "arxiv": "2408.04159",
+   "html": "https://arxiv.org/html/2408.04159",
+   "msc": [],
+   "file": "Lozano-Robledo__Models_of_CM_Elliptic_Curves_with_Prescribed_l-adic_Image.pdf",
+   "n": 36
+  },
+  {
+   "key": "40",
+   "title": "The image of the adelic Galois representation of an elliptic curve with complex multiplication",
+   "where": "preprint",
+   "date": "2026-06",
+   "year": "2026",
+   "preprint": true,
+   "category": "Complex Multiplication",
+   "tags": [
+    "adelic image"
+   ],
+   "abstract": "Let $E/\\mathbb{Q}$ be an elliptic curve and let $ρ_E \\colon \\operatorname{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q}) \\to \\operatorname{GL}(2, \\widehat{\\mathbb{Z}})$ be the adelic Galois representation attached to $E$. Much work has been done in recent years to study the image of $ρ_E$ (up to conjugation) as part of Mazur's so called ``Program B.'' In this paper, we describe and implement an efficient algorithm to compute the image of $ρ_E$ in $\\operatorname{GL}(2, \\widehat{\\mathbb{Z}})$ (up to conjugation) for an elliptic curve $E/\\mathbb{Q}$ with complex multiplication (CM) and $j$-invariant not $0$ or $1728$.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": null,
+   "authors": [],
+   "arxiv": "2603.08545",
+   "html": "https://arxiv.org/html/2603.08545",
+   "msc": [
+    "11G05",
+    "11G15",
+    "14H52",
+    "14K22"
+   ],
+   "file": "Lozano-Robledo__Image_of_the_Adelic_Galois_Representation_CM.pdf",
+   "n": 37
+  }
+ ],
+ "order": [
+  "Galois Representations",
+  "Division Fields & Ramification",
+  "Torsion Subgroups",
+  "Complex Multiplication",
+  "Ranks",
+  "Iwasawa Theory & p-adic L-functions",
+  "Expository & Historical"
+ ],
+ "blurb": {
+  "Galois Representations": "The image of Galois acting on torsion points — when it is as large as it can be, and how the images attached to different primes can fail to be independent.",
+  "Division Fields & Ramification": "The fields generated by torsion points: how they ramify, when they are abelian, and when two different curves generate the same one.",
+  "Torsion Subgroups": "Which finite groups occur as the torsion of an elliptic curve over a number field, and the least degree in which a given point can be defined.",
+  "Complex Multiplication": "Curves with extra endomorphisms, where the Galois image becomes abelian over the CM field and can be described completely.",
+  "Ranks": "The rank of the Mordell–Weil group — explicit constructions of high rank, behaviour in twists and towers, and statistical models for how ranks are distributed.",
+  "Iwasawa Theory & p-adic L-functions": "p-adic analytic objects attached to elliptic curves and cyclotomic fields: elliptic units, Bernoulli and Hurwitz numbers, and Kummer-type criteria.",
+  "Expository & Historical": "Survey and historical writing, several pieces in Spanish, on elliptic curves, Iwasawa theory, Wiles's proof, and the practice of mathematics itself."
+ },
+ "stats": {
+  "total": 37,
+  "abstracts": 34,
+  "summaries": 3,
+  "first": "2005",
+  "last": "2025"
+ }
+}

@@ -13,7 +13,7 @@
 try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="books.css">
+<link rel="stylesheet" href="books.css?v=2">
 </head>
 <body>
 
@@ -40,10 +40,13 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   <p class="kicker">Works</p>
   <h1>Books and Articles</h1>
   <p class="lede">Two books with the American Mathematical Society, and my research articles in number theory and arithmetic geometry.</p>
+  <div class="bk-tabs" role="tablist" aria-label="Books or articles">
+    <button class="bk-tab" type="button" role="tab" data-view="books" aria-selected="true" aria-controls="view-books">Books</button>
+    <button class="bk-tab" type="button" role="tab" data-view="articles" aria-selected="false" aria-controls="view-articles">Articles</button>
+  </div>
 </div>
 
-<section class="bk-sec" id="books">
-  <h2>Books</h2>
+<section class="bk-sec" id="view-books" role="tabpanel">
 
   <article class="book">
     <a class="book-cover" href="number-theory-and-geometry/"><img src="img/amstext-35.jpg" width="560" height="800" alt="Cover of Number Theory and Geometry"></a>
@@ -72,15 +75,27 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   </article>
 </section>
 
-<section class="bk-sec" id="articles">
-  <h2>Articles</h2>
-  <a class="art-card" href="../articles/">
-    <div>
-      <h3>Research articles</h3>
-      <p>All 37 articles, 2005 to 2025, as up-to-date PDFs with abstracts, searchable by topic, with links to arXiv.</p>
+<section class="bk-sec av" id="view-articles" role="tabpanel" hidden>
+  <p class="afacts" id="afacts"></p>
+  <div class="abar">
+    <div class="arow">
+      <input id="aq" type="search" placeholder="Search titles, abstracts, keywords…" aria-label="Search articles">
+      <button class="abtn" id="toggle-all" type="button">Expand abstracts</button>
     </div>
-    <span class="art-go">Open the articles →</span>
-  </a>
+    <div class="chips" id="achips"></div>
+  </div>
+  <div id="av-main"><p class="empty">Loading the articles…</p></div>
+  <div class="anotes">
+    <p>Each PDF is the more recent of the copy on my
+      <a href="https://alozano.clas.uconn.edu/research-articles/">UConn website</a> and the copy on
+      <a href="https://arxiv.org/search/math?searchtype=author&amp;query=Lozano-Robledo,+A">arXiv</a>.
+      These are author versions, not publisher typeset versions: please cite the journal of record.</p>
+    <p>Abstracts are the authors’ own, taken from arXiv, from the publisher’s record, or from the PDF itself.
+      Three articles (a <em>Notices</em> column, a short story and an essay) have no published abstract; for those a short
+      <em>Summary</em> is given instead.</p>
+    <p>An <strong>HTML</strong> link appears where arXiv has rendered the submitted LaTeX as a web page, with real MathML:
+      the mathematics reflows, scales without blurring, and can be read aloud by a screen reader.</p>
+  </div>
 </section>
 
 </main>
@@ -90,5 +105,6 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 </footer>
 
 <script src="../theme.js"></script>
+<script src="articles.js"></script>
 </body>
 </html>
