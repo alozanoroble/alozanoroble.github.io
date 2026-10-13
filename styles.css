@@ -161,3 +161,5 @@ nav { align-items: center; }
 :root[data-theme="dark"] .theme-toggle .i-moon { display: none; }
 :root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"] { color-scheme: dark; }
+
+.foot .ai-note { margin-top: 0.4rem; font-size: 0.85rem; }
