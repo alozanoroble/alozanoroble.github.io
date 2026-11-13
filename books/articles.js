@@ -28,6 +28,7 @@
     var url = PDF_BASE + encodeURIComponent(it.file);
     var links = [];
     if (it.arxiv) links.push('<a class="lnk" href="https://arxiv.org/abs/' + esc(it.arxiv) + '">arXiv:' + esc(it.arxiv) + "</a>");
+    if (it.link) links.push('<a class="lnk" href="' + esc(it.link.url) + '">' + esc(it.link.label) + "</a>");
     if (it.doi) links.push('<a class="lnk" href="https://doi.org/' + esc(it.doi) + '">doi:' + esc(it.doi) + "</a>");
     var htmlLink = it.html ? '<a class="html-btn" href="' + esc(it.html) + '">HTML</a>' : "";
     var co = (it.authors || []).filter(function (a) { return !/Lozano/i.test(a); });

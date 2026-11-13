@@ -21,6 +21,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Buscando_Puntos_Racionales_Curvas_Elipticas.pdf",
    "n": 1
   },
@@ -44,6 +45,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Closed_Subgroups_of_SL2_Zp_X.pdf",
    "n": 2
   },
@@ -69,6 +71,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Surjectivity_of_Galois_Representations.pdf",
    "n": 3
   },
@@ -98,6 +101,7 @@
     "11G05",
     "11G16"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Elliptic_Units_and_p-adic_Galois_Representations.pdf",
    "n": 4
   },
@@ -122,6 +126,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Bernoulli_Hurwitz_Numbers_p-adic_L-functions_Kummer.pdf",
    "n": 5
   },
@@ -145,6 +150,7 @@
    "arxiv": "math/0406579",
    "html": "https://arxiv.org/html/math/0406579",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Constructing_Elliptic_Curves_over_Qt_with_Moderate_Rank.pdf",
    "n": 6
   },
@@ -170,6 +176,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Ranks_of_Abelian_Varieties_over_Infinite_Extensions.pdf",
    "n": 7
   },
@@ -198,6 +205,7 @@
    "msc": [
     "11G05"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Products_of_Quadratic_Twists_and_Ranks_over_Large_Fields.pdf",
    "n": 8
   },
@@ -223,6 +231,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Product_of_Twists_of_Rank_Two_and_Larsens_Conjecture.pdf",
    "n": 9
   },
@@ -251,6 +260,7 @@
     "14G25",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Elliptic_Curves_of_Maximal_Rank.pdf",
    "n": 10
   },
@@ -276,6 +286,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Bernoulli-Hurwitz_Numbers_Wieferich_Primes_Galois_Representations.pdf",
    "n": 11
   },
@@ -302,6 +313,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Torsion_Bounds_over_Extensions_with_Bounded_Ramification.pdf",
    "n": 12
   },
@@ -326,6 +338,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Introduccion_a_la_Teoria_de_Iwasawa.pdf",
    "n": 13
   },
@@ -351,6 +364,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Formal_Groups_with_Potential_Good_Supersingular_Reduction.pdf",
    "n": 14
   },
@@ -376,6 +390,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Field_of_Definition_of_p-torsion_Points.pdf",
    "n": 15
   },
@@ -403,6 +418,7 @@
     "11G05",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Division_Fields_with_Minimal_Ramification.pdf",
    "n": 16
   },
@@ -429,6 +445,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Isomorphism_Classes_of_CM_Elliptic_Curves.pdf",
    "n": 17
   },
@@ -458,6 +475,7 @@
     "14G25",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Ramification_in_Division_Fields_Potential_Supersingular.pdf",
    "n": 18
   },
@@ -486,6 +504,7 @@
     "11G05",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Elliptic_Curves_with_Abelian_Division_Fields.pdf",
    "n": 19
   },
@@ -510,6 +529,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Premio_Abel_2016_Andrew_Wiles.pdf",
    "n": 20
   },
@@ -535,6 +555,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__What_Is_an_Elliptic_Curve.pdf",
    "n": 21
   },
@@ -561,6 +582,7 @@
    "arxiv": "1511.08057",
    "html": "https://arxiv.org/html/1511.08057",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Minimal_Degree_of_Definition_of_p-primary_Torsion.pdf",
    "n": 22
   },
@@ -589,6 +611,7 @@
    "arxiv": "1509.00528",
    "html": "https://arxiv.org/html/1509.00528",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Torsion_over_the_Compositum_of_All_Cubic_Fields.pdf",
    "n": 23
   },
@@ -617,6 +640,7 @@
     "11G05",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Uniform_Boundedness_in_Terms_of_Ramification.pdf",
    "n": 24
   },
@@ -642,6 +666,7 @@
    "arxiv": "1606.00645",
    "html": "https://arxiv.org/html/1606.00645",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Torsion_of_Rational_Elliptic_Curves_over_Quartic_Fields.pdf",
    "n": 25
   },
@@ -672,6 +697,7 @@
     "11G10",
     "14K15"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Rank_Bounds_for_Jacobians_of_Hyperelliptic_Curves.pdf",
    "n": 26
   },
@@ -705,6 +731,7 @@
     "11G20",
     "11G25"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Rank_and_Bias_in_Hyperelliptic_Families_via_Nagao.pdf",
    "n": 27
   },
@@ -730,6 +757,7 @@
    "arxiv": "1611.01999",
    "html": "https://arxiv.org/html/1611.01999",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Probabilistic_Model_for_the_Distribution_of_Ranks.pdf",
    "n": 28
   },
@@ -756,6 +784,7 @@
    "arxiv": "2001.05616",
    "html": "https://arxiv.org/html/2001.05616",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Classification_of_Isogeny-Torsion_Graphs.pdf",
    "n": 29
   },
@@ -780,6 +809,7 @@
    "arxiv": "1809.02584",
    "html": "https://arxiv.org/html/1809.02584",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Galois_Representations_of_Elliptic_Curves_with_CM.pdf",
    "n": 30
   },
@@ -804,6 +834,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__The_Day_She_Proved_It.pdf",
    "n": 31
   },
@@ -827,6 +858,7 @@
    "arxiv": null,
    "html": null,
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__How_to_Referee_a_Math_Paper.pdf",
    "n": 32
   },
@@ -856,6 +888,7 @@
     "11G05",
     "14H52"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Coincidences_of_Division_Fields.pdf",
    "n": 33
   },
@@ -883,6 +916,7 @@
    "arxiv": "2105.02060",
    "html": "https://arxiv.org/html/2105.02060",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Classification_of_Entanglements_of_Galois_Representations.pdf",
    "n": 34
   },
@@ -908,6 +942,7 @@
    "arxiv": "2308.00668",
    "html": "https://arxiv.org/html/2308.00668",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__CM_Elliptic_Curves_and_Abelian_Division_Fields.pdf",
    "n": 35
   },
@@ -935,6 +970,7 @@
    "arxiv": "2408.04159",
    "html": "https://arxiv.org/html/2408.04159",
    "msc": [],
+   "link": null,
    "file": "Lozano-Robledo__Models_of_CM_Elliptic_Curves_with_Prescribed_l-adic_Image.pdf",
    "n": 36
   },
@@ -962,8 +998,66 @@
     "14H52",
     "14K22"
    ],
+   "link": null,
    "file": "Lozano-Robledo__Image_of_the_Adelic_Galois_Representation_CM.pdf",
    "n": 37
+  },
+  {
+   "key": "41",
+   "title": "Elliptic curve rank growth in multi-quadratic extensions",
+   "where": "preprint",
+   "date": "2026-10",
+   "year": "2026",
+   "preprint": true,
+   "category": "Ranks",
+   "tags": [
+    "rank growth",
+    "multi-quadratic fields"
+   ],
+   "abstract": "In this article we give an algorithm to produce infinitely many explicit quadratic twists of a given elliptic curve over $\\mathbb{Q}$ with a rational point and fixed root number. Moreover, under the Parity Conjecture (or other technical hypotheses), for each $n\\geq 1$, we produce explicit multi-quadratic extensions $L_n$ of $\\mathbb{Q}$, of degree $2^n$, such that the growth in rank from $\\mathbb{Q}$ to $L_n$ is at least $\\max\\{2n+2^{n-1}-1,\\,2^n-1\\}$ when the root number of $E$ is $-1$, and at least $\\max\\{2n,\\,2^{n-1}+2n-2\\}$ when it is $+1$. As a result, assuming Parity, we exhibit elliptic curves over $\\mathbb{Q}$ and extensions of degree $2^n$ where the rank after base-extension is greater than or equal to $32+\\max\\{2n,\\,2^{n-1}+2n-2\\}$ or $30+\\max\\{2n+2^{n-1},\\,2^n\\}$.",
+   "abstract_source": "arxiv",
+   "summary": false,
+   "doi": null,
+   "authors": [
+    "Dylan T. Costa",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": "2610.31925",
+   "html": "https://arxiv.org/html/2610.31925",
+   "msc": [],
+   "link": null,
+   "file": "Lozano-Robledo__Rank_Growth_Multi-Quadratic_Extensions.pdf",
+   "n": 38
+  },
+  {
+   "key": "42",
+   "title": "An elliptic curve of rank ≥ 34 and root number −1 over a quadratic field",
+   "where": "preprint",
+   "date": "2026-10",
+   "year": "2026",
+   "preprint": true,
+   "category": "Ranks",
+   "tags": [
+    "quadratic twists",
+    "record ranks"
+   ],
+   "abstract": "In this article, we find a quadratic twist over $\\mathbb{Q}$ of rank  $\\geq 2$ (and $\\geq 3$ assuming parity) of an elliptic curve $E/\\mathbb{Q}$ of rank $\\geq 32$, recently found by Elkies, Klagsbrun, and Li. We use a family of quadratic twists of rank $\\geq 2$ over $\\mathbb{Q}(t)$ constructed by Mestre to search for twists $E^D$ with root number $-1$, computing all root numbers without factoring the (very large) twisting parameter $D$. As a result, we exhibit an explicit integer $D$, with $411$ digits (a square times an integer with $381$ digits), such that $E^D$ has root number $-1$ and two independent rational points. In particular, the rank of $E$ over $\\mathbb{Q}(\\sqrt{D})$ is at least $34$, unconditionally, and at least $35$ if we assume the Parity Conjecture.",
+   "abstract_source": "hexagon",
+   "summary": false,
+   "doi": null,
+   "authors": [
+    "Dylan T. Costa",
+    "Álvaro Lozano-Robledo"
+   ],
+   "arxiv": null,
+   "html": null,
+   "msc": [],
+   "link": {
+    "label": "Hexagon:2610.00280v1",
+    "url": "https://hexagonmath.org/2610.00280v1"
+   },
+   "file": "Lozano-Robledo__Rank_34_Root_Number_-1_Quadratic_Field.pdf",
+   "n": 39
   }
  ],
  "order": [
@@ -985,8 +1079,8 @@
   "Expository & Historical": "Survey and historical writing, several pieces in Spanish, on elliptic curves, Iwasawa theory, Wiles's proof, and the practice of mathematics itself."
  },
  "stats": {
-  "total": 37,
-  "abstracts": 34,
+  "total": 39,
+  "abstracts": 36,
   "summaries": 3,
   "first": "2005",
   "last": "2025"
