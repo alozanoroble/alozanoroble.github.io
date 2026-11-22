@@ -31,6 +31,18 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   .md-title:hover { color: var(--accent); text-decoration: none; }
   .md-note { color: var(--muted); font-size: 0.95rem; }
   .md-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }
+  .rh-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin: 1.75rem 0 0.5rem; }
+  @media (max-width: 640px) { .rh-cards { grid-template-columns: 1fr; } }
+  .rh-card { display: flex; flex-direction: column; gap: 0.3rem; text-align: left; cursor: pointer;
+    background: var(--raised); color: var(--ink); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 0.9rem 1rem; font: inherit; transition: border-color .15s, background .15s; }
+  .rh-card:hover { border-color: var(--accent); }
+  .rh-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .rh-card[aria-selected="true"] { background: var(--accent-soft); border-color: var(--accent); }
+  .rh-card-k { font: 600 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); }
+  .rh-card-t { font: 500 1.15rem/1.25 var(--serif); }
+  .rh-card-d { font-size: 0.9rem; color: var(--muted); line-height: 1.4; }
+  .rh-card-n { font: 400 0.75rem var(--mono); color: var(--muted); margin-top: auto; padding-top: 0.3rem; }
 </style>
 </head>
 <body>
@@ -60,7 +72,28 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   <p class="lede">Links to documents about the two claimed proofs announced on November 20, 2026, and to my own resources about the Riemann Hypothesis. Last updated November 22, 2026.</p>
 </div>
 
-<section class="md-year">
+<div class="rh-cards" role="tablist" aria-label="Sections">
+  <button class="rh-card" type="button" role="tab" id="tab-alpoge" aria-controls="alpoge" aria-selected="true">
+    <span class="rh-card-k">Claim 1</span>
+    <span class="rh-card-t">Levent Alpöge</span>
+    <span class="rh-card-d">The proof, its Lean verification, and digests of the argument.</span>
+    <span class="rh-card-n">11 links</span>
+  </button>
+  <button class="rh-card" type="button" role="tab" id="tab-masullo" aria-controls="masullo" aria-selected="false">
+    <span class="rh-card-k">Claim 2</span>
+    <span class="rh-card-t">Alessandro Maria Masullo</span>
+    <span class="rh-card-d"><i>The Music of the Primes</i>, a claimed proof of GRH.</span>
+    <span class="rh-card-n">2 links</span>
+  </button>
+  <button class="rh-card" type="button" role="tab" id="tab-mine" aria-controls="mine" aria-selected="false">
+    <span class="rh-card-k">Background</span>
+    <span class="rh-card-t">My own resources</span>
+    <span class="rh-card-d">My Riemann Hypothesis app and videos about RH.</span>
+    <span class="rh-card-n">15 links</span>
+  </button>
+</div>
+
+<section class="md-year rh-panel" id="alpoge" role="tabpanel" aria-labelledby="tab-alpoge">
   <h2>Levent Alpöge</h2>
   <ul>
     <li>
@@ -125,7 +158,7 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   </ul>
 </section>
 
-<section class="md-year">
+<section class="md-year rh-panel" id="masullo" role="tabpanel" aria-labelledby="tab-masullo">
   <h2>Alessandro Maria Masullo</h2>
   <ul>
     <li>
@@ -140,7 +173,7 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   </ul>
 </section>
 
-<section class="md-year">
+<section class="md-year rh-panel" id="mine" role="tabpanel" aria-labelledby="tab-mine">
   <h2>My own resources about RH</h2>
   <ul>
     <li>
@@ -221,6 +254,41 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   <p class="ai-note">Declaration of AI use: this website was created with the help of an LLM.</p>
 </footer>
 
+<script>
+(function () {
+  var tabs = [].slice.call(document.querySelectorAll(".rh-card"));
+  function show(id, focus) {
+    tabs.forEach(function (t) {
+      var on = t.getAttribute("aria-controls") === id;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+      if (on && focus) t.focus();
+    });
+  }
+  function fromHash() {
+    var h = location.hash.slice(1);
+    show(tabs.some(function (t) { return t.getAttribute("aria-controls") === h; }) ? h : "alpoge");
+  }
+  tabs.forEach(function (t, k) {
+    t.addEventListener("click", function () {
+      var id = t.getAttribute("aria-controls");
+      history.replaceState(null, "", "#" + id);
+      show(id);
+    });
+    t.addEventListener("keydown", function (e) {
+      var d = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
+      if (!d) return;
+      e.preventDefault();
+      var n = tabs[(k + d + tabs.length) % tabs.length];
+      history.replaceState(null, "", "#" + n.getAttribute("aria-controls"));
+      show(n.getAttribute("aria-controls"), true);
+    });
+  });
+  window.addEventListener("hashchange", fromHash);
+  fromHash();
+})();
+</script>
 <script src="../theme.js"></script>
 </body>
 </html>
