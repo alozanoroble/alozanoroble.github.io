@@ -22,7 +22,8 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   .md-head .lede { margin: 0; }
   .md-year { padding-top: 1.75rem; }
   .md-year h2 { font-size: 1.35rem; margin: 0 0 0.5rem; }
-  .md-year h3 { font: 600 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 1.4rem 0 0.2rem; }
+  .md-year h3 { display: flex; align-items: baseline; gap: 0.6rem; font: 600 1.05rem/1.3 var(--serif); color: var(--ink); margin: 1.6rem 0 0; padding: 0.6rem 1rem; background: var(--raised); border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: 8px 8px 0 0; }
+  .md-year h3 + ul { border: 1px solid var(--rule); border-top: 0; border-left: 4px solid var(--accent-soft); border-radius: 0 0 8px 8px; padding: 0 1rem; }
   .md ul { list-style: none; margin: 0; padding: 0; }
   .md li { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.8rem 0; border-top: 1px solid var(--rule); }
   .md li:first-child { border-top: 0; }
@@ -95,6 +96,8 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 
 <section class="md-year rh-panel" id="alpoge" role="tabpanel" aria-labelledby="tab-alpoge">
   <h2>Alpöge’s claim</h2>
+
+  <h3>The claim</h3>
   <ul>
     <li>
       <span class="md-outlet">Levent Alpöge</span>
@@ -180,6 +183,8 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 
 <section class="md-year rh-panel" id="mine" role="tabpanel" aria-labelledby="tab-mine">
   <h2>Resources on RH</h2>
+
+  <h3>App</h3>
   <ul>
     <li>
       <span class="md-outlet">App</span>
