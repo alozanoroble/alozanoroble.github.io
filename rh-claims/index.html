@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Updates on the claims about the Riemann Hypothesis · Álvaro Lozano-Robledo</title>
+<meta name="description" content="Links to the documents, formal verifications and readers' guides for the November 2026 claims of proofs of the Riemann Hypothesis by Levent Alpöge and by Alessandro Maria Masullo.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E6E68'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' text-anchor='middle' fill='%23FCFBF8'%3EAL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script>
+try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .md { max-width: 46rem; padding-top: 3.5rem; padding-bottom: 1rem; }
+  @media (min-width: 880px) { .md { padding-top: 4.5rem; } }
+  .md-head { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; margin-bottom: 0.5rem; }
+  .md-head .kicker { margin-bottom: 1.1rem; }
+  .md-head h1 { margin-bottom: 0.6rem; }
+  .md-head .lede { margin: 0; }
+  .md-year { padding-top: 1.75rem; }
+  .md-year h2 { font-size: 1.35rem; margin: 0 0 0.5rem; }
+  .md-year h3 { font: 600 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 1.4rem 0 0.2rem; }
+  .md ul { list-style: none; margin: 0; padding: 0; }
+  .md li { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.8rem 0; border-top: 1px solid var(--rule); }
+  .md li:first-child { border-top: 0; }
+  .md-outlet { font: 600 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+  .md-title { font: 500 1.1rem/1.35 var(--serif); color: var(--ink); }
+  .md-title:hover { color: var(--accent); text-decoration: none; }
+  .md-note { color: var(--muted); font-size: 0.95rem; }
+  .md-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="../">Á. Lozano-Robledo</a>
+    <nav aria-label="Sections">
+      <a href="../#about">About</a>
+      <a href="../books/">Books &amp; articles</a>
+      <a href="../courses/">Courses</a>
+      <a href="../#apps">Apps</a>
+      <a href="../cv/">CV</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap md">
+
+<div class="md-head">
+  <p class="kicker">Riemann Hypothesis</p>
+  <h1>Updates on the claims about the Riemann Hypothesis</h1>
+  <p class="lede">Links to documents about the two claimed proofs announced on November 20, 2026, and to my own resources about the Riemann Hypothesis. Last updated November 22, 2026.</p>
+</div>
+
+<section class="md-year">
+  <h2>Levent Alpöge</h2>
+  <ul>
+    <li>
+      <span class="md-outlet">Levent Alpöge</span>
+      <a class="md-title" href="https://alpo.ge/" rel="noopener">Levent Alpöge’s website</a>
+    </li>
+    <li>
+      <span class="md-outlet">The proof</span>
+      <a class="md-title" href="https://alpo.ge/remark.pdf" rel="noopener">Alpöge’s note on the proof (PDF)</a>
+      <span class="md-note">The four-page note announcing the proof of the Riemann Hypothesis and its generalization to Dirichlet L-functions, with the accompanying Lean formalization.</span>
+    </li>
+  </ul>
+
+  <h3>Lean verification</h3>
+  <ul>
+    <li>
+      <span class="md-outlet">Lean community blog · Nov 21</span>
+      <a class="md-title" href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" rel="noopener">Lean verification of the Riemann Hypothesis</a>
+      <span class="md-note">The Lean community’s statement on checking the Lean proof.</span>
+    </li>
+    <li>
+      <span class="md-outlet">Lean Zulip</span>
+      <a class="md-title" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Alp.C3.B6ge.20Proves.20the.20Riemann.20Hypothesis/with/642477265" rel="noopener">Discussion: Alpöge Proves the Riemann Hypothesis</a>
+      <span class="md-note">The discussion thread on the Lean community chat.</span>
+    </li>
+    <li>
+      <span class="md-outlet">Andrew Sutherland (MIT)</span>
+      <a class="md-title" href="https://math.mit.edu/~drew/grh/" rel="noopener">RH Lean proof: verification files</a>
+      <span class="md-note">Drew Sutherland’s progress on verifying the claim.</span>
+    </li>
+  </ul>
+
+  <h3>Digests of the proof</h3>
+  <ul>
+    <li>
+      <span class="md-outlet">Robin Zhang (IHÉS)</span>
+      <a class="md-title" href="https://www.ihes.fr/~rzhang/files/GRH%20note.pdf" rel="noopener">A preliminary note on Alpöge’s proposed proof of the Generalized Riemann Hypothesis (PDF)</a>
+    </li>
+    <li>
+      <span class="md-outlet">Michael Rubinstein (Waterloo)</span>
+      <a class="md-title" href="https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/" rel="noopener">Alpöge/Claude proof of the Generalized Riemann Hypothesis</a>
+      <span class="md-note">A guide to the proof, including <a href="https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/zeta-paper.pdf" rel="noopener">the proof explained for the Riemann zeta function</a> (PDF) and an <a href="https://mrubinst.github.io/grh-lean-verification/" rel="noopener">independent Lean check</a>.</span>
+    </li>
+    <li>
+      <span class="md-outlet">riemann-rev</span>
+      <a class="md-title" href="https://nasqret.github.io/riemann-rev/" rel="noopener">The announced proof of the Riemann hypothesis: map, guide and record of checks</a>
+    </li>
+    <li>
+      <span class="md-outlet">Riemann proof atlas</span>
+      <a class="md-title" href="https://nasqret.github.io/riemann-proof-atlas/" rel="noopener">Riemann proof atlas</a>
+    </li>
+    <li>
+      <span class="md-outlet">GitHub</span>
+      <a class="md-title" href="https://github.com/jae-63/rh-alpoge-blueprint" rel="noopener">Human-readable blueprint of the Alpöge RH Lean formalization</a>
+      <span class="md-note">Top-layer statements, the crux of the argument versus library material, and dependency graphs.</span>
+    </li>
+    <li>
+      <span class="md-outlet">GitHub</span>
+      <a class="md-title" href="https://github.com/jimjamzola/RH-Alpoge-Reconstruction" rel="noopener">RH-Alpoge-Reconstruction</a>
+      <span class="md-note">An attempt to make the proof human readable.</span>
+    </li>
+  </ul>
+</section>
+
+<section class="md-year">
+  <h2>Alessandro Maria Masullo</h2>
+  <ul>
+    <li>
+      <span class="md-outlet">Alessandro Maria Masullo</span>
+      <a class="md-title" href="https://sites.google.com/view/tmotp/home" rel="noopener">The Music of the Primes</a>
+      <span class="md-note">Masullo’s site for his manuscript claiming a proof of the Generalized Riemann Hypothesis. It keeps the November 20 draft for the record, and will carry updates and revisions.</span>
+    </li>
+    <li>
+      <span class="md-outlet">Alessandro Maria Masullo</span>
+      <a class="md-title" href="https://alessandromariamas.wixsite.com/alessandro-maria" rel="noopener">Masullo’s personal website</a>
+    </li>
+  </ul>
+</section>
+
+<section class="md-year">
+  <h2>My own resources about RH</h2>
+  <ul>
+    <li>
+      <span class="md-outlet">App</span>
+      <a class="md-title" href="../riemann-hypothesis-explorer/">Riemann Hypothesis Explorer</a>
+    </li>
+  </ul>
+
+  <h3>Videos on the November 2026 claims</h3>
+  <ul>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=gHVTklO0CxA" rel="noopener">Huge breaking news in math: Levent Alpöge claims he has proved the Riemann Hypothesis and GRH</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=zf0XQoqpc_M" rel="noopener">A human proof of the Riemann Hypothesis (of GRH perhaps for Hecke L-functions??)!?</a>
+    </li>
+  </ul>
+
+  <h3>Videos about the Riemann Hypothesis</h3>
+  <ul>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=tCF3XoQFE48" rel="noopener">What is... the Riemann Hypothesis?</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=4e4nW8KX9eo" rel="noopener">The Extended, Generalized, and GRAND Riemann Hypotheses</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=8p_wjsKSVwM" rel="noopener">What is... the Quasi Riemann Hypothesis?</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=1nSjMqE5mVo" rel="noopener">What are the consequences of a proof of the Riemann Hypothesis?</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=1QSNMRn5JEk" rel="noopener">67.2% of zeros satisfy the Riemann Hypothesis (Claude proves)</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=j8OwWZLSZdw" rel="noopener">A proof of the Riemann Hypothesis??</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=OMyWzC_YW-M" rel="noopener">The Riemann Hypothesis is false (please watch till the end)</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=aQuZZ81-xP0" rel="noopener">Making sense of 1+2+3+... = −1/12</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=gYQW5orTuqM" rel="noopener">Book recommendations to learn about L-functions</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=u5L2RAfZPVA" rel="noopener">ChatGPT vs the Riemann Hypothesis</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=QTNMPgS4-ko" rel="noopener">Wolfram Alpha vs the Riemann Hypothesis</a>
+    </li>
+    <li>
+      <span class="md-outlet">YouTube</span>
+      <a class="md-title" href="https://www.youtube.com/watch?v=hjPCNO6y3O0" rel="noopener">Solving the Riemann Hypothesis using Photomath</a>
+    </li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Álvaro Lozano-Robledo · <a href="../">Home</a> · <a href="https://github.com/alozanoroble/alozanoroble.github.io">Source on GitHub</a></p>
+  <p class="ai-note">Declaration of AI use: this website was created with the help of an LLM.</p>
+</footer>
+
+<script src="../theme.js"></script>
+</body>
+</html>
