@@ -61,3 +61,4 @@
 .fg-pager a span { font: 400 0.75rem var(--mono); color: var(--muted); }
 .fg-next { text-align: right; }
 @media (max-width: 560px) { .fg-pager { grid-template-columns: 1fr; } .fg-next { text-align: left; } }
+.fg-content [style*="color"] { color: inherit !important; }
