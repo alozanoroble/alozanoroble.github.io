@@ -14,7 +14,8 @@
     { href: HOME + "books/", label: "Books & Articles", match: ["/books/", "/articles/"] },
     { href: HOME + "mathandcobb/", label: "MathAndCobb", match: "/mathandcobb/" },
     { href: HOME + "courses/", label: "Courses", match: "/courses/" },
-    { href: HOME + "#apps", label: "Apps", match: null }
+    { href: HOME + "#apps", label: "Apps", match: null },
+    { href: HOME + "field-guide/", label: "Blog", match: "/field-guide/" }
   ];
   var APPS = ["/riemann-hypothesis-explorer/", "/godel-ontological-lean/", "/MATH5020-Elliptic_Curves/"];
 
