@@ -1,0 +1,63 @@
+/* A Field Guide to Mathematics: index and post pages (built by scripts/build_fieldguide.py) */
+.fg { max-width: 46rem; padding-top: 3.5rem; padding-bottom: 1rem; }
+@media (min-width: 880px) { .fg { padding-top: 4.5rem; } }
+.fg .kicker a { color: inherit; }
+
+/* index */
+.fg-head { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; margin-bottom: 0.5rem; }
+.fg-head .kicker { margin-bottom: 1.1rem; }
+.fg-head h1 { margin-bottom: 0.6rem; }
+.fg-head .lede { margin: 0; }
+.fg-year { padding-top: 1.75rem; }
+.fg-year h2 { font-size: 1.35rem; margin: 0 0 0.5rem; }
+.fg-year ul { list-style: none; margin: 0; padding: 0; }
+.fg-year li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.2rem 1rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); }
+.fg-year li:first-child { border-top: 0; }
+.fg-date { font: 400 0.8rem/1.6 var(--mono); color: var(--muted); padding-top: 0.15rem; }
+.fg-body { display: flex; flex-direction: column; gap: 0.2rem; }
+.fg-cat { font: 600 0.75rem var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+.fg-title { font: 500 1.15rem/1.35 var(--serif); color: var(--ink); }
+.fg-title:hover { color: var(--accent); text-decoration: none; }
+.fg-ex { color: var(--muted); font-size: 0.95rem; }
+@media (max-width: 560px) { .fg-year li { grid-template-columns: 1fr; } }
+.fg-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }
+
+/* post */
+.fg-post h1 { margin: 0.4rem 0 0.4rem; }
+.fg-meta { font: 400 0.85rem var(--mono); color: var(--muted); margin: 0 0 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--rule); }
+.fg-content { font: 400 1.12rem/1.7 var(--serif); color: var(--ink); overflow-wrap: break-word; }
+.fg-content p { margin: 0 0 1.1em; }
+.fg-content h1, .fg-content h2, .fg-content h3, .fg-content h4 { font-family: var(--serif); line-height: 1.3; margin: 1.8em 0 0.6em; }
+.fg-content h2 { font-size: 1.45rem; }
+.fg-content h3 { font-size: 1.25rem; }
+.fg-content ul, .fg-content ol { margin: 0 0 1.1em; padding-left: 1.4em; }
+.fg-content li { margin: 0.25em 0; }
+.fg-content img { max-width: 100%; height: auto; border-radius: 6px; }
+.fg-content figure { margin: 1.5em 0; }
+.fg-content figcaption, .fg-content .wp-element-caption { font: 400 0.88rem/1.5 var(--sans, sans-serif); color: var(--muted); text-align: center; margin-top: 0.5em; }
+.fg-content .aligncenter, .fg-content .has-text-align-center { text-align: center; margin-left: auto; margin-right: auto; }
+.fg-content .alignleft { float: left; margin: 0.3em 1.2em 0.8em 0; max-width: 50%; }
+.fg-content .alignright { float: right; margin: 0.3em 0 0.8em 1.2em; max-width: 50%; }
+.fg-content .has-text-align-right { text-align: right; }
+.fg-content .wp-block-image { margin: 1.5em 0; }
+.fg-content blockquote { margin: 1.5em 0; padding: 0.2em 0 0.2em 1.2em; border-left: 3px solid var(--accent); color: var(--muted); font-style: italic; }
+.fg-content blockquote.twitter-tweet { font-style: normal; font-size: 0.98rem; background: var(--raised); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px; padding: 0.9em 1.1em; }
+.fg-content .wp-block-group.has-background { background: var(--raised) !important; border: 1px solid var(--rule); border-radius: 8px; padding: 1.1em 1.3em 0.1em; margin: 1.5em 0; }
+.fg-content [class*="-background-color"], .fg-content .has-background { background: transparent; }
+.fg-content .wp-block-group.has-background { background: var(--raised) !important; }
+.fg-content [class*="-color"] { color: inherit; }
+.fg-content .wp-block-columns { display: flex; flex-wrap: wrap; gap: 1.5em; }
+.fg-content .wp-block-column { flex: 1 1 14rem; min-width: 0; }
+.fg-content [class*="gallery"] ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0.75em; }
+.fg-content hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+.fg-content::after { content: ""; display: block; clear: both; }
+
+.fg-foot { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.92rem; }
+.fg-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 0.8rem; }
+.fg-tag { font: 500 0.75rem var(--mono); padding: 0.2rem 0.55rem; border: 1px solid var(--rule); border-radius: 999px; }
+.fg-pager { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+.fg-pager a { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1rem; border: 1px solid var(--rule); border-radius: 8px; color: var(--ink); font: 500 1rem/1.35 var(--serif); }
+.fg-pager a:hover { border-color: var(--accent); text-decoration: none; }
+.fg-pager a span { font: 400 0.75rem var(--mono); color: var(--muted); }
+.fg-next { text-align: right; }
+@media (max-width: 560px) { .fg-pager { grid-template-columns: 1fr; } .fg-next { text-align: left; } }
