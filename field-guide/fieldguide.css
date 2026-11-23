@@ -91,3 +91,5 @@
 .fg-next { text-align: right; }
 @media (max-width: 560px) { .fg-pager { grid-template-columns: 1fr; } .fg-next { text-align: left; } }
 .fg-content [style*="color"] { color: inherit !important; }
+.fg-note { font: 400 0.92rem/1.55 var(--sans, sans-serif); color: var(--muted); background: var(--raised); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px; padding: 0.8em 1em; margin: 0 0 1.6em; }
+.fg-note a { overflow-wrap: anywhere; }
