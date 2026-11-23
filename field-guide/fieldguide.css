@@ -93,3 +93,10 @@
 .fg-content [style*="color"] { color: inherit !important; }
 .fg-note { font: 400 0.92rem/1.55 var(--sans, sans-serif); color: var(--muted); background: var(--raised); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px; padding: 0.8em 1em; margin: 0 0 1.6em; }
 .fg-note a { overflow-wrap: anywhere; }
+.fg-epigraph { text-align: center; color: var(--muted); margin: 0 auto 2em; max-width: 34rem; }
+.fg-break { text-align: center; letter-spacing: 0.5em; color: var(--muted); margin: 1.8em 0; }
+.fg-thm, .fg-proof { margin: 1.2em 0; padding: 0.8em 1.1em; background: var(--raised); border: 1px solid var(--rule); border-radius: 8px; }
+.fg-thm p, .fg-proof p { margin: 0 0 0.6em; } .fg-thm p:last-child, .fg-proof p:last-child { margin: 0; }
+.fg-content blockquote.fg-letter { font-style: italic; }
+.fg-refs { font-size: 0.92rem; color: var(--muted); }
+.fg-content .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.2em 0; }
