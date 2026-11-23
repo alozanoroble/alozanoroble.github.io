@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Last Hour of Felix Hausdorff · A Field Guide to Mathematics</title>
+<meta name="description" content="A short story I wrote in Spanish in 2006–2007 (“La última hora de Félix Hausdorff”), translated here into English. In memory of “Paul Mongré” But Samuel said: “As your sword has made so many women …">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E6E68'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' text-anchor='middle' fill='%23FCFBF8'%3EAL%3C/text%3E%3C/svg%3E">
+<link rel="alternate" type="application/atom+xml" title="A Field Guide to Mathematics" href="../../field-guide/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script>
+try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../field-guide/fieldguide.css">
+</head>
+<body>
+
+<div class="bg-art" aria-hidden="true">
+<svg viewBox="0 0 240 200" preserveAspectRatio="xMidYMid meet">
+      <line class="axis" x1="0" y1="100" x2="240" y2="100"/>
+      <line class="axis" x1="100" y1="0" x2="100" y2="200"/>
+      <path class="curve" d="M235.0,-21.0 L227.5,-10.5 L220.0,-0.6 L212.7,8.9 L205.5,17.8 L198.4,26.2 L191.4,34.0 L184.6,41.2 L177.8,47.8 L171.2,53.7 L164.7,58.8 L158.3,63.0 L152.0,66.3 L145.9,68.6 L139.9,69.9 L134.0,70.2 L128.2,69.7 L122.5,68.7 L117.0,67.3 L111.6,65.7 L106.3,64.0 L101.2,62.4 L96.2,60.8 L91.3,59.4 L86.5,58.1 L81.9,57.1 L77.5,56.3 L73.1,55.7 L68.9,55.4 L64.9,55.3 L61.0,55.4 L57.2,55.8 L53.7,56.5 L50.2,57.4 L46.9,58.5 L43.8,59.9 L40.8,61.5 L38.0,63.3 L35.4,65.4 L33.0,67.7 L30.7,70.2 L28.6,72.9 L26.8,75.9 L25.1,79.1 L23.7,82.5 L22.4,86.2 L21.5,90.1 L20.8,94.5 L20.5,100.0 L20.8,105.5 L21.5,109.9 L22.4,113.8 L23.7,117.5 L25.1,120.9 L26.8,124.1 L28.6,127.1 L30.7,129.8 L33.0,132.3 L35.4,134.6 L38.0,136.7 L40.8,138.5 L43.8,140.1 L46.9,141.5 L50.2,142.6 L53.7,143.5 L57.2,144.2 L61.0,144.6 L64.9,144.7 L68.9,144.6 L73.1,144.3 L77.5,143.7 L81.9,142.9 L86.5,141.9 L91.3,140.6 L96.2,139.2 L101.2,137.6 L106.3,136.0 L111.6,134.3 L117.0,132.7 L122.5,131.3 L128.2,130.3 L134.0,129.8 L139.9,130.1 L145.9,131.4 L152.0,133.7 L158.3,137.0 L164.7,141.2 L171.2,146.3 L177.8,152.2 L184.6,158.8 L191.4,166.0 L198.4,173.8 L205.5,182.2 L212.7,191.1 L220.0,200.6 L227.5,210.5 L235.0,221.0"/>
+      <line class="secant" x1="8" y1="62" x2="232" y2="62"/>
+      <line class="reflect" x1="40" y1="62" x2="40" y2="138"/>
+      <circle class="pt" cx="100" cy="62" r="2.6"/>
+      <circle class="pt" cx="160" cy="62" r="2.6"/>
+      <circle class="pt ghost" cx="40" cy="62" r="2.6"/>
+      <circle class="pt sum" cx="40" cy="138" r="2.6"/>
+    </svg>
+</div>
+
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="../../">Á. Lozano-Robledo</a>
+    <nav aria-label="Sections">
+      <a href="../../#about">About</a>
+      <a href="../../books/">Books &amp; articles</a>
+      <a href="../../courses/">Courses</a>
+      <a href="../../#apps">Apps</a>
+      <a href="../../cv/">CV</a>
+      <a href="../../field-guide/" aria-current="page">Blog</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap fg fg-post">
+
+<a class="fg-strip" href="../"><span class="kicker">Blog</span><span class="fg-strip-name">A Field Guide to Mathematics</span></a>
+<h1>The Last Hour of Felix Hausdorff</h1>
+<p class="fg-meta"><time datetime="2007-03-07">March 7, 2007</time></p>
+
+<article class="fg-content">
+<p class="fg-note">A short story I wrote in Spanish in 2006–2007 (“La última hora de Félix Hausdorff”), translated here into English.</p>
+
+<p class="fg-epigraph"><em>In memory of “Paul Mongré”</em></p>
+
+<blockquote><p>But Samuel said: “As your sword has made so many women childless, so shall your mother be childless among women.” And Samuel hewed Agag, king of the Amalekites, in pieces before the Lord.</p><p>— 1 Samuel 15:33. The verse was quoted by Yitzhak Ben-Zvi, president of Israel, in reply to the pleas for clemency before the execution of Adolf Eichmann in 1962.</p></blockquote>
+
+<h3>Bonn, Germany. January 26, 1942</h3>
+
+<p>Felix is the first to swallow the barbiturates, enough to end his own life in less than an hour. Charlotte, his wife, looks at him, stunned, unable to understand how they have come to this. Edith, Charlotte’s sister, bursts into inconsolable tears. Now Felix offers the pills to Charlotte, and she swallows them too. Then they manage to calm Edith and, between sobs and tears, she takes them as well. “It is the only solution,” they tell one another, but the words are hollow, empty of meaning, and they are of little help.</p>
+
+<p>Felix collapses onto the sofa and brings his hands to his face, trying to cover the shame he feels. The barbiturates have not yet begun to take effect, but his stomach aches bitterly with the guilt that has tormented him for months. “I have not been able to save my family from a death so many warned me about,” he thinks. “A death foretold by relatives and friends, announced even by the <em>Nationalsozialistische</em> government, and still we have not been able to escape it.” Charlotte comes over, guessing his thoughts. She repeats the improbable conclusion they reached not long ago: “It is the only dignified solution. None of this is your fault.” Charlotte sits down next to Felix. They look at each other intently, they melt into an embrace and they kiss, drying each other’s tears with soft caresses on the face. Edith sits down beside her sister, and they too embrace, kiss, and say goodbye with words of affection.</p>
+
+<p>The first symptoms of barbiturate poisoning are similar to drunkenness, but the condition quickly worsens, the central nervous system shuts down, and the victim enters a state of cardiopulmonary failure. The first to lose consciousness is Edith (she will spend several days in a coma before she dies). Felix and Charlotte Hausdorff die shortly afterward, holding hands.</p>
+
+<h3>Northern Ireland. January 26, 1942</h3>
+
+<p>Two children are playing on a beach near a harbor, trying to build a wall of stones and sand so strong that the sea will not be able to bring it down. They both run around wildly, looking for rocks and hauling buckets of sand, for the tide is already approaching the first lines of defense. The first waves flood the moats, but the next wave crashes violently against the outer wall. The children stand still, waiting, until the wave pulls back. The fortifications have not given up an inch, and the wave returns to the sea, defeated and spent. The architects cheer their feat and hurry back to their construction work.</p>
+
+<p>They are so absorbed that they have not noticed what is happening out at sea. When they hear the first horn, they both freeze, staring at the horizon. Dozens of warships are heading for the docks and the beach, emerging from the fog, their guns pointed at the coast. Pale, the children look at each other and run terrified to their house to warn their parents. The first troop transport runs aground on the sand and the landing begins, flattening the fortifications the children had built with so much effort. These are the first American soldiers to set foot in Europe during the Second World War. They bring with them a ray of hope, but they arrive only a few minutes before the suicide of the Hausdorff family.</p>
+
+<h3>Bonn, Germany. January 25, 1942</h3>
+
+<p>Felix Hausdorff writes a letter to his friend and the family’s lawyer, Hans Wollstein:</p>
+
+<blockquote class="fg-letter">
+<p>Dear Friend Wollstein,</p>
+<p>By the time you receive these lines, we three will have solved the problem in another way, in the way which you have continually attempted to dissuade us from. […] What has been done against the Jews in recent months arouses well-founded anxiety that we will no longer be allowed to experience a bearable situation.</p>
+<p>Tell the Philippsons whatever you think fit, and thank them for their friendship (which, however, you above all deserve). Please also give Herr Mayer our heartfelt thanks for everything he has done for us and, had it been necessary, everything he would have done. We have sincerely marveled at his organizational triumphs and, if we did not have this anxiety, we would gladly have placed ourselves in his hands, which would indeed have brought a relative sense of security. Unfortunately, only relative.</p>
+<p>By our will dated October 10, 1941, we have made our son-in-law, Dr. Arthur König, residing at Reichardstieg 14, Jena, our heir.</p>
+<p>[…]</p>
+<p>Forgive us, that we still cause you trouble beyond death; I am convinced that you will do what you are able to do (and which perhaps is not very much). Forgive us also our desertion! We wish you and all our friends better times.</p>
+<p>Yours faithfully, Felix Hausdorff.</p>
+</blockquote>
+
+<h3>Bonn, Germany. January 22, 1942</h3>
+
+<p>Erich Bessel-Hagen, great-grandson of Friedrich Bessel, walks along the Hindenburgstrasse until he reaches the house where the Hausdorff family lives. Until a year ago, the mansion was in perfect condition (Frau Hausdorff looked after it with great care), but now the building and the garden are in a more than deplorable state. In April 1941, the Hausdorffs were forced by the government to give up most of the house to new tenants, and they were confined to a tiny section of the first floor and the basement. By law, their windows had been marked with the Star of David, but the symbols did not last long, for in a short time a hail of stones had broken nearly every pane.</p>
+
+<p>Erich, trying not to attract much attention, knocks softly on the door with his knuckles. Felix opens the door, but Erich sees only a ghost, with a pale and wrinkled face and worried eyes, defeated by exhaustion. When they recognize the visitor, the eyes shine for an instant, and Felix offers a forced smile. “Erich, how good to see you, please, come in, come in.” There is hardly room to move (the furniture that once adorned the mansion now fights for space in a couple of rooms), but he manages to reach an armchair, where Felix invites him to sit. Erich takes off his hat but decides to keep his coat on. Although the Hausdorffs have tried to cover the holes in the windows with cloth and cardboard, the icy gusts of wind (and even a few snowflakes) always find a way into the house. Felix himself is wrapped in jackets and blankets.</p>
+
+<p>Charlotte comes to greet Bessel-Hagen and thanks him for the visit with all her heart, as always, for Erich is the only professor from the University of Bonn who has kept visiting them since Felix’s forced retirement in ’35. Edith brings them boiling-hot coffee and some slightly stale biscuits. The two women say goodbye to Erich and withdraw to the kitchen, to leave the mathematicians to talk about their own affairs.</p>
+
+<p>First, Erich talks about the University of Bonn. He tells Felix about the professors and what they are doing (“Krull, it seems, is working for the Navy, in the weather service,” he remarks), which research problems they are working on, which talks have been given, and which results have been announced lately. He also tells him about the rumors going around the department about other universities, Berlin and Göttingen in particular. “Teichmüller has gone back to Berlin to teach a course, invited by Bieberbach…” but Hausdorff interrupts him; he does not want to hear about mathematicians who support the regime, some of whom have even helped to remove professors of Jewish origin from their posts. Felix asks Erich about his own mathematical research, and Erich explains what he is trying to prove and how far he has gotten. Felix reflects for a moment and gets up to look for an article that might help Erich. In one corner of the room there are several bookcases overflowing with mathematics books, and on the floor there are mountains of papers and offprints of research articles. “It’s around here somewhere… Here it is, yes, this is the one,” says Felix, handing the article to Bessel-Hagen and, while Erich leafs through the pages, Hausdorff explains to him precisely the main theorems and how he can apply them to his project. For a few minutes Felix seems another man; his face has lit up as he explains the ideas, the proofs, and their consequences, with astonishing mental agility for his 73 years. Erich thanks him for his enthusiasm and his help. Felix sits back down and, little by little, exhaustion and the feeling of humiliation take hold of his expression once more.</p>
+
+<p>Now Erich and Felix talk about the War. “I wish I had better news, but Hitler seems invincible,” says Bessel-Hagen. Indeed, in only two years, the troops of the Third Reich have invaded Poland, France, Denmark, Norway, the Low Countries, Yugoslavia, Greece, Crete and, with Italy’s help, North Africa. “England is under constant bombardment, and they say the invasion will begin soon. In the east, the four million troops the Führer has sent into the Soviet Union are advancing quickly and wreaking havoc in their path. They say Stalin will not last much longer.” Felix listens in silence. “Although Germany has declared war on the Americans, I have no hope that they will try to stop the invasion of Europe; they are having enough trouble in the Pacific.” Felix nods, agreeing with Erich. He is convinced that, at this point, it is impossible to stop what is happening. The English and the Americans are not strong enough to defeat the Reich. “My only hope is that the War ends soon; then Hitler will probably soften the measures against the non-Aryan population… against you,” but Felix answers, “It is too late already, my friend Erich. The order came three days ago; they are sending us to the ghetto in Endenich.”</p>
+
+<p>Silence falls over the room. All that can be heard is weeping from the kitchen. The two mathematicians know that Endenich is not the final destination, but a brief stop before being sent to the concentration camps in the east. Erich is struck dumb; he does not know what to say. The rumors of what is happening to the Jews of Europe in these ghettos and camps are chilling. “Perhaps the university could help you again, perhaps there is some way to avoid…” says Bessel-Hagen, to which Hausdorff calmly replies, “The university helped us for the last time last year, when they kept us from being sent to the internment in the Kreuzberg convent with the other Jews still left in Bonn. I have tried to speak with the <em>Dekan</em>, but the risk he would run if he tried to help us again is too serious. This time no one can help us.” Now it is Erich who is pale, and he speaks with frustration: “This is madness! How can they deport you to a concentration camp, you, who have done so much for mathematics in Germany? It has to be a mistake. There has to be some solution to all this insanity.” Hausdorff looks Erich in the eye and tells him, “My dear friend, only one dignified solution is left to us.”</p>
+
+<h3>Wannsee Villa, near Berlin, Germany. January 20, 1942</h3>
+
+<p>“What a pack of sons of bitches,” State Secretary Alfred Meyer says to himself, looking around. Everyone present greets one another with the right hand raised, as the ancient Romans did, and proclaims “Heil Hitler!” before sitting down around a long table in the villa’s main dining room. Alfred sits between Dr. Georg Leibbrandt (of the Ministry for the Occupied Eastern Territories, like Alfred) and the State Secretary of the Interior, Wilhelm Stuckart. At the head of the table are SS-Obersturmbannführer Adolf Eichmann and SS-Obergruppenführer Reinhard Heydrich. On Alfred’s side of the table also sit Dr. Erich Neumann (director of the “Four-Year Plan”), Dr. Roland Freisler (of the Reich Ministry of Justice), Dr. Josef Bühler, and Martin Luther. Facing Alfred sit the senior officials: Oberführer Gerhard Klopfer, Ministerialdirektor Friedrich Wilhelm Kritzinger, SS-Gruppenführer Otto Hofmann (of the Race and Settlement Main Office), Gruppenführer Heinrich Müller (head of the Gestapo), SS-Oberführer Dr. Karl Eberhard Schöngarth, and SS-Sturmbannführer Dr. Rudolf Lange (commander of the Security Police).</p>
+
+<p>The first to speak is Heydrich (“the biggest son of a bitch in the Reich,” thinks Alfred), to explain, for the record, that the Reichsmarschall and Commander-in-Chief of the Luftwaffe, the illustrious Hermann Göring, has ordered this meeting so that preparations may begin for what will be the “final solution of the Jewish question” in Europe, and to clarify certain fundamental points. “The objectives, as you all know, are two,” Heydrich says, repeating part of the circular they received: “(a) the expulsion of the Jews from every sphere of life of the German people, and (b) the expulsion of the Jews from the living space of the German people.” Heydrich goes on to say that “in 1939, by order of the Reichsmarschall, the Central Office for Jewish Emigration was established to speed up the deportation procedures and, since then, at least…”, he rummages through his papers, “…537,000 Jews have been processed. But the Führer and the Reichsmarschall are dissatisfied with the process, because of its slowness and the economic burden it entails. Until now, the wealthiest Jews,” as is the case of the Hausdorff family, “have paid for most of the evacuation of the poorer Jews, but new sources of funding will have to be found. Bear in mind that the final solution of this problem must cover all of the Jews of Europe (whose number exceeds 11 million), and therefore new measures are necessary.” Then the estimates of the Jewish population remaining in the different parts of the Reich are broken down: Germany proper, 131,800; Austria, 43,700; the eastern territories, 420,000; and so on.</p>
+
+<p>Heydrich interrupts his harangue and invites those present to offer ideas. Adolf Eichmann is the next to speak, to explain that certain methods used in some of the concentration camps could be the solution they are looking for, if the facilities are enlarged to treat large numbers at the same time. As Eichmann continues his monologue, Alfred Meyer’s stomach turns. They all know that Eichmann is referring to “Operation 14f13,” and to the first gas chambers and subsequent cremation that are beginning to be used in the camps of Auschwitz, Chełmno, and Majdanek.</p>
+
+<p>“Doctor Meyer?” Alfred gives a start; he has not noticed that Eichmann is speaking directly to him. “Perhaps you would like to explain how the Jewish problem is being dealt with in the occupied eastern territories.” Now it is Gauleiter Meyer’s turn to recount the atrocities for which he himself is directly responsible: how the Jews are being located and identified in the occupied parts of Poland and the Soviet Union, how the most troublesome Jews are being “treated,” and how the Jews are being used as slaves for “the glory of the Reich.” Alfred also warns that, given the large number of Jews in these areas, the first preparations for the final solution in the eastern territories must be carried out immediately, before the population becomes alarmed.</p>
+
+<p>When he finishes his own speech, the nausea is so strong that Alfred thinks he is going to vomit at any moment, right on top of the conference table. “Excellent work,” Eichmann congratulates him. Alfred nods and passes the floor to Dr. Georg Leibbrandt. The discussion goes on, but Alfred stops hearing what is being said; he can only hear in his mind the words he has just spoken, over and over again. “How did I get to this point?” he asks himself, unable to understand either his situation or his actions. He knows perfectly well how others in this room justify what they do (“we are only carrying out orders dictated by our superiors”), but he knows that this is a cheap excuse. He knows that refusing an order means disgrace, dismissal and, most likely, execution… but even that seems a cheap excuse when what is under discussion is the extermination of 11 million people. At first, Alfred thought that the “treatment” of Jews in the occupied territories was the most regrettable but necessary side of the war for, in the hardest moments of battle, there was no time to organize a humane evacuation. But now, when almost all of Europe had surrendered to the Nazi empire, he could find no justification at all for the extermination being planned here.</p>
+
+<p>Alfred comes back to himself and tries to follow carefully what is being debated now: the question of how to treat persons of mixed blood of the first degree, of the second degree, marriages between Jews and Germans of pure blood, and so on. Dr. Meyer wonders “how many of this pack of hypocrites are of pure Aryan race.”</p>
+
+<p>Shortly afterward, in less than an hour, the meeting is over, and the “final solution” has been decided, typed double-spaced, on one side of the page. In reality, it has been nothing more than a bureaucratic formality, for Eichmann, Heydrich, and company had already decided almost every detail beforehand, but now it is official, with the signatures of all the ministers and senior officials of the Reich, including that of Alfred Meyer. The ministers step out into the garden to smoke cigars and enjoy the rest of the Wannsee villa, now that they have carried out their orders and their work is done. Alfred excuses himself for a moment and goes to the lavatory to vomit. “We are all going to Hell, to the Hell of Hells.” This last part cannot be verified. What is certain is that Heydrich will be assassinated in May and that Adolf Eichmann will be tried and hanged in Israel in 1962 (in his defense he will claim that he was only following orders). It must be said that the only participant who will publicly express his shame and remorse for having taken part in that meeting will be Ministerialdirektor Friedrich Wilhelm Kritzinger. Alfred will kill himself in 1945, and his body will be found floating in the Weser river.</p>
+
+<h3>Bonn, Germany. October 17, 1941</h3>
+
+<p>Charlotte is ill. She is weak and feverish, with nausea and headaches. A doctor who is a friend of the family has come to see her several times, but he cannot determine the cause. Most likely the ailment is psychological in nature, perhaps depressive, brought on by stress and constant worry, something very common in these days in Germany. It is not easy to live in a nation at war with the rest of Europe, and even with its own citizens. In Charlotte’s case, the trouble began with a letter the Hausdorffs received threatening them with deportation to Cologne (a first step toward Poland), and since then she cannot sleep even a couple of hours a day.</p>
+
+<p>During his last visit, the doctor recommended Veronal, a barbiturate that acts as a hypnotic sleeping drug, so that she could fall asleep and rest. “Charlotte, I am going to leave you a supply of Veronal, enough for several months… I don’t know whether I will be able to come and see you again; I hope you understand,” the doctor apologized, ashamed of his cowardice. The Hausdorffs thanked the doctor for everything he had done for them, and let him know that they did not blame him and did not want him to take any more risks by coming to their house.</p>
+
+<p>Today another friend of the family has come to visit, Reinhard Wener. Reinhard and Felix have known each other for a long time, and they often get together to play the violin and the cello. Charlotte appreciates the visit, for from her bed she can hear the music coming from the living room, and it helps to calm her nerves, even if only for a couple of hours. They begin by playing duets composed by Beethoven (Charlotte’s favorite), and then they play a couple of pieces by Bach and as many by Mozart.</p>
+
+<p>The concert is abruptly interrupted when Edith arrives at the house, crying, her jacket in tatters. Felix hurriedly asks her, “What happened?” Even Charlotte gets out of bed, forgetting her illness for a moment, when she hears the commotion. Reinhard also goes to Edith, to help in any way he can.</p>
+
+<p>Through her tears, Edith says, “The star… the star, they attacked me for wearing it.” The others look sorrowfully at Edith’s torn jacket, at the word “Jude” inscribed on the Star of David. By official order, the Hausdorff family have been forced to sew the star, in bright yellow cloth, onto their jackets and coats. Felix accepted the order as one more humiliation, but he tried to fight so that his wife and his sister-in-law would not have to wear it. After all, Charlotte and Edith are not even Jewish anymore; they converted to the Lutheran faith long ago. Even so, they suffer as many indignities as Felix.</p>
+
+<p>“It’s over now, it’s over, don’t worry, Edith,” they tell her, in the voice one uses to calm a child who thinks he has seen a monster. “Poor Edith…” thinks Hausdorff. Not long ago, the American authorities rejected Edith’s request to travel to the United States to join her daughter, arguing that the number of transatlantic crossings had dropped dramatically because of the war between England and Germany.</p>
+
+<p>“Edith, please, sit down. Herr Wener and I are going to play another piece for you,” says Felix, as they take their seats. This time, the musicians play a piece that Hausdorff himself composed. It is a cheerful and exquisite piece, perfect for the occasion. When the strings stop vibrating, the audience applauds enthusiastically and asks for an encore. Hausdorff and Wener please their audience with another of the duets Felix composed as a young man. In fact, Felix would have liked to be a composer but, although he showed great musical talent, his father talked him out of the idea, and Hausdorff ended up earning a doctorate in mathematics (although his thesis was on astronomy).</p>
+
+<h3>Neudeck, East Prussia. August 1, 1934</h3>
+
+<p>The President of Germany, Paul Ludwig Hans Anton von Beneckendorff und von Hindenburg, or simply Paul von Hindenburg, wakes up and slowly, with the help of a servant, sits up in bed. Hindenburg breathes with difficulty; the cancer in his lungs is consuming his life, burning him from the inside, blazing like the zeppelin named in his honor. Even so, the cancer is not the worst of his ills. The weight of responsibility, the weight of all of Germany, crushes him and wears him out. At 86 he can no longer bear the accumulated political pressure and the tension he has lived through during his presidency. And in 1925 Paul did not even want the post, but he was forced to stand as a candidate to keep the Socialists, led by Otto Braun, from coming to power. Now he wonders whether Braun would have done better than he did.</p>
+
+<p>The old man looks around, and his eyes come to rest on the person sitting beside him. The visitor is dressed in uniform, with a multitude of insignia on his lapel, legs crossed, hands resting on his knees, looking at the sick man with harshness and distaste. Hindenburg’s mind is defeated, senile, and he cannot manage to recognize this figure. Finally, his mind betrays him, and Paul believes it is His Eminence, Kaiser Wilhelm II, who is at his side. “Your Majesty, what an honor,” says Hindenburg, with a slight bow, trying in vain to regain his composure. For a moment the visitor is surprised at the treatment he receives, but he soon realizes that the president’s senility is the reason for the mistake. Instead of correcting Paul, the visitor smiles and nods with a crooked expression.</p>
+
+<p>“I have failed you, Your Excellency, I have failed you and your empire…” Hindenburg apologizes, closing his eyes as he feels an intense pain in his chest. At this point his presidency is a pantomime, and he knows it; in fact, everyone knows it. The president, like everyone else, has become one more puppet of Chancellor Adolf Hitler, in spite of the president’s efforts to keep Hitler from power. Now Hindenburg feels a strong dizziness as he thinks of the events of the last years of his term, as inexplicable as they were irreversible, above all the dizzying rise of the Nazi party: in 1928 they had twelve seats in parliament, but by 1930 they already had 107. And after the resignation of Heinrich Brüning, in the elections of July 1932, the Nazis came to control 230 seats in parliament, becoming the largest party in the Reichstag. In 1933, Hindenburg had no choice but to accept Hitler’s political victory and appoint him chancellor, on January 30 of that year.</p>
+
+<p>“President Hindenburg, you have not failed me; quite the contrary. You have done your duty, listening to the voice of the German people and accepting its will,” says the man sitting beside him. Hindenburg opens his eyes and now, clearly, he sees Adolf Hitler rising from the chair. The chancellor takes his leave, right arm raised and hand outstretched, and walks out of the president’s quarters. Hindenburg, humiliated and exhausted, collapses on the bed and loses consciousness, which he will never regain, for the President of Germany will die the following day. With Hindenburg dies the last glimmer of democracy. A few days later, Hitler will proclaim himself Führer and Reichskanzler (Leader and Chancellor) of Germany.</p>
+
+<h3>Bonn, Germany. April 3, 1933</h3>
+
+<p>As he does every Monday, and in spite of the disturbances on Saturday, Felix Hausdorff heads to his office at the University of Bonn. The streets are a mess; there is broken glass everywhere, and the garbage cans seem to have been knocked over or hurled against houses chosen for the “race” of their occupants. Some of the shops run by Jewish families have closed their doors, while others are trying to return to normal, ignoring the antisemitic boycott organized and promoted by Minister Joseph Goebbels. But very few people dare to shop in these businesses today. Felix walks past a shoe store run by the Goldstein family and reads the sign someone has hung on the wall next to the entrance: “Respectable Germans do not shop here!” At another shop nearby there is another sign: “Germans, defend yourselves against Jewish propaganda, buy only in German shops!”</p>
+
+<p>“What madness,” thinks Felix, and he quickens his step, feeling unsafe in his own neighborhood. As he walks, Hausdorff reflects on how quickly the political climate in Germany is deteriorating. He is so absorbed in his own thoughts that he does not notice the barricade that has been put up near the mathematics building. Suddenly, some students guarding the entrance recognize their professor and start shouting, “That’s a Jewish professor, don’t let him through!”, and other students begin to hurl racist insults at Hausdorff that we will not repeat here. Felix stands up to them, indignant, but when the first stone flies past his head he turns around and runs, or moves as fast as he can.</p>
+
+<p>A few days later, on April 7 to be exact, Hitler’s government passes the “Law for the Restoration of the Professional Civil Service,” under which only persons of Aryan race may hold public posts. Fortunately, the University of Bonn intercedes on Felix’s behalf, and he is allowed to keep working. In 1935, however, Felix will have to leave his post for good and retire.</p>
+
+<h3>Greifswald, Germany. June 28, 1914</h3>
+
+<p>In Sarajevo, a young man with tuberculosis named Gavrilo Princip shoots and kills Archduke Franz Ferdinand of Austria and his wife Sophie. At the same moment, in Greifswald, in the northeast of Germany, Felix and Charlotte are living completely unaware of the drama looming over Europe. Until now, the Hausdorffs have had good years together. They married in Leipzig in 1899, and two years later Felix became an associate professor in the mathematics department of the University of Leipzig. The appointment itself had its bitter side, for seven members of the department voted against Hausdorff “for being of the Mosaic faith,” but Felix’s kind nature soon made him forget the incident. In 1902 he was offered a position at the prestigious University of Göttingen, but Felix turned it down because he and Charlotte were very happy in Leipzig (Krull will reproach him for this “mistake” many times). Nevertheless, after a brief stay in Bonn (from 1910 to 1913), he was offered a position as full professor, <em>Ordinarius</em>, in Greifswald, which he gladly accepted (and later, in 1921, he will accept a similar position in Bonn).</p>
+
+<p>Today the Hausdorffs are celebrating the publication of a book written by Felix, entitled <em>Grundzüge der Mengenlehre</em> (“Foundations of Set Theory”). Charlotte’s sister, Edith, has come to visit with her husband and her daughter, and the five of them are having lunch at the Hausdorffs’ house.</p>
+
+<p>The <em>Grundzüge</em> is not the first book Felix has published, although it is his first mathematics book and the first published under his real name. For example, in 1897 he published a book, under the pseudonym Paul Mongré, entitled <em>Sant’ Ilario</em>, and in fact, at that time he was as interested in literature and philosophy as in mathematics. He also wrote poems and at least three other books (under the same pseudonym), and even a play that was staged in 1912 with some success. Nevertheless, the <em>Grundzüge</em> will be the masterpiece that makes him one of the most famous mathematicians of his time. This work, written as a textbook for advanced undergraduates, is the most important contribution to set theory since the work of Georg Cantor. For example, Hausdorff defines, for the first time, the notion of a topological space from an axiomatic point of view, in terms of open and closed sets. In this work he also defines the separation axioms and the spaces that will bear Hausdorff’s name in his honor. Without any exaggeration, one can say that the field of Topology is born with Hausdorff and his <em>Grundzüge</em>. And Felix and his family are very proud of his work.</p>
+
+<h3>Breslau (now Wrocław, Poland). November 8, 1868</h3>
+
+<p>Louis Hausdorff waits impatiently in the hallway, pacing from one corner to the other and stopping every now and then in front of the bedroom door. On the other side of the door his wife, Hedwig Tietz, is going through the last contractions before giving birth. The screams can be heard throughout the house, chilling Louis’s blood. Now the midwife’s voice can be heard, instructing Hedwig to start pushing. The cries of “Push, push!” are followed by more screams from the mother. Louis bites his knuckles and decides to walk a little more to calm his nerves. Suddenly, his wife’s screams turn into gasps, and then they stop altogether. A brief silence, and then the piercing cry of a baby using its lungs for the first time.</p>
+
+<p>The door opens, and the midwife appears with the baby in her arms to hand him to the father. “It’s a boy,” she tells him, “and the mother is perfectly well, though tired, naturally.” Louis, with the child in his arms, goes into the bedroom where Hedwig is lying in bed, resting. She looks at the father and the son, exhausted, with a smile. He looks like a healthy child; he does not weigh much, but he moves his little arms and feet energetically. He will want for nothing; his father is a textile merchant, wealthy and from a good family. Louis places the baby in his mother’s arms, and the two of them gaze at their firstborn. They are both glad to see that their son has no illness and no visible defect. But what they do not realize is that their son suffers from the “ailment” that will require a brutal “treatment” in the twentieth century, the same “ailment” that they themselves carry: Louis and Hedwig are Jewish, and therefore their son is too. “His name will be Felix,” Louis announces.</p>
+
+<p class="fg-break">∞</p>
+
+<h3>Bonn, Germany. January 25, 1980</h3>
+
+<p>In 1948, the Hindenburgstrasse, where the Hausdorff family once lived, was renamed Hausdorffstrasse. Today a large number of mathematicians have gathered at number 10 Wegelerstrasse, at the entrance to the Mathematical Institute of the University of Bonn. In a simple but moving ceremony, a plaque is unveiled. It reads:</p>
+
+<blockquote class="fg-plaque"><p>AN DIESER UNIVERSITÄT WIRKTE, 1921–1935<br>DER MATHEMATIKER FELIX HAUSDORFF<br>8.11.1868 – 26.1.1942<br>ER WURDE VON DEN NATIONALSOZIALISTEN<br>IN DEN TOD GETRIEBEN, WEIL ER JUDE WAR.<br>MIT IHM EHREN WIR ALLE OPFER DER TYRANNEI.<br>NIE WIEDER GEWALTHERRSCHAFT UND KRIEG!</p></blockquote>
+
+<p>(The mathematician Felix Hausdorff worked at this university from 1921 to 1935. 8.11.1868 – 26.1.1942. He was driven to his death by the National Socialists because he was a Jew. With him we honor all the victims of tyranny. Never again tyranny and war!)</p>
+</article>
+
+<div class="fg-foot"><p class="fg-tags"><span class="fg-tag">Fiction</span><span class="fg-tag">Mathematics</span><span class="fg-tag">Hausdorff</span><span class="fg-tag">History</span><span class="fg-tag">World War II</span></p></div>
+
+<nav class="fg-pager" aria-label="More posts"><span></span><a class="fg-next" href="../testament/"><span>Newer →</span>Testament of an Exceptional Mathematician</a></nav>
+
+</main>
+
+<footer class="wrap foot">
+  <p>© 2020–2026 Álvaro Lozano-Robledo · <a href="../../">Home</a> · <a href="../../field-guide/">A Field Guide to Mathematics</a> · <a href="../../field-guide/feed.xml">Feed</a></p>
+  <p class="ai-note">Declaration of AI use: this website was created with the help of an LLM. The blog posts themselves were written by me.</p>
+</footer>
+
+<script src="../../theme.js"></script>
+<script data-goatcounter="https://alozanoroble.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
