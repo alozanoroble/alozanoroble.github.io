@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testament of an Exceptional Mathematician · A Field Guide to Mathematics</title>
+<meta name="description" content="A short story I wrote in Spanish in 2007–2008 (“Testamento de un Matemático Excepcional”), translated here into English. Dear members of the mathematical community: Over the past month, rumors have …">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E6E68'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' text-anchor='middle' fill='%23FCFBF8'%3EAL%3C/text%3E%3C/svg%3E">
+<link rel="alternate" type="application/atom+xml" title="A Field Guide to Mathematics" href="../../field-guide/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script>
+try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../field-guide/fieldguide.css">
+</head>
+<body>
+
+<div class="bg-art" aria-hidden="true">
+<svg viewBox="0 0 240 200" preserveAspectRatio="xMidYMid meet">
+      <line class="axis" x1="0" y1="100" x2="240" y2="100"/>
+      <line class="axis" x1="100" y1="0" x2="100" y2="200"/>
+      <path class="curve" d="M235.0,-21.0 L227.5,-10.5 L220.0,-0.6 L212.7,8.9 L205.5,17.8 L198.4,26.2 L191.4,34.0 L184.6,41.2 L177.8,47.8 L171.2,53.7 L164.7,58.8 L158.3,63.0 L152.0,66.3 L145.9,68.6 L139.9,69.9 L134.0,70.2 L128.2,69.7 L122.5,68.7 L117.0,67.3 L111.6,65.7 L106.3,64.0 L101.2,62.4 L96.2,60.8 L91.3,59.4 L86.5,58.1 L81.9,57.1 L77.5,56.3 L73.1,55.7 L68.9,55.4 L64.9,55.3 L61.0,55.4 L57.2,55.8 L53.7,56.5 L50.2,57.4 L46.9,58.5 L43.8,59.9 L40.8,61.5 L38.0,63.3 L35.4,65.4 L33.0,67.7 L30.7,70.2 L28.6,72.9 L26.8,75.9 L25.1,79.1 L23.7,82.5 L22.4,86.2 L21.5,90.1 L20.8,94.5 L20.5,100.0 L20.8,105.5 L21.5,109.9 L22.4,113.8 L23.7,117.5 L25.1,120.9 L26.8,124.1 L28.6,127.1 L30.7,129.8 L33.0,132.3 L35.4,134.6 L38.0,136.7 L40.8,138.5 L43.8,140.1 L46.9,141.5 L50.2,142.6 L53.7,143.5 L57.2,144.2 L61.0,144.6 L64.9,144.7 L68.9,144.6 L73.1,144.3 L77.5,143.7 L81.9,142.9 L86.5,141.9 L91.3,140.6 L96.2,139.2 L101.2,137.6 L106.3,136.0 L111.6,134.3 L117.0,132.7 L122.5,131.3 L128.2,130.3 L134.0,129.8 L139.9,130.1 L145.9,131.4 L152.0,133.7 L158.3,137.0 L164.7,141.2 L171.2,146.3 L177.8,152.2 L184.6,158.8 L191.4,166.0 L198.4,173.8 L205.5,182.2 L212.7,191.1 L220.0,200.6 L227.5,210.5 L235.0,221.0"/>
+      <line class="secant" x1="8" y1="62" x2="232" y2="62"/>
+      <line class="reflect" x1="40" y1="62" x2="40" y2="138"/>
+      <circle class="pt" cx="100" cy="62" r="2.6"/>
+      <circle class="pt" cx="160" cy="62" r="2.6"/>
+      <circle class="pt ghost" cx="40" cy="62" r="2.6"/>
+      <circle class="pt sum" cx="40" cy="138" r="2.6"/>
+    </svg>
+</div>
+
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="../../">Á. Lozano-Robledo</a>
+    <nav aria-label="Sections">
+      <a href="../../#about">About</a>
+      <a href="../../books/">Books &amp; articles</a>
+      <a href="../../courses/">Courses</a>
+      <a href="../../#apps">Apps</a>
+      <a href="../../cv/">CV</a>
+      <a href="../../field-guide/" aria-current="page">Blog</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap fg fg-post">
+
+<a class="fg-strip" href="../"><span class="kicker">Blog</span><span class="fg-strip-name">A Field Guide to Mathematics</span></a>
+<h1>Testament of an Exceptional Mathematician</h1>
+<p class="fg-meta"><time datetime="2008-05-20">May 20, 2008</time></p>
+
+<article class="fg-content">
+<p class="fg-note">A short story I wrote in Spanish in 2007–2008 (“Testamento de un Matemático Excepcional”), translated here into English.</p>
+
+<p>Dear members of the mathematical community:</p>
+
+<p>Over the past month, rumors have spread like wildfire, causing great astonishment and dismay in the Spanish mathematical community. Although some of the claims may be true, many others have been blown wildly out of proportion. We believe it is our duty to inform all mathematicians of the full contents of the document we recently received. That document is the source of the rumors, after parts of it were leaked without proper authorization. We hope that, by making it public in its entirety, each of you will be able to weigh its contents and draw whatever conclusions you see fit.</p>
+
+<p>As you all know, two months ago the illustrious Don Emiliano Blasco de la Pena passed away. He was, without a doubt, the most renowned Spanish mathematician, at home and abroad, in the history of our science. Blasco de la Pena received numerous honors during his lifetime (the Prince of Asturias Award, the Fields Medal, and the Abel Prize, among others), and he has recently received as many posthumous distinctions. The document presented below is the last will and testament of Blasco de la Pena. The notary of his widow, Doña Esperanza Crespo, has forwarded it to us, informing us that it was indeed Don Emiliano’s last wish that this document be published in <em>La Gaceta de la RSME</em> after his death. Therefore, in fulfillment of the wishes of Blasco de la Pena, and with the intention of making available all the information in our possession, here is his testament:</p>
+
+<h2>Last Will and Testament of Don Emiliano Blasco de la Pena</h2>
+
+<p class="fg-date-line"><em>September 12, 2007</em></p>
+
+<p>My dear Esperanza,<br>and dear friends, enemies, relatives, and strangers,</p>
+
+<p>Only now, after my death, do I dare to break the promise I made to the most influential person in my life: Don Adrián Pelayo. I could never forgive myself, not even beyond the grave, if his name and his legacy were to die with me, for not only I, but many other mathematicians, owe Adrián the honors and the recognition for his work that he never received… nor, for that matter, ever wished to receive. Although what is written here goes directly against the last wishes of my good Pelayo, it is my last wish that the truth about his life and his work be known. Let History judge his contributions to Mathematics, even if my own reputation is greatly tarnished by this declaration… Render unto Caesar the things that are Caesar’s, as Pelayo would have said.</p>
+
+<p>Without further delay, I shall recount everything I know about Pelayo’s life, which is not much. I met him in 1956, when Pelayo was already close to 40 years old, and we remained in contact until the very day of his death, in 1985. As you will see, Don Adrián was not a man of many words, and he was particularly terse on any subject related to his own life. The facts I was able to gather come partly from his own will, from his diaries and notes, from our correspondence, and from what I could deduce from an occasional chance conversation with his mother, Doña Juana de Pelayo. Unfortunately, in his will Pelayo charged his mother with burning all his belongings after his death. Señora Juana did an impeccable job of carrying out her son’s wishes, back in 1985. She did not leave a single scrap of paper unburned in her fireplace. Therefore, the only “records” that survive are the memories that reside in my feeble memory, and it is these memories that I wish to set down in this testament of mine, for they are all we have left of Don Adrián Pelayo.</p>
+
+<p>My first encounter with Pelayo took place in the fall of 1956, barely a few months after I had returned from America, having just finished my graduate studies at Harvard University. As many of you know, the Franco regime allowed me to travel to the United States to pursue a doctorate, on the sole condition that I return to Spain immediately after graduating, to teach in our university system. (Had I not returned, by the way, they made sure I understood that I would have been branded a traitor and a deserter, and they threatened to accuse my family of complicity in said treason, a crime punishable by prison, at the very least.) Upon my return, safe-conduct in hand signed by the <em>Caudillo</em> himself, the moment I stepped off the plane I was greeted by a delegation of the kind one saw in those days: a band playing a <em>pasodoble</em>, windbag bureaucrats, militiamen decorated to the point of absurdity, and a priest who showered me with a string of blessings as soon as I set foot on the soil of the Fatherland. The news of my arrival was trumpeted far and wide as a great scientific and intellectual triumph of the Spain of the Generalísimo. Right there, on the runway, they crowned me full professor of all of Mathematics and part of Physics, with a permanent chair at the Central University (the one now called the Complutense University of Madrid).</p>
+
+<p>At the Central everything had been prepared for my arrival, including an office with a view and a very fetching secretary at my disposal. And so it was that on that fall day, just before I walked into my office at the Central, Conchita, my secretary, informed me that a gentleman had come to see me and was waiting for me inside. When I walked through the door, Pelayo hurried to his feet, took off his hat, and greeted me with a slight bow and a “good afternoon,” his voice faltering with nerves. Much later, when I had the chance to read his notes about our first meeting, his words confirmed what was in truth obvious from the start. Pelayo was a simple man; he had lived his whole life in a small village, forgotten by the hand of God. He felt completely out of place in a city like Madrid, and much more so at a university like the Central. Striking up a conversation with a Professor seemed to him as audacious as chatting with the Minister of Education himself. Moreover, I must admit that I did not make it easy for him at all… truth be told, I was an arrogant and haughty young man. Much to my regret, the treatment I had received upon my arrival, as ridiculous and excessive as it was, had quickly gone to my head, and I believed myself to be the most promising mathematician in all of Spain and a good part of the rest of the world.</p>
+
+<p>“What is your name and what do you want, sir?” I said, barely looking at him, as I took off my jacket and dropped my things on my desk.</p>
+
+<p>“My name is Adrián Pelayo, at your service, Señor Blasco…”</p>
+
+<p>“And how can I help you, Señor Pelayo?” I sat down in my chair, but Pelayo remained standing, turning his hat around in his hands. I gestured for him to sit, but Pelayo kept talking on his feet, for it did not seem polite to him to sit down before first explaining the reason for his visit.</p>
+
+<p>“Well, y’see, sir, the other day, at the picture show in my village… it was <em>The African Queen</em>, y’know, the new one with Bogar and that Rita Jeburn…”</p>
+
+<p>“You mean Katharine Hepburn… never mind, get to the point, Señor Pelayo, I don’t have all day.” Pelayo turned serious and stiff.</p>
+
+<p>“I wouldn’t want to bore you, nor bother you, Señor Emiliano…”</p>
+
+<p>“Don’t worry, don’t worry, but get to the point,” I said, motioning again for him to sit down, but Pelayo remained standing, pale and very serious.</p>
+
+<p>“Well… so… I saw you on the NO-DO before the picture, and they were talking about your mastery of Mathematics, and I thought maybe you could help me, so I took the liberty of coming to see you…” Indeed, they had filmed my triumphant arrival at Barajas airport and were showing it in every cinema in the country, in the regime’s newsreel, while the announcer exaggerated to his heart’s content: “The great master of mathematics, Don Emiliano Blasco, returns to his beloved Spain…”</p>
+
+<p>“Yes, Señor Pelayo, I have seen myself too, but don’t believe everything the NO-DO says… and how can I be of service to you?”</p>
+
+<p>“Well, I was thinking maybe you could tell me about some mathematical problem I could think about…”</p>
+
+<p>I must confess that my arrogance made me let out a sarcastic, barely concealed snicker at such a proposal. I suppose I found it very comical that a farmhand (his clothes and his rough, calloused hands gave him away) from the depths of rural Spain would come to my office looking for mathematical problems to solve. Pelayo, clearly offended (and rightly so), said “…but now I see my mistake, it’s a stupid idea, forgive me for bothering you.” He turned around and headed for the door.</p>
+
+<p>“Wait, man, wait, perhaps I can recommend an exercise or a book. Have you studied mathematics? Up to what level?” Pelayo stepped back and stood once more in front of my desk, still on his feet.</p>
+
+<p>“I studied mathematics in school, when I was a boy. The rest I’ve learned reading books on my own.”</p>
+
+<p>“I see, I see… well, look, Señor Pelayo, I recommend that you try to prove that the number <em>e</em> is irrational… It’s a very pretty exercise. You know which number I mean, right? Good, perfect. Well then, when you prove it, send me a letter with the proof.” As I spoke, I stood up and walked Pelayo toward the door, with gentle shoves. By way of farewell, I shook his hand and said “Have a good afternoon!” with a smile, closing my office door in his face; such was my insolence. Pelayo was left standing in the hallway with his mouth open, probably cursing my mother (and rightly so). But Pelayo, instead of swallowing my impudence and heading back to his village, decided to knock on my door again, with a stern rap of the knuckles. When I opened the door once more, he said to me very politely, holding back his anger:</p>
+
+<p>“Forgive me for interrupting you again, Don Emiliano… but I already know how to do that proof… in fact, isn’t that one of the theorems in the third chapter of the book by Gwalter Rudeen that you have on your desk?”</p>
+
+<p>Now it was Pelayo who wore a little mocking smile, watching me turn red with embarrassment. Indeed, the well-known book by Walter Rudin, <em>Principles of Mathematical Analysis</em>, was on my desk, next to my lecture notes, for that semester I was teaching elementary real analysis. It was clear that I had jumped to conclusions and that this gentleman was no ordinary farmhand. What puzzled me most of all was what I asked him next:</p>
+
+<p>“You have a copy of Rudin’s book? How did you get it?” The first edition of Rudin’s book had been published in 1953, in America, and I had brought my own copy back with me, but there were certainly no copies for sale in Spain yet, and much less translations into Spanish.</p>
+
+<p>“I also have friends in America, Señor Blasco. Many folks from my village emigrated over there after the war.”</p>
+
+<p>I invited Pelayo back into my office, and this time he sat down without waiting for me to offer. “Señor Pelayo, I believe there has been a misunderstanding,” I said by way of apology. “Tell me, what other books have you read?”</p>
+
+<p>Pelayo looked away, thoughtful, and immediately began to recite the complete list of his small library, which was apparently full of jewels of contemporary mathematics: Van der Waerden’s <em>Modern Algebra</em>, Kolmogorov’s <em>Foundations of the Theory of Probability</em>, Von Neumann and Morgenstern’s <em>Theory of Games</em>, André Weil’s <em>Foundations of Algebraic Geometry</em>, Steinitz’s <em>Algebraische Theorie der Körper</em>, Hausdorff’s <em>Set Theory</em>, the first volume of Russell and Whitehead’s <em>Principia Mathematica</em>, Hardy and Wright’s <em>Introduction to the Theory of Numbers</em>, Felix Klein’s <em>Icosahedron</em>… Each book in its original language: English, Russian, French, or German.</p>
+
+<p>Seeing the disbelief on my face, Pelayo stopped reciting the names of books and authors.</p>
+
+<p>“And you are telling me that you have read all of these books?”</p>
+
+<p>“All of them, except the <em>Principia Mathematica</em>, which I find unbearable. I have too much free time out in the fields, y’see.”</p>
+
+<p>“And you can read Russian and German?” I said, still doubting his word.</p>
+
+<p>“As I was saying, Don Emiliano, I have too much time on my hands. Man does not live by Mathematics alone. I’m also learning languages. Y’see, Don Emiliano, the trouble is that reading books is not enough. I keep myself busy doing the exercises they propose, but they only last me a little while.”</p>
+
+<p>I did not know what to think. Perhaps this man was pulling my leg, but his sober and serene expression left no doubt that he was completely serious. So I decided to explain to him a research problem I was working on at the time. I launched into it, using the blackboard in my office to scribble a few symbols while I explained the importance of the question. It was a problem in geometry, and I did not know whether Pelayo understood the terminology I was using. Adrián listened in silence to my long-winded explanation without making a single comment. At one point, he signaled for me to stop for a second. He took advantage of the pause to pull out a pencil and a scrap of paper, on which he wrote “Riemannian Geometry,” and he signaled for me to go on. When I finished my explanation, Pelayo got up from his chair and said, “Thank you very much, Don Emiliano, this is the kind of problem I was looking for,” with a sad but sincere smile. He shook my hand, put on his hat, and left my office with a “Have a good afternoon!”</p>
+
+<p>Two months later, I received a letter with a note from Pelayo that read as follows:</p>
+
+<blockquote class="fg-letter"><p>Dear Emiliano,<br>Thank you again for suggesting that Geometry problem. I have already solved it. Do you have any other problem that needs solving? I would be very grateful. Kindly send it to Calle de Sin Nombre, number 2, Maello, province of Ávila.<br>Signed on the 3rd day of November of the year 1956, by Don Adrián Pelayo.</p></blockquote>
+
+<p>I too had kept working on that Geometry problem, but without any significant progress. So the only thing I could think was that Pelayo had not understood a word of what I had explained to him in my office. I quickly wrote: “Dear Adrián, would you be so kind as to write up and send me your proof? Many thanks.” I handed the note to Conchita so she could type it up and send it to the address in Maello.</p>
+
+<p>A month later, Pelayo sent me his reply. This time, his letter consisted of five or six sheets written on both sides, covered with lemmas, propositions, and theorems. I will never forget the feelings that welled up in me as I read that letter, as I read Pelayo’s mathematics for the first time… They say that it is wise to admit and correct one’s mistakes, and to condemn the wrongs one commits. I hope it is not too late for me, and that this public testament may serve as penance after my death. What I felt as I read Pelayo’s letter was not joy, nor admiration, nor anything of the sort. The most cancerous envy clouded my mind. Pelayo had driven a stake into my pride, and every lemma, every proposition, every theorem made that sharp stake sink deeper and twist mercilessly inside me, leaving splinters behind that would take a long time to disappear. His proof was brilliant, with no detours or flourishes, yet innovative and provocative. The argument flowed with astonishing simplicity, and each step was as natural as the one before and led to the next. Pelayo had added remarks to that effect throughout the text: “naturally,” “clearly,” “it could not be otherwise,” “there is only one possible alternative,” and so on. And each of these remarks, though Pelayo wrote them without the slightest malice, I took as a personal affront, as if Pelayo were saying to me “How did this not occur to you? It’s obvious!” By the time I finished reading his letter, my temples were throbbing with rage and my cheeks were burning as if I had been slapped hard across the face. Pelayo had included a postscript: “You cannot imagine how much you have helped me by proposing this problem. I look forward impatiently to your sending me others. I will be very grateful to you, Señor Blasco.”</p>
+
+<p>I immediately shouted for my secretary and ordered her to find Maello on a map and get me transportation to that town, the sooner the better. Conchita replied, “But Don Emiliano, you have to teach tomorrow, today is Tuesday!” “Make up any excuse, I don’t care what. I’ll be back on Monday and I’ll teach a double helping of classes then.” A few hours later I was on a train bound for Ávila, and from there I would take a truck to Maello.</p>
+
+<p class="fg-break">* * *</p>
+
+<p>Allow me to pause for a moment, for I would like to explain why Pelayo did mathematics. Perhaps I should begin by saying that Pelayo was born and died in Maello, in the province of Ávila. I know for a fact that Pelayo made more than one trip to Madrid and as many to the city of Ávila, but he lived in his house on the Calle de Sin Nombre, the Street With No Name, for most of his life. Adrián fought alongside his father in the Civil War (he never told me on which side, though I can imagine which). Both were imprisoned during the war, and his father was executed by firing squad in prison. When the conflict ended, Pelayo returned to the house in Maello with his mother. It was then that he met Mariana, a girl from the nearby village of Velayos. After a brief courtship, her parents accepted the engagement, and the couple were married in the Church. Mariana moved in with Pelayo and his mother in the house on the Calle de Sin Nombre.</p>
+
+<p>Mariana soon became pregnant, and they had their first child, whom they named Alonso. Those were very happy times for Pelayo and Mariana. He worked the land in spring and summer, and in fall and winter he shepherded a mixed flock of sheep and goats. She looked after Alonso and lived in peace with Doña Juana de Pelayo, which is no small thing. In 1948, Mariana became pregnant again, but seven months into the pregnancy she began to have problems. The birth was premature and complicated. The baby died, and Mariana’s life slipped away. Pelayo lost everything.</p>
+
+<p>Many years later, in one of my letters, I asked Pelayo to explain to me what it was that drew him to mathematics. Adrián answered me in another letter, which I still keep:</p>
+
+<blockquote class="fg-letter">
+<p>“When Mariana left me, my life was over. The joy of it. I could not go on living. There was not a moment in my life when I did not think of her. Alonso lost his mother, but he also lost his father that day. My mother took care of my son while I lay there lifeless. I spent my days shut up in my bedroom. Lying in bed. Staring at the ceiling. Trying to remember Mariana’s voice. Her touch. Her ways. Her sayings. Her smile.</p>
+<p>A year went by. I still thought about Mariana every moment. I would look at my son and see that Alonso needed a father and not a miserable ghost, which is what I was in those days. So I decided that I would forget Mariana, for my son’s sake. I went back to working the fields and tending the flock, but the memories kept tormenting me. I went to talk to the village priest. His advice was that I read the Bible. I read it twice, cover to cover, but I did not find the peace the priest had promised me, although the reading kept me distracted for a while. The town hall in Maello has a small library, and I began to read every book I found there. I had only heard of the <em>Quixote</em>, and that was the first book I read. When I finished it, I went back to the library. I did not know the title of any other book, so I started reading all the books in alphabetical order by the author’s last name. I did not care about the content or the subject; the only thing that mattered to me was that each book took my mind away from Mariana, even if only for a few hours.</p>
+<p>Book after book, I soon finished reading Maello’s small collection of literature. The last shelf of the library held the dictionaries and the textbooks used in the school. There I found the old book that was used in mathematics class when I was a boy. <em>Algebra and Geometry</em>, it was called. Curious to see whether I would remember anything, I opened the book and tried to solve one of the problems at random. It was a simple trigonometry problem, but I could not do it. So I took the book home and started from the beginning, doing every exercise.</p>
+<p>Novels kept my mind busy while I was reading but, when I stopped, Mariana and the sadness came back to haunt me. Mathematical problems, on the other hand, I could take with me into the fields. Before heading out in the morning, I would memorize as many problem statements as I could and think about solutions while I plowed the land. When I read a theorem and its proof at night, the next morning I would try to reproduce the proof in my head while I watched over the sheep. And if I could, I would try to think of other possible proofs.</p>
+<p>It is a curious thing: sorrowful memories and the obsession with solving a mathematical problem act on the mind in a very similar way. They come back to your head again and again, leaving hardly any room for other thoughts. Only when it finds a coherent explanation does the mind rest and forget. I have never been able to find any explanation for Mariana’s death, so I very much fear that her memory will haunt me always. But when I find a good mathematical problem, the obsessive search for a solution keeps Mariana’s memory at bay. I do not like to become obsessed with problems, but at least they do not cause me a paralyzing grief like my memories of Mariana.</p>
+<p>Before long, I had solved every exercise in every mathematics book in Maello. On the first Saturday of every month I would travel to Ávila to buy mathematics books, or to borrow them from the library. After a year, the library in Ávila was not enough either. As luck would have it, that was just when a cousin I had not heard from since before the war wrote to me from America, to get news of the family. In my letter I told him about the execution of our fathers and the death of my wife. I also asked him, as a great favor, to send me mathematics books if he came across any. And while I was at it, I sent another version of the letter to another cousin who lived in Paris, asking him for the same favor.</p>
+<p>My family is humble but very hard-working. My cousins made their fortunes in their respective countries by working honestly every day of their lives. It seems their businesses prospered and, taking pity on their poor and luckless cousin, they began to send me by mail every mathematics book that crossed their path.</p>
+<p>And I read from my own collection of books every night, and during the day I meditated on the theorems, the proofs, and the proposed problems. These mental exercises saved my life; they kept me away from the memory of Mariana, and my son Alonso got his father back. Little by little, the flow of books from abroad dried up, but you, Don Emiliano, crossed my path when I saw you on the NO-DO. You cannot imagine how much the problems you give me help me.”</p>
+</blockquote>
+
+<p>Indeed, our paths crossed and our lives changed as they became intertwined. I supplied him with problems to quiet his mind, and the mathematics he produced was the antidote to my irreverent ego. As I mentioned before, the first time I read one of his mathematical writings, envy burned me up inside. I could not believe it, I did not want to believe it, and on my way to Ávila I considered a thousand outlandish possibilities. This humble farmhand named Pelayo could not possibly have found the solution to a problem that I had been unable to solve. There had to be another explanation. It was impossible. Unthinkable. Implausible. Simply absurd. How conceited I was! I sincerely ask the forgiveness of all those who had to endure my infinite pride.</p>
+
+<p>The train took me as far as the city of Ávila, where I spent the night in a boarding house. I did not sleep a wink that night; I kept rereading Pelayo’s pages, trying to find the error that would put me back above him, but there was none. On the contrary, each reading revealed new subtleties that only underscored the brilliance of the proof.</p>
+
+<p>At dawn, I climbed into a truck loaded with the mail, newspapers, and some seasonal fruit. We went from Ávila to Berrocalejo de Aragona and from there to Mediana de Voltoya. From Mediana to Villacastín by way of Aldeavieja. And from Villacastín to Maello. When we arrived in Maello, the driver woke me with a shout: “Mr. Minister, we’re here!”</p>
+
+<p>The truck dropped me off on the Calle del Chorro, somewhat disoriented. An early-rising villager told me how to get to the Calle de Sin Nombre. When I got to the street, I could not find number 2, for the Street With No Name had no numbers on its houses either. An elderly woman was sweeping the street, and I asked her where the Pelayos lived.</p>
+
+<p>“I’m Pelayo’s widow, and what do you want, young fella?” she said with great curiosity, inspecting my clothes from top to bottom. Let me remind you that I was in my twenties, while Doña Juana must have been close to a thousand years old, judging by her appearance. Even so, she lived another thirty years and, after burying her son, she let herself die, saying it was about time.</p>
+
+<p>“I was looking for Adrián Pelayo,” I said.</p>
+
+<p>“Say what? Speak up, I can’t hear well out of this ear,” she said, referring to her severe deafness. It did not matter which ear you spoke into; you had to shout. After I repeated it several times, she understood and said:</p>
+
+<p>“Goodness, man, don’t shout like that, it’s very early. Adrián is out in the fields, he won’t be back until the afternoon. Wait for him at the house, if you like, I’ll make you a coffee. Would you like a little coffee?”</p>
+
+<p>“No, ma’am, I don’t drink coffee, thank you… I said I don’t drink coffee, thank you! And where did you say Adrián is? I’d like to go see him… I’d like to go see Adrián!” I shouted.</p>
+
+<p>“Well, would you look at that! How are you going to go up the hill like that, dressed in your Sunday best?” she said, pointing at my dress trousers and my shoes. Juana burst out laughing, hands on her hips, looking around to see if there was some neighbor who might laugh along at her joke.</p>
+
+<p>“I’ll manage. Will you tell me which hill?”</p>
+
+<p>Juana shook her head in resignation, as if to say “suit yourself.” She told me to go along the Calle de los Palomarejos to the road to Velayos and keep going straight ahead, crossing a dry riverbed, and then climb a hill. When I reached the top of the hill, I looked around while I caught my breath. On the other side of a small valley there was another hill where a flock was grazing. I assumed these were Pelayo’s sheep, so I headed in that direction. As I climbed the next hill, I saw Pelayo leaning against a holm oak at the top, absorbed in reading a book. When I was nearly there, I tripped, making a great racket in the peaceful stillness of the morning. Pelayo, startled, came over when he saw me and helped me up. A couple of sheep came over too and began to bleat, as if mocking me.</p>
+
+<p>“But what are you doing here, Señor Emiliano? You nearly cracked your head open.”</p>
+
+<p>“I came to see you, Pelayo. Forgive me for showing up out of the blue like this, but I needed to talk to you. Did you write this?” I was holding his last letter in my hands. Pelayo looked at me, confused. He glanced at the pages and, recognizing his own handwriting, nodded, perplexed.</p>
+
+<p>“How did you find this proof? Are you in contact with other mathematicians?”</p>
+
+<p>“I don’t follow you, Señor Emiliano… I’ve only talked about this problem with you.”</p>
+
+<p>My stubbornness blinded me. I did not really know why I had come all the way to Maello, nor what I expected Pelayo to answer. I was exhausted, and my knees were starting to feel the fall. I sat down on the ground under the holm oak, and Pelayo sat down beside me. The two mocking sheep lay down next to us, watching me curiously in case I fell again. On the ground lay the book Pelayo had been reading, wide open. It was the masterpiece <em>Die Idee der Riemannschen Fläche</em> (The Concept of a Riemann Surface) by Hermann Weyl.</p>
+
+<p>We sat in silence for a good while, wrapped in the calm of the morning. From the top of the hill the view was splendid. Behind us lay Maello, at the very bottom of the modest valley carved long ago by a river that is now dry most of the year. In front of us, a yellowish plain stretched out to the horizon. The dry wheat rippled under the first gusts of the cold wind of the approaching winter. And the ancient holm oaks, scattered at random across the fields, remained unmoved in their slumber.</p>
+
+<p>Neither of us spoke, and we both looked out at the horizon, lost in our own thoughts. A sheepdog came up to the oak, and the two mocking sheep walked off reluctantly.</p>
+
+<p>“The proof you wrote, Pelayo, is magnificent. I don’t know how you did it, but it is superb work,” I said without looking him in the eye, swallowing my pride. As for the importance of Pelayo’s letter, suffice it to say that Pelayo’s work inaugurated a method that could lead (and eventually did lead) to the proof of the Poincaré Conjecture.</p>
+
+<p>“Thank you, Señor Emiliano… that’s high praise, coming from you,” said Adrián in a humble voice.</p>
+
+<p>“You have solved the problem I gave you, and much more. I wonder whether you have considered this other possibility?” And I explained to him in a few words an idea that had come to me while reading Pelayo’s letter.</p>
+
+<p>Pelayo listened attentively while he petted his dog. When I finished speaking, his gaze drifted off to the horizon. A gust of wind made the holm oak creak behind us, and a handful of acorns scattered across the ground.</p>
+
+<p>“Let me think about it,” Pelayo said, pensive. “You must be hungry, and we need to tend to that wound.” He stood up and, with a couple of whistles, set the flock in motion. His dog shot off, howling fiercely and baring his teeth at the sheep, driving them down the hill. We set off toward the fold, Pelayo walking nimbly across the fields and I struggling to keep up with my limp. Once the flock was in its shelter, we walked back to Maello.</p>
+
+<p class="fg-break">* * *</p>
+
+<p>At the house on the Calle de Sin Nombre, Doña Juana was waiting for us with the table set and a <em>cocido leonés</em>, a hearty stew from León, in the pot, which could be smelled from the outskirts of Maello. The chorizos and blood sausages from León (where Juana was from) were already on the table, and Alonso, Pelayo’s son, was impatiently awaiting our arrival so he could sink his teeth into the feast his grandmother had prepared in my honor.</p>
+
+<p>When Juana saw me arrive, she let out a guffaw and said:</p>
+
+<p>“Heaven help us! Didn’t I tell you, young sir? You’ve made a right mess of yourself. Take off those trousers and I’ll mend them in no time. And here’s the first-aid kit… a little alcohol for that wound, it looks very nasty.”</p>
+
+<p>“Don’t worry, ma’am, it’s just a scrape,” I said, but Juana did not hear me, or did not want to. After cleaning my wound with alcohol, she lent me a pair of Pelayo’s trousers.</p>
+
+<p>“Mother, leave Señor Emiliano in peace and let’s eat something, before it gets cold,” said Adrián, and Alonso nodded hungrily.</p>
+
+<p>When we finished eating, Pelayo signaled for me to come upstairs with him. “I want to show you something in my room,” he said. In his room there was a bed, a wardrobe, and a large chest, all made of wood, handmade in the rustic style. Pelayo bent down and opened the chest, stepping aside so that I could inspect it. Seeing the surprise on my face, he smiled with satisfaction.</p>
+
+<p>The chest was meticulously organized. On the right there were several stacks of notebooks and letters with postmarks from America and France. The rest of the chest was full of books, wrapped in a mountain of hay. “The fodder is so the books don’t get ruined by the damp, y’see.” I tried to kneel, but the pain would not let me. Pelayo brought me a chair, and sitting down I began to leaf through the volumes of Pelayo’s collection. The books he had told me he owned when he visited me in Madrid were all there, but there were many more: Goursat’s <em>Course in Mathematical Analysis</em>, Zermelo’s <em>Investigations in the Foundations of Set Theory</em>, Poincaré’s <em>Science and Method</em>, Dedekind’s <em>The Nature and Meaning of Numbers</em>…</p>
+
+<p>I could not get over my amazement. My face was lit up, as if I were looking into the Ark of the Covenant. Somehow, I knew that Pelayo’s secret was to be found in these books, and my mind was working at full speed, trying to understand this mystery. I would open a book at random, shake off the straw, and read the comments Pelayo had written in the margins. Most of these comments were simple translations of uncommon English, French, or German words. But there were also scribbled calculations, impossible to decipher. I was burning with desire to read his notebooks, but it would have been impolite.</p>
+
+<p>I do not remember how long I spent going through his books. Pelayo had sat down on his bed and was watching me calmly. When I stopped and closed the chest, he said:</p>
+
+<p>“Señor Blasco, I believe I do know how to solve that other problem you told me about up on the hill.”</p>
+
+<p>The bells of the village church were ringing for Mass, but in my mind they were tolling for the funeral of my career as a mathematician. With my pride pulverized, and my eyes about to well up, I turned to look at Pelayo and begged him to explain the solution to me. While Adrián spoke, I looked at him pretending to pay attention, for very soon I had lost the fine thread of his arguments. My mind was elsewhere, studying Pelayo’s face, trying to understand why this man had a capacity for mathematics that I could only dream of. With a mind like his, there was no need for slow and useless minds like mine. The problem I had been trying to solve for months, Pelayo had digested, solved, and generalized in a single afternoon.</p>
+
+<p>When Pelayo concluded his explanation, I said, “Pelayo, you are going to have to write it all down so that I can take it in.”</p>
+
+<p class="fg-break">* * *</p>
+
+<p>I stayed another three days at the house on the Calle de Sin Nombre. Pelayo would get up at dawn and head off to the hills with the flock, taking a notebook in which he wrote up the proof for me. I would wait at the house for his return, reading and rereading the pages Pelayo had written the day before. On Saturday night I finished reading and understanding his arguments. The feeling was once again one of pain at confronting the superiority of his work. However, my amazement at the brilliance of the proof overshadowed my envy.</p>
+
+<p>“Pelayo, this is fantastic work. You have to publish it. I can recommend a research journal and tell you how to prepare the article.” There was no doubt that the article was at the level of the <em>Annals of Mathematics</em>, one of the most prestigious American journals.</p>
+
+<p>“I appreciate it, Don Emiliano, but I have no interest in publishing anything.”</p>
+
+<p>“I don’t think you fully understand the importance of what you have discovered. It is a great advance, it must be published! You are going to be very well known! …Perhaps I could even get you a position at the Central University.”</p>
+
+<p>“No, thank you, I want to stay in my village. I have a son and a mother to take care of. I’m not interested in any fame, thank you. This is a pastime for me; it helps me a great deal, more than you know. But that’s all it is.”</p>
+
+<p>“You don’t understand! This is of the utmost importance! It must be published so that all mathematicians can learn of your results! It must be published!” I shouted, greatly agitated.</p>
+
+<p>“Well then, you publish it, Señor Blasco. But don’t get me mixed up in it,” said Pelayo, “I’ve got enough on my plate as it is.”</p>
+
+<p>“Out of the question, Pelayo, no, no, no. You discovered these proofs; the prestige and the recognition belong to you.”</p>
+
+<p>“I don’t want prestige, I don’t want fame, and I don’t want anybody to recognize me. I don’t need it. If you think this is so important, you publish it, you’ve already got some fame, but don’t even mention my name, I beg you,” Pelayo looked at me sternly. I did not understand anything. At that moment I knew nothing about Mariana’s death and the memories that tormented Pelayo. And my youth, my arrogance, and my hunger to become a mathematician of great international renown kept me from understanding why Pelayo flatly refused his chance to achieve immortality in the history of science. I was about to object once more when Adrián interrupted me: “It’s settled, then. You will publish it under your name. Let’s go to the kitchen, Señora Juana must have dinner ready.” And the two of us ate dinner in silence, while Juana and Alonso exchanged furtive glances, wondering what had happened.</p>
+
+<p class="fg-break">* * *</p>
+
+<p>On Sunday morning I began my journey back. Maello, Villacastín, Mediana, Berrocalejo, Ávila, and when I reached Madrid, although I was worn out from the trip, I went straight to my office. I spent the night transcribing Pelayo’s pages into my own handwriting and translating them into English. When I finished the write-up, I burned Adrián’s papers in a metal wastebasket. As I watched the papers slowly turn to ashes, I made the final decision to go along with Pelayo’s stubbornness. I would publish the article under my own name. At the time, I found a thousand excuses to justify my decision: “It is for the good of Science and Mathematics. These results are of great importance and must be published. The decision was made by Pelayo; it is his will. It’s just one article. And what difference does it make whether he publishes it or I do? After all, I proposed the problem to him; I put him on the right track. If Pelayo changes his mind, I will be the first to tell the truth, of course… but what if someone found out? What if someone gives me away? Absurd, nobody knows, nobody will know. It is for the good of Mathematics. It must be published. There is no other option. Pelayo, you leave me no other option.”</p>
+
+<p>For the good of Mathematics… such hypocrisy! My craving for greatness clouded my judgment. I knew perfectly well that this article would catapult my career. With this work I would achieve the notoriety I so longed for. Now that I am old and about to die, I feel so ashamed of myself. I do not expect this document to redeem my sins, but at least my conscience will be at peace.</p>
+
+<p>When Conchita arrived in the morning, she nearly died of fright when she found me asleep on the sofa in my office. I asked her to drop everything she had on her plate and type up the manuscript as soon as possible. By the next day it was ready, and we sent a copy to the <em>Annals of Mathematics</em> for publication. It came as no surprise that the article was quickly accepted (or rather, as quickly as was possible in those days). And at the same time, invitations began to arrive to give talks at the most prestigious mathematics seminars: Paris, Göttingen, Harvard, Princeton… I traveled a great deal in those months, and everywhere I went the most brilliant mathematicians praised my work. And they asked me the most fascinating questions: “And have you considered this variant of your theorems?” I took notes and, as soon as I had the chance, I wrote to Pelayo. I sent him books and research articles, and I proposed to him the problems that I did not know how to solve.</p>
+
+<p>For his part, in remote Maello, Pelayo received my letters with great enthusiasm. My constant barrage of difficult and interesting questions kept him distracted, and every day Mariana seemed further away. Over the next two years, Adrián produced the theorems that I consider to be of greatest interest, which appeared in my first three articles in the <em>Annals</em>. And the more Pelayo produced, the more normality returned to the house on the Calle de Sin Nombre. He wrote to me often and kept me up to date on his progress. On a few occasions, I asked him in my letters whether he had changed his mind and whether he wanted to publish his work under his own name. I must confess that the fear of a yes was so overwhelming that it kept me up at night. But Pelayo never changed his mind, to my great relief.</p>
+
+<p>The years went by, and little by little I came to realize that I had sold my soul to the Devil and, as in all dealings with the Devil, there was no turning back. While Pelayo was regaining his happiness, I, on the contrary, saw myself more clearly every day as the great impostor that I was. I despised myself for carrying out this massive deception. The price of my notoriety was too high, but at the same time my craving for fame was like a beast that needed to be fed often. I received several distinctions and prizes for the work in geometry and topology, which satisfied my ego for a while, but I needed more, much more. I wanted to go down in history. I wanted to be the most famous mathematician of all time. It was time to change subjects, to show the mathematical community that my abilities went far beyond geometry and that I could attack hard problems in any area, like the great mathematicians of old. It was then that I proposed to Pelayo that he work on proving the well-known Riemann Hypothesis, one of the fundamental problems of mathematics, which the most brilliant minds have been unable to solve to this day. Nobody knows how to attack this problem; its difficulty is overwhelming. I knew that any progress Pelayo might make, however small, would be the work that would bring me the honors I so coveted. On the other hand, I wanted to know the limits of Pelayo’s ability, and the best way to find out was to have him confront the hardest problem of all. In truth, I also secretly wished that Pelayo would fail, to wound his pride the same way he had wounded mine.</p>
+
+<p>And so it happened that Pelayo, being human and mortal like everyone else, failed in his attempt to prove the Riemann Hypothesis. And like so many mathematicians before him, Pelayo became so obsessed with this conjecture that he forgot about Mariana completely. But the Riemann Hypothesis was a thousand times worse than the memory of Mariana. Pelayo spent day and night reading books and articles, trying new attacks that would ultimately fail, and thinking and thinking about the conjecture, about its consequences and its possible causes. He worked incessantly for almost ten years, from the mid-seventies until his death. He wrote to me often, describing his efforts. And I knew the torture Pelayo was being subjected to. I knew that the conjecture would haunt him in his dreams and while awake, wherever he went. But instead of proposing other, perhaps more approachable problems, I encouraged him to keep attacking the Hypothesis. Although Pelayo thought his work had borne no fruit, that was not true. Partial results did not satisfy Pelayo, who considered the Hypothesis his one and only final goal. But in his attempt to prove the Hypothesis, Pelayo developed what is now known as the theory of Blasco zeta functions (named in my honor), of great importance in number theory. And it was for this theory, together with my impressive track record, that I was awarded the most prestigious honors a mathematician can receive. The disgust I felt for myself was eating me up inside. Not only was I an impostor; I was also destroying Pelayo. But at the same time, every time my work was praised in public… it was like a drug!</p>
+
+<p class="fg-break">* * *</p>
+
+<p>On the fifth of October, 1985, I received a telegram from Pelayo. He was dying and wanted to see me. The next day I drove to Maello. Nothing had changed since that fall of ’56 when I visited him for the first time. In truth, this part of Spain does not seem to have changed in centuries. Perhaps some new highway crosses the plateau, but the holm oaks are still there, in their slumber, scattered across the dry, yellowish sea of wheat and barley.</p>
+
+<p>At the house on the Calle de Sin Nombre, Adrián lay in his bed in very poor condition, while Señora Juana was already preparing the wake in the living room with the help of some neighbor women, all dressed in strict mourning. When he saw me, Pelayo smiled, coughed several times, and motioned for me to sit beside him. Alonso, who was keeping his father company, left the room, looking at me with contempt and without exchanging a word.</p>
+
+<p>“Emiliano, I’m glad you could come.” It was the first time he had addressed me with the familiar <em>tú</em>. There is no need for formalities when one is about to die, and much less with the one who has hastened that death. “I didn’t know whether you were in Madrid or traveling.” He coughed again and told me to take some documents from his nightstand. “They’re for you.”</p>
+
+<p>The first document was his will, drawn up and typed by a notary. Pelayo had very few possessions, and the little he had he left to his son Alonso. At the end of the document he set out his last wish, which was that his name remain anonymous, and he explicitly forbade Emiliano Blasco de la Pena from making known that it was he, Adrián Pelayo, who had proved so many of my theorems. With tears in my eyes and an infinite burning in my stomach, I thanked him for everything he had done for me. “I’m the one who thanks you for everything,” said Pelayo, for in spite of it all, he believed that the problems I had given him over his lifetime had freed him from his prison of sadness.</p>
+
+<p>The second document was titled “The Proof of the Riemann Hypothesis” and consisted of two pages full of scribbles, letters, and numbers with no order or sense whatsoever. “I’ve finally proved it, Emiliano, at last! I wrote it today,” Pelayo told me in his feverish delirium, before breaking into another coughing fit. “Read it, read it!” I leafed through the scribbles again, pretending to pay the utmost attention. “It’s fantastic work, as always, my good Pelayo. You have finally proved it. Now you can rest,” I told him. Adrián looked at me with satisfaction and closed his eyes forever, with a serene smile.</p>
+
+<hr>
+
+<p>Thus ends the testament of Don Emiliano Blasco de la Pena. Once again, our intention in circulating this document is to fulfill Don Emiliano’s wishes, and we also consider it our duty to offer the mathematical community all the information we possess. Now is the time to reflect on Don Emiliano’s words, for the time will come when we must make some difficult decisions about his legacy. We would like to conclude by quoting Blasco de la Pena himself, with an enigmatic paragraph from the address he delivered at the International Congress of Mathematicians of 1966, in Moscow, upon receiving the Fields Medal:</p>
+
+<blockquote><p>“Proofs, conjectures, theorems… they belong to no one. No one invents them; rather, they are discovered, as if they were an archaeological site. They remain hidden for centuries, for millennia, until someone has the good fortune to dig in the right place at the right time. The theories attributed to me are not mine; they never have been. It would be very easy to suggest that these results are the fruit of my genius, but that is simply not so. It is true that I have found these theorems and made them known to all of you, as is my duty as a mathematician, but I cannot claim any intellectual merit for their discovery. I do not deserve it.”</p></blockquote>
+</article>
+
+<div class="fg-foot"><p class="fg-tags"><span class="fg-tag">Fiction</span><span class="fg-tag">Mathematics</span><span class="fg-tag">Research</span><span class="fg-tag">Riemann Hypothesis</span><span class="fg-tag">Spain</span></p></div>
+
+<nav class="fg-pager" aria-label="More posts"><span></span><a class="fg-next" href="../welcome-to-my-blog/"><span>Newer →</span>About Me</a></nav>
+
+</main>
+
+<footer class="wrap foot">
+  <p>© 2020–2026 Álvaro Lozano-Robledo · <a href="../../">Home</a> · <a href="../../field-guide/">A Field Guide to Mathematics</a> · <a href="../../field-guide/feed.xml">Feed</a></p>
+  <p class="ai-note">Declaration of AI use: this website was created with the help of an LLM. The blog posts themselves were written by me.</p>
+</footer>
+
+<script src="../../theme.js"></script>
+<script data-goatcounter="https://alozanoroble.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
