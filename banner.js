@@ -1,6 +1,6 @@
-// Shared top banner for the satellite sites under alozanoroble.github.io.
+// Shared top banner for the satellite sites under mathandcobb.org.
 // Each satellite loads it with one line before </body>:
-//   <script src="https://alozanoroble.github.io/banner.js" defer></script>
+//   <script src="https://mathandcobb.org/banner.js" defer></script>
 // It renders inside a shadow root, so the host page's CSS cannot reach it and
 // it cannot restyle the host page. Light or dark follows the host page:
 // <html data-theme>, a "dark"/"light" class on <html> or <body>, a
@@ -9,7 +9,7 @@
   if (window.__alrBanner) return;
   window.__alrBanner = true;
 
-  var HOME = "https://alozanoroble.github.io/";
+  var HOME = "https://mathandcobb.org/";
   var LINKS = [
     { href: HOME + "books/", label: "Books & Articles", match: ["/books/", "/articles/"] },
     { href: HOME + "mathandcobb/", label: "MathAndCobb", match: "/mathandcobb/" },
@@ -49,7 +49,7 @@
   }).join("");
   root.innerHTML = "<style>" + css + '</style><div class="bar" part="bar"><div class="in">' +
     '<a class="brand" href="' + HOME + '">Á. Lozano-Robledo</a>' +
-    '<nav aria-label="alozanoroble.github.io">' + nav + "</nav></div></div>";
+    '<nav aria-label="mathandcobb.org">' + nav + "</nav></div></div>";
   var bar = root.querySelector(".bar");
 
   var mq = window.matchMedia("(prefers-color-scheme: dark)");
