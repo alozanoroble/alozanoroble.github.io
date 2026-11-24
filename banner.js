@@ -11,8 +11,8 @@
 
   var HOME = "https://mathandcobb.org/";
   var LINKS = [
-    { href: HOME + "books/", label: "Books & Articles", match: ["/books/", "/articles/"] },
-    { href: HOME + "mathandcobb/", label: "MathAndCobb", match: "/mathandcobb/" },
+    { href: HOME + "#about", label: "About", match: [] },
+    { href: HOME + "books/", label: "Writing and Videos", match: ["/books/", "/articles/", "/mathandcobb/"] },
     { href: HOME + "courses/", label: "Courses", match: "/courses/" },
     { href: HOME + "#apps", label: "Apps", match: null },
     { href: HOME + "field-guide/", label: "Blog", match: "/field-guide/" },
