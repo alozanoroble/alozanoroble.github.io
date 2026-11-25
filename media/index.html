@@ -31,6 +31,8 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   .md-title { font: 500 1.1rem/1.35 var(--serif); color: var(--ink); }
   .md-title:hover { color: var(--accent); text-decoration: none; }
   .md-note { color: var(--muted); font-size: 0.95rem; }
+  .md-pic { display: block; margin-top: 0.55rem; max-width: 22rem; }
+  .md-pic img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border: 1px solid var(--rule); border-radius: 6px; }
   @media (max-width: 560px) { .md li { grid-template-columns: 1fr; } }
   .md-src { color: var(--muted); font-size: 0.92rem; margin-top: 2.5rem; }
 </style>
@@ -66,6 +68,15 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 <section class="md-year">
   <h2>2026</h2>
   <ul>
+    <li>
+      <span class="md-date">Nov 25</span>
+      <span class="md-body">
+      <span class="md-outlet">Nature</span>
+      <a class="md-title" href="https://www.nature.com/articles/d41586-026-03835-0" rel="noopener">‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs</a>
+      <span class="md-note">News feature on mathematicians’ reactions to AI breakthroughs, including the Riemann hypothesis; I am quoted and pictured.</span>
+      <a class="md-pic" href="https://www.nature.com/articles/d41586-026-03835-0" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://media.nature.com/lw767/magazine-assets/d41586-026-03835-0/d41586-026-03835-0_54015382.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
+      </span>
+    </li>
     <li>
       <span class="md-date">Nov 22</span>
       <span class="md-body">
