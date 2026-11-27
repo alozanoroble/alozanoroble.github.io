@@ -45,6 +45,13 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
   .rh-card-d { font-size: 0.9rem; color: var(--muted); line-height: 1.4; }
   .rh-card-n { font: 400 0.75rem var(--mono); color: var(--muted); margin-top: auto; padding-top: 0.3rem; }
   .rh-app { margin-top: 1.25rem; }
+  .md li.vid { display: grid; grid-template-columns: 10rem 1fr; gap: 0 1rem; align-items: center; }
+  .vid-txt { display: flex; flex-direction: column; gap: 0.15rem; }
+  .vid-thumb { position: relative; display: block; border-radius: 6px; overflow: hidden; border: 1px solid var(--rule); aspect-ratio: 16 / 9; }
+  .vid-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .vid-thumb::after { content: ""; position: absolute; left: 50%; top: 50%; width: 2.2rem; height: 1.55rem; transform: translate(-50%, -50%); border-radius: 6px; background: rgba(0,0,0,.72) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M3.5 2.5v5l4-2.5z' fill='white'/%3E%3C/svg%3E") center / 1.1rem no-repeat; transition: background-color .15s; }
+  .vid-thumb:hover::after { background-color: #c00; }
+  @media (max-width: 480px) { .md li.vid { grid-template-columns: 7.5rem 1fr; gap: 0 0.75rem; } }
   .md li.app { padding: 1.25rem 1.4rem; border: 1px solid var(--rule); gap: 0; }
 </style>
 </head>
@@ -224,9 +231,12 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 
   <h3>Videos on the November 2026 claims</h3>
   <ul>
-    <li>
+    <li class="vid">
+      <a class="vid-thumb" href="https://www.youtube.com/watch?v=tS8Ro66Zu1I" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://i.ytimg.com/vi/tS8Ro66Zu1I/mqdefault.jpg" alt="" width="320" height="180" loading="lazy"></a>
+      <span class="vid-txt">
       <span class="md-outlet">YouTube</span>
       <a class="md-title" href="https://www.youtube.com/watch?v=tS8Ro66Zu1I" rel="noopener">On the Alpöge/Claude proof of the Riemann Hypothesis — with Robin Zhang (IHÉS)</a>
+      </span>
     </li>
     <li>
       <span class="md-outlet">YouTube</span>
@@ -244,9 +254,12 @@ try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") 
 
   <h3>Videos about the Riemann Hypothesis</h3>
   <ul>
-    <li>
+    <li class="vid">
+      <a class="vid-thumb" href="https://www.youtube.com/watch?v=tCF3XoQFE48" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://i.ytimg.com/vi/tCF3XoQFE48/mqdefault.jpg" alt="" width="320" height="180" loading="lazy"></a>
+      <span class="vid-txt">
       <span class="md-outlet">YouTube</span>
       <a class="md-title" href="https://www.youtube.com/watch?v=tCF3XoQFE48" rel="noopener">What is... the Riemann Hypothesis?</a>
+      </span>
     </li>
     <li>
       <span class="md-outlet">YouTube</span>
